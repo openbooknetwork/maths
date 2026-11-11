@@ -1,0 +1,7 @@
+id: probability
+title: "Probability"
+draft: true
+level: intermediate
+summary: "Flip coins, roll dice and drop balls through pegs. Run hundreds of trials and watch the counts settle where probability says they will."
+languages: [en]
+default_language: en

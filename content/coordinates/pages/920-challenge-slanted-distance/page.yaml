@@ -1,0 +1,15 @@
+title: "Set a slanted distance"
+hesap:
+  scene: axes/distance
+  view: { x: [-1, 8], y: [-1, 6] }
+  controls:
+    A: { point: [1, 1], drag: true, snap: 0.5 }
+    B: { point: [2, 1], drag: true, snap: 0.5 }
+  readout: [dx, dy]
+  challenge:
+    goal: apart
+    targets:
+      - { distance: 5 }
+      - { distance: 10 }
+      - { distance: 2.5 }
+      - { distance: 6.5 }

@@ -1,0 +1,7 @@
+title: "A square on a segment"
+compass:
+  points: { A: [-1, -1.2], B: [1, -1.2] }
+  given: [{ segment: [A, B] }]
+  goal: square
+  on: [A, B]
+  readout: [steps, objects]

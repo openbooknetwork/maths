@@ -1,0 +1,5 @@
+title: "Tangent is the slope of the radius"
+hesap:
+  scene: wave/tangent
+  angle: 45
+  readout: [sin, cos, tan]

@@ -1,0 +1,8 @@
+id: solids
+title: "Solids"
+draft: true
+level: advanced
+follows: plane-shapes
+summary: "Shapes that take up space. Size a cube, a prism, a cylinder, a pyramid, a cone and a sphere, turn each one round, and see where its volume comes from."
+languages: [en]
+default_language: en

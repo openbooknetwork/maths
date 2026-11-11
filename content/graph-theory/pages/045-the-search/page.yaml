@@ -1,0 +1,21 @@
+title: "How a computer finds the route"
+hesap:
+  scene: network
+  nodes: { A: [50, 200], B: [140, 90], C: [140, 310], D: [250, 200], E: [260, 70], F: [260, 330], G: [360, 200] }
+  edges:
+    - A-B: 4
+    - A-C: 2
+    - B-C: 1
+    - B-D: 3
+    - B-E: 6
+    - C-D: 8
+    - C-F: 10
+    - D-E: 2
+    - D-F: 2
+    - D-G: 6
+    - E-G: 4
+    - F-G: 3
+  route: { from: A, to: G }
+  search: 0
+  tools: [route]
+  marks: [distance]

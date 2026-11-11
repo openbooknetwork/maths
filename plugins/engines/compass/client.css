@@ -1,0 +1,82 @@
+/* The engine paints a layer of its own, so nothing in the figure rises over a phone's text. */
+.compass{position:absolute;inset:0;display:flex;flex-direction:column;background:var(--paper);isolation:isolate;user-select:none;-webkit-user-select:none;font-family:var(--body);color:var(--ink)}
+.compass-stage{flex:1;min-height:0;position:relative}
+.compass-svg{position:absolute;inset:0;width:100%;height:100%;overflow:hidden;touch-action:none;cursor:crosshair;display:block}
+.compass :is(.compass-stage,.compass-panel,.compass-head,.compass-cover)[hidden]{display:none}
+.compass-cover{flex:1;min-height:0;width:100%;object-fit:contain}
+.compass-svg *{pointer-events:none}
+
+/* The goal has a tick that fills when it is reached, and a line that says what to do next. */
+.compass-head{display:flex;gap:.643rem;align-items:center;padding:.571rem .857rem;border-bottom:1px solid var(--rule);background:var(--panel)}
+.compass-head p{margin:0;line-height:1.35}
+.compass-head>div{min-width:0;flex:1}
+.compass-goal{font-weight:700;font-size:1rem}
+.compass-say{color:var(--ink-2);font-size:.929rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.compass-tick{flex:none;width:30px;height:30px;display:grid}
+.compass-tick svg{width:100%;height:100%;fill:none;stroke:var(--rule);stroke-width:2;stroke-linecap:round;stroke-linejoin:round;transition:stroke .2s,fill .2s}
+.compass-tick path{stroke:transparent;transition:stroke .2s}
+.compass-head.done .compass-tick circle{fill:var(--accent);stroke:var(--accent)}
+.compass-head.done .compass-tick path{stroke:var(--paper);stroke-width:2.6}
+
+/* Every colour of the figure is a theme token, so a theme switch needs no redraw. */
+.compass .obj{fill:none;stroke-linecap:round}
+.compass .obj.given{stroke:var(--ink);stroke-width:2.5}
+.compass .obj.mine{stroke:var(--ink-2);stroke-width:1.6}
+.compass .obj.hot{stroke:var(--accent);stroke-width:3.5}
+.compass .cand{fill:var(--paper);stroke:var(--ink-2);stroke-width:1.5;opacity:.85}
+.compass .pt .dot{stroke:var(--paper);stroke-width:1.5}
+.compass .pt.given .dot{fill:var(--ink)}
+.compass .pt.used .dot{fill:var(--ink-2);stroke:none}
+.compass .pt.marked .dot{fill:var(--accent)}
+.compass .pt.hot .dot{fill:var(--accent);stroke:var(--accent);stroke-width:6}
+.compass .name{fill:var(--ink);stroke:var(--paper);stroke-width:5;paint-order:stroke;stroke-linejoin:round;font:italic 600 19px var(--display);text-anchor:middle;dominant-baseline:central}
+.compass .pt.marked .name{fill:var(--accent)}
+.compass .preview{fill:none;stroke:var(--accent);stroke-width:2;stroke-dasharray:7 5;opacity:.9}
+.compass .arm{stroke:var(--accent);stroke-width:2;stroke-linecap:round}
+.compass .chosen{fill:none;stroke:var(--accent);stroke-width:3}
+.compass .aim{fill:var(--accent);fill-opacity:.18;stroke:var(--accent);stroke-width:2}
+.compass .ripple{fill:none;stroke:var(--accent);stroke-width:2.5}
+/* The hint draws the next move faintly and rings its first point. */
+.compass .ghost-obj{fill:none;stroke:var(--accent);stroke-width:2.5;stroke-dasharray:3 7;stroke-linecap:round;opacity:.75}
+.compass .ghost-pt{fill:var(--accent);fill-opacity:.12;stroke:var(--accent);stroke-width:1.5;stroke-dasharray:3 3}
+.compass .ghost-pt.from{fill-opacity:.3;stroke-dasharray:none}
+/* The result stands out in the accent colour. */
+.compass .res-fill{fill:var(--accent);opacity:.2}
+.compass .res-line{fill:none;stroke:var(--accent);stroke-width:4.5;stroke-linecap:round}
+.compass .res-mark{fill:none;stroke:var(--accent);stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round}
+.compass .res-dot{fill:var(--accent);stroke:var(--paper);stroke-width:2}
+.compass .res-thin{stroke:var(--accent);stroke-width:1.5;stroke-dasharray:5 4}
+.compass .res-note{fill:var(--accent);stroke:var(--paper);stroke-width:4;paint-order:stroke;font:700 15px var(--body);text-anchor:middle;dominant-baseline:central}
+
+/* The tools and buttons come first, and the readouts follow. */
+.compass-panel{border-top:1px solid var(--rule);background:var(--panel);padding:.571rem .857rem;display:flex;flex-wrap:wrap;gap:.429rem .857rem;align-items:center}
+.compass-tools,.compass-acts,.compass-out{display:flex;gap:.357rem;align-items:center}
+.compass-btn{min-height:44px;min-width:44px;display:inline-flex;align-items:center;justify-content:center;gap:.429rem;border:1px solid var(--rule);border-radius:6px;background:var(--paper);color:var(--ink);font:inherit;font-size:.929rem;padding:0 .714rem;cursor:pointer;touch-action:manipulation}
+.compass-btn svg{width:20px;height:20px;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.compass-btn:disabled{opacity:.45;cursor:default}
+.compass-btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.compass-btn.tool[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--paper)}
+.compass-btn.bare{padding:0}
+.compass-btn.bare span{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.compass-chip{display:inline-flex;gap:.429rem;align-items:baseline;border:1px solid var(--rule);border-radius:999px;padding:.286rem .786rem;background:var(--paper)}
+.compass-chip small{color:var(--ink-2);font-size:.857rem}
+.compass-chip b{font-variant-numeric:tabular-nums;min-width:1.2em;text-align:end}
+.compass-panel .hot{outline:2px solid var(--accent);outline-offset:2px}
+/* The values in the text follow the figure. */
+aside.story .place[data-live]{font-variant-numeric:tabular-nums;font-weight:700}
+@media (hover:hover){.compass-btn:not(:disabled):hover{border-color:var(--ink-2)}}
+@media (max-width:900px){
+  .compass-head{padding:.429rem .571rem;gap:.5rem}
+  .compass-goal{font-size:.929rem}
+  .compass-say{font-size:.857rem}
+  .compass-tick{width:26px;height:26px}
+  .compass-panel{padding:.429rem .571rem;gap:.357rem}
+  .compass-tools,.compass-acts{width:100%}
+  .compass-tools .tool,.compass-acts .compass-btn:not(.bare){flex:1;padding:0 .357rem}
+  .compass-btn{font-size:.857rem}
+  .compass-out{width:100%;justify-content:center}
+  .compass-chip{padding:.143rem .714rem}
+  /* the figure ends above the peek card, which covers the foot of the stage until the reader closes it */
+  body:has(#peek:not([hidden])) .compass-svg{height:calc(100% - 6rem)}
+  .peek{bottom:calc(var(--compass-panel,0px) + .571rem)}
+}

@@ -1,0 +1,7 @@
+title: "A full ten and some more"
+hesap:
+  scene: counters/bonds
+  frames: 2
+  whole: { stepper: [11, 20], start: 13 }
+  first: 10
+  readout: [whole, second]

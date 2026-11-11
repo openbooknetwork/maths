@@ -1,0 +1,8 @@
+title: "Two machines in a row"
+hesap:
+  scene: machine/chain
+  controls:
+    x: { slider: [0, 9], start: 3 }
+    f: { choice: [double, square], start: double }
+    g: { choice: [add-3, minus-1], start: add-3 }
+  readout: [mid, out]

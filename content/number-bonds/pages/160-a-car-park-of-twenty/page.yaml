@@ -1,0 +1,6 @@
+title: "A car park of twenty"
+hesap:
+  scene: counters/bonds
+  look: cars
+  first: 12
+  readout: [first, empty]

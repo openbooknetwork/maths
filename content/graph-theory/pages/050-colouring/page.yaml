@@ -1,0 +1,10 @@
+title: "Colouring a map"
+hesap:
+  scene: network
+  nodes: { A: [200, 200], B: [200, 80], C: [314, 163], D: [270, 297], E: [130, 297], F: [86, 163], G: [345, 330] }
+  edges: [A-B, A-C, A-D, A-E, A-F, B-C, C-D, D-E, E-F, F-B, C-G, D-G]
+  tools: [paint]
+  palette: 4
+  marks: [conflicts]
+  readout: [colours, conflicts, uncoloured]
+  goal: coloured

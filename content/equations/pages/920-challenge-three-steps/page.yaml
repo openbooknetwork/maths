@@ -1,0 +1,9 @@
+title: "Solve it in three steps"
+hesap:
+  scene: balance
+  left: { x: 5, number: 3 }
+  right: { x: 2, number: 15 }
+  ops: [subtract-x, subtract, add, divide]
+  challenge:
+    goal: solve
+    most: 3

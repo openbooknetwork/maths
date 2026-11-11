@@ -1,0 +1,7 @@
+title: "A hexagon in a circle"
+compass:
+  points: { O: [0, 0], A: [2.4, 0] }
+  given: [{ circle: [O, A] }]
+  goal: hexagon
+  on: [O, A]
+  readout: [steps, objects]

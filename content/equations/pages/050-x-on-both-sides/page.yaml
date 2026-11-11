@@ -1,0 +1,6 @@
+title: "x on both sides"
+hesap:
+  scene: balance
+  left: { x: 3, number: 2 }
+  right: { x: 1, number: 8 }
+  ops: [subtract-x, subtract, divide]

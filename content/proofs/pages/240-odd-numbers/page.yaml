@@ -1,0 +1,7 @@
+title: "Odd numbers add up to a square"
+hesap:
+  scene: proof
+  of: odd
+  step: last
+  controls:
+    n: { slider: [2, 8], start: 5 }

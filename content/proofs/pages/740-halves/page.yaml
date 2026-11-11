@@ -1,0 +1,7 @@
+title: "Halves add up to 1"
+hesap:
+  scene: proof
+  of: halves
+  step: last
+  controls:
+    n: { slider: [2, 8], start: 5 }

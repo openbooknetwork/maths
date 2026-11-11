@@ -1,0 +1,9 @@
+# tr strings for the site.
+# Keys are stable ids, the comment above each one is the source text. Empty values fall back to the
+# default language; kitap build --strict turns them into errors. Regenerate with: kitap i18n tr
+
+# Open Maths Book
+site.title: "Açık Matematik Kitabı"
+
+# Mathematical ideas built up one step at a time, with the figure beside the text. A free educational project. Pick an idea.
+site.intro: "Şekil metnin yanında, adım adım kurulan matematik fikirleri. Ücretsiz bir eğitim projesi. Bir fikir seçin."

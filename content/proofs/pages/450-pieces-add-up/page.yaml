@@ -1,0 +1,8 @@
+title: "The pieces add up to the square"
+hesap:
+  scene: proof
+  of: square
+  step: 5
+  controls:
+    a: { slider: [1, 5], start: 3 }
+    b: { slider: [1, 5], start: 2 }

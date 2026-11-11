@@ -1,0 +1,5 @@
+title: "Unrolling the circle"
+hesap:
+  scene: wave/sine
+  angle: 120
+  readout: [sin]

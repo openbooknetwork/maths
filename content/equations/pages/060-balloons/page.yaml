@@ -1,0 +1,6 @@
+title: "Balloons pull up"
+hesap:
+  scene: balance
+  left: { x: 1, number: -4 }
+  right: { number: 3 }
+  ops: [add, subtract]

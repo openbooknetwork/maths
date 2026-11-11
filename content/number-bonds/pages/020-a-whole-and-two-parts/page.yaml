@@ -1,0 +1,6 @@
+title: "A whole and two parts"
+hesap:
+  scene: counters/bonds
+  whole: 7
+  first: 3
+  readout: [first, second, whole]

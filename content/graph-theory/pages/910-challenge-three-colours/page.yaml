@@ -1,0 +1,10 @@
+title: "Colour the map with three colours"
+hesap:
+  scene: network
+  nodes: { A: [200, 210], B: [200, 80], C: [313, 145], D: [313, 275], E: [200, 340], F: [87, 275], G: [87, 145], H: [345, 50], I: [55, 365] }
+  edges: [A-B, A-C, A-D, A-E, A-F, A-G, B-C, C-D, D-E, E-F, F-G, G-B, B-H, C-H, E-I, F-I]
+  tools: [paint]
+  palette: 3
+  marks: [conflicts]
+  readout: [colours, conflicts, uncoloured]
+  challenge: { goal: coloured }

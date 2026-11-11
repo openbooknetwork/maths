@@ -1,0 +1,7 @@
+title: "A ten frame holds ten"
+hesap:
+  scene: counters/bonds
+  look: frames
+  frames: 1
+  tap: first
+  readout: [first, empty]

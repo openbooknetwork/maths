@@ -1,0 +1,8 @@
+title: "Find columns for two numbers"
+hesap:
+  scene: grid/two
+  numbers: [1, 100]
+  columns: { slider: [2, 12], start: 7 }
+  challenge:
+    goal: columns
+    targets: [[3, 4], [2, 5], [4, 6], [2, 3]]

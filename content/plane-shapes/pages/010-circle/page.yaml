@@ -1,0 +1,9 @@
+title: "The circle"
+hesap:
+  scene: geo/circle
+  view: { x: [-5, 5], y: [-5, 5] }
+  controls:
+    radius: { slider: [1, 4], start: 2, step: 0.5 }
+    angle:  { slider: [10, 350], start: 60, step: 5 }
+  annotate: [area, radius, sector]
+  readout: [area, circumference, sector-area, arc-length]

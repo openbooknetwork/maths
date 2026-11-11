@@ -1,0 +1,8 @@
+title: "The angles add up to 180°"
+hesap:
+  scene: proof
+  of: angles
+  step: 4
+  controls:
+    alpha: { slider: [20, 100], start: 50, step: 5 }
+    beta: { slider: [20, 70], start: 60, step: 5 }

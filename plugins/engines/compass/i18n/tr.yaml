@@ -1,0 +1,41 @@
+hint: Cetveli ya da pergeli seçin, sonra çizmek için iki noktaya dokunun. Hedefin istediğini kurun.
+tab_map: Şekil
+map_data: Veri
+map_view: Görünüm
+chronology: İçindekiler
+layout_center: Şekil ortada
+view_reset: Sıfırla
+compass_ruler: Cetvel
+compass_compass: Pergel
+compass_point: Nokta
+compass_undo: Geri al
+compass_reset: Baştan başla
+compass_hint: İpucu
+compass_another: Başka bir tane
+compass_steps: Adım
+compass_objects: Nesne
+compass_fewest: En az
+compass_goal_line-meets-circle: Bir doğru ve bir çember çizin, sonra kesiştikleri yere bir nokta koyun.
+compass_goal_equilateral-triangle: "{0}{1} üzerine üç kenarı eşit bir üçgen kurun."
+compass_goal_midpoint: "{0}{1} doğru parçasını dik açıyla ikiye bölen doğruyu çizin ve orta noktayı işaretleyin."
+compass_goal_angle-bisector: "{1} köşesindeki açıyı ikiye bölen doğruyu çizin."
+compass_goal_perpendicular: "{2} noktasından {0}{1} doğrusuna dik olan doğruyu çizin."
+compass_goal_hexagon: Çemberin içine düzgün bir altıgen çizin.
+compass_goal_square: "{0}{1} üzerine bir kare kurun."
+compass_goal_right-angle: "{1} noktasından {0}{1} doğru parçasına dik olan doğruyu çizin."
+compass_goal_thirty-degrees: "{0} noktasından geçen ve {0}{1} ile 30° açı yapan bir doğru çizin."
+compass_goal_circle-through-three: "{0}, {1} ve {2} noktalarından geçen çemberi çizin."
+compass_say_ruler: İki noktaya dokunun, cetvel aralarından bir doğru çizsin.
+compass_say_ruler_next: Şimdi ikinci noktaya dokunun.
+compass_say_compass: Önce merkeze, sonra çemberin bir noktasına dokunun.
+compass_say_compass_next: Şimdi çemberin geçeceği noktaya dokunun.
+compass_say_point: İşaretlemek için bir kesişme halkasına dokunun.
+compass_say_point_next: İşaretlemek için bir kesişme halkasına dokunun.
+compass_say_ghost_ruler: Soluk doğruyu iki halkasından geçirerek çizin.
+compass_say_ghost_compass: Soluk çemberi dolu halkanın çevresine çizin.
+compass_say_ghost_point: Halkalı yeri nokta aracıyla işaretleyin.
+compass_say_miss: Bir noktaya ya da kesişme halkasına dokunun.
+compass_say_same: Bu zaten çizili.
+compass_say_nothing: İpucunun her adımı zaten çizili.
+compass_say_done: "{n} adımda çözdünüz."
+compass_say_best: "{n} adımda, olabilecek en az adımla çözdünüz."

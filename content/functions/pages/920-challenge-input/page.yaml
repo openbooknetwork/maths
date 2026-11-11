@@ -1,0 +1,11 @@
+title: "Choose the input"
+hesap:
+  scene: machine/chain
+  controls:
+    x: { slider: [0, 9], start: 0 }
+    f: { choice: [minus-1] }
+    g: { choice: [square] }
+  actions: []
+  challenge:
+    goal: output
+    targets: [25, 49, 16]

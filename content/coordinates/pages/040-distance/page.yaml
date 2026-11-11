@@ -1,0 +1,8 @@
+title: "The distance between two points"
+hesap:
+  scene: axes/distance
+  view: { x: [-1, 8], y: [-1, 6] }
+  controls:
+    A: { point: [1, 1], drag: true, snap: 0.5 }
+    B: { point: [5, 4], drag: true, snap: 0.5 }
+  readout: [dx, dy, distance]

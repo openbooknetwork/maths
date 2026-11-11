@@ -1,0 +1,12 @@
+title: "Put one in every region"
+hesap:
+  scene: venn
+  sets:
+    A: { has: [1, 2, 3] }
+    B: { has: [1, 2, 3] }
+    C: { has: [1, 2, 3] }
+  elements: [1, 2, 3, 4, 5, 6, 7, 8]
+  challenge:
+    goal: regions
+    targets:
+      - { each: 1 }

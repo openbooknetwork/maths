@@ -1,0 +1,8 @@
+title: "Factors"
+hesap:
+  scene: grid/factors
+  numbers: [1, 48]
+  columns: 8
+  controls:
+    n: { tap: 12 }
+  readout: [n, count-factors, rectangles]

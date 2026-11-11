@@ -1,0 +1,18 @@
+title: "Pass the curve through three points"
+hesap:
+  scene: graph/plot
+  rule: parabola
+  view: { x: [-4, 4], y: [-4, 6] }
+  controls:
+    a: { slider: [-2, 2], start: 1, step: 0.1 }
+    b: { slider: [-3, 3], start: 0, step: 0.1 }
+    c: { slider: [-3, 3], start: 0, step: 0.1 }
+  readout: [miss]
+  challenge:
+    goal: through
+    tolerance: 0.15
+    targets:
+      - { points: [[0, 1], [1, 0], [2, 1]] }
+      - { points: [[-2, 0], [0, 2], [2, 0]] }
+      - { points: [[-3, 0], [-1, -2], [1, 0]] }
+    hint: [miss]

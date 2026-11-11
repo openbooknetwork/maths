@@ -1,0 +1,8 @@
+title: "A cone"
+hesap:
+  scene: axes/cone
+  view: { x: [-3.2, 3.2], y: [-3.2, 3.2], z: [-3.2, 3.2] }
+  controls:
+    radius: { slider: [0.5, 3], start: 2, step: 0.5 }
+    h: { slider: [1, 6], start: 4, step: 0.5 }
+  readout: [volume, slant]

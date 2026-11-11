@@ -1,0 +1,9 @@
+title: "Land the shape on the outline"
+hesap:
+  scene: linear/matrix
+  shape: F
+  at: [1, 1]
+  readout: [matrix]
+  challenge:
+    goal: match
+    targets: [[[0, -1], [1, 0]], [[1, 0.5], [0, 1]], [[-1, 0], [1, 1]], [[0.5, -1], [1, 0.5]]]

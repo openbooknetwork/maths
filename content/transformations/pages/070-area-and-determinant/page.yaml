@@ -1,0 +1,8 @@
+title: "Area and the determinant"
+hesap:
+  scene: linear/matrix
+  shape: F
+  at: [-2, 1]
+  matrix: [[2, 1], [0, 2]]
+  show: [square]
+  readout: [matrix, det, area]

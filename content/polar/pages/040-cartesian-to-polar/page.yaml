@@ -1,0 +1,7 @@
+title: "From x and y to polar"
+hesap:
+  scene: axes/to-polar
+  view: { x: [-6, 6], y: [-5, 5], grid: true }
+  controls:
+    P: { point: [4, 3], drag: true, snap: 0.5 }
+  readout: [r, angle]

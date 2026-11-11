@@ -1,0 +1,15 @@
+title: "Reach a point with r and θ"
+hesap:
+  scene: axes/polar-point
+  view: { x: [-6.4, 6.4], y: [-6, 6] }
+  controls:
+    r:     { slider: [0, 5], start: 2, step: 0.5 }
+    angle: { slider: [0, 360], start: 30, step: 5 }
+  annotate: [grid]
+  challenge:
+    goal: polar-at
+    targets:
+      - { at: [0, 3] }
+      - { at: [-4, 0] }
+      - { at: [0, -2.5] }
+      - { at: [-1.5, 0] }

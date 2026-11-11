@@ -1,0 +1,4 @@
+title: "Build the part the cup hides"
+hesap:
+  scene: counters/bonds
+  challenge: { goal: hidden-part, whole: [5, 20] }

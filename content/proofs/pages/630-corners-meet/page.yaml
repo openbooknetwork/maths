@@ -1,0 +1,8 @@
+title: "The corners meet on a line"
+hesap:
+  scene: proof
+  of: angles
+  step: 3
+  controls:
+    alpha: { slider: [20, 100], start: 50, step: 5 }
+    beta: { slider: [20, 70], start: 60, step: 5 }

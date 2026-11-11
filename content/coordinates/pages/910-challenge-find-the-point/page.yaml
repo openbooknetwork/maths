@@ -1,0 +1,13 @@
+title: "Find the point"
+hesap:
+  scene: axes/point
+  view: { x: [-6, 6], y: [-5, 5] }
+  controls:
+    P: { point: [1, 1], drag: true, snap: 0.5 }
+  challenge:
+    goal: point-at
+    targets:
+      - { at: [-3, 2] }
+      - { at: [4, -1.5] }
+      - { at: [-4.5, -3] }
+      - { at: [0, 3.5] }

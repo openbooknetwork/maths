@@ -1,0 +1,8 @@
+title: "Make two equal angles"
+hesap:
+  scene: proof
+  of: angles
+  controls:
+    alpha: { slider: [20, 100], start: 50, step: 5 }
+    beta: { slider: [20, 70], start: 60, step: 5 }
+  challenge: { goal: equal-angles, targets: [80, 40, 100, 60, 120] }

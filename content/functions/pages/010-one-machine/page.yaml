@@ -1,0 +1,7 @@
+title: "A value goes in and a value comes out"
+hesap:
+  scene: machine/single
+  controls:
+    x:    { slider: [0, 9], start: 3 }
+    rule: { choice: [double], start: double }
+  readout: [out]

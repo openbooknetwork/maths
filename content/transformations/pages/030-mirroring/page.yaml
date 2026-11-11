@@ -1,0 +1,7 @@
+title: "Mirroring"
+hesap:
+  scene: linear/mirror
+  shape: F
+  at: [1, 1]
+  start: { tilt: 90 }
+  readout: [tilt, image]

@@ -1,0 +1,8 @@
+title: "Union and intersection"
+hesap:
+  scene: venn
+  sets:
+    A: { has: [apple, pear, cherry] }
+    B: { has: [cherry, lemon, grapes] }
+  elements: [apple, pear, cherry, lemon, grapes, banana, orange]
+  readout: [A, B, intersection, union]

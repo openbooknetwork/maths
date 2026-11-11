@@ -1,0 +1,12 @@
+title: "The bridges of Königsberg"
+hesap:
+  scene: network
+  # the four pieces of land: the island A, the north bank B, the south bank C and the land between the arms D
+  nodes: { A: [120, 200], B: [150, 62], C: [150, 338], D: [335, 200] }
+  edges: [A-B, A-B, A-C, A-C, A-D, B-D, C-D]
+  parallel: true
+  backdrop: river
+  tools: [walk, join, remove]
+  marks: [degree, odd]
+  readout: [edges, used, odd-nodes, walk]
+  goal: walked

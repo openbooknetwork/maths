@@ -1,0 +1,8 @@
+title: "The sieve of Eratosthenes"
+hesap:
+  scene: grid/sieve
+  numbers: [1, 100]
+  columns: 10
+  controls:
+    used: { slider: [0, 4], start: 0 }
+  readout: [prime, crossed, standing]

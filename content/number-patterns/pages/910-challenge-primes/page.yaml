@@ -1,0 +1,11 @@
+title: "Tap the primes"
+hesap:
+  scene: grid/mark
+  numbers: [1, 100]
+  columns: 10
+  controls:
+    marks: { tap: [] }
+  readout: [marked]
+  challenge:
+    goal: primes-between
+    targets: [[50, 70], [20, 40], [71, 100], [1, 30]]

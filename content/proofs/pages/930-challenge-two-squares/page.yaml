@@ -1,0 +1,8 @@
+title: "Rebuild the proof"
+hesap:
+  scene: proof
+  of: pythagoras
+  controls:
+    a: { slider: [1, 6], start: 2 }
+    b: { slider: [1, 6], start: 3 }
+  challenge: { goal: two-squares }

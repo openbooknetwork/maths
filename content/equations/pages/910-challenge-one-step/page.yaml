@@ -1,0 +1,15 @@
+title: "Solve it in one step"
+hesap:
+  scene: balance
+  left: { x: 1, number: 6 }
+  right: { number: 15 }
+  ops: [subtract, add, divide, multiply]
+  amount: { range: [1, 9] }
+  challenge:
+    goal: solve
+    most: 1
+    more:
+      - { left: { x: 4 }, right: { number: 28 } }
+      - { left: { x: 1, number: -3 }, right: { number: 5 } }
+      - { left: { x: 5 }, right: { number: 35 } }
+      - { left: { x: 1, number: 8 }, right: { number: 11 } }

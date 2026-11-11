@@ -1,0 +1,21 @@
+{
+  "name": "maths",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "kitap build",
+    "dev": "kitap dev",
+    "check": "kitap check",
+    "upload": "kitap upload",
+    "cover": "node scripts/cover.mjs"
+  },
+  "dependencies": {
+    "@openbooknetwork/hesap": "^0.1.0",
+    "@openbooknetwork/kitap": "^0.7.2"
+  },
+  "description": "Open Maths Book: mathematical ideas stepped through on the page, an educational project",
+  "version": "0.1.0",
+  "devDependencies": {
+    "wrangler": "^4.152.0"
+  }
+}

@@ -1,0 +1,12 @@
+title: "Find both angles at one height"
+hesap:
+  scene: wave/sine
+  angle: 0
+  challenge:
+    goal: same-sine
+    tolerance: 1
+    targets:
+      - { height: 0.5 }
+      - { height: -0.71 }
+      - { height: 0.87 }
+      - { height: -0.26 }

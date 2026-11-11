@@ -1,0 +1,7 @@
+title: "Turning"
+hesap:
+  scene: linear/turn
+  shape: F
+  at: [2, 0]
+  start: { angle: 90, cx: 0, cy: 0 }
+  readout: [angle, centre]

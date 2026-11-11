@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.cache/
+.DS_Store
+
+# Image originals live in the asset store, git holds each folder's yaml
+content/**/images/**/image.*
+!content/**/images/**/image.yaml

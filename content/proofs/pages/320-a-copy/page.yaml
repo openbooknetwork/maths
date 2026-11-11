@@ -1,0 +1,7 @@
+title: "The staircase gets a copy"
+hesap:
+  scene: proof
+  of: staircase
+  step: 2
+  controls:
+    n: { slider: [2, 8], start: 4 }

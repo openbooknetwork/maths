@@ -1,0 +1,9 @@
+title: "Hit a spread"
+hesap:
+  scene: chance/means
+  trials: 400
+  sizes: [1, 2, 4, 9, 16]
+  readout: [mean, spread]
+  challenge:
+    goal: spread-range
+    targets: [[0.49, 0.7], [0.72, 1], [1.02, 1.4], [0.35, 0.49], [1.5, 1.9]]

@@ -1,0 +1,8 @@
+title: "Pairs that make ten"
+hesap:
+  scene: counters/bonds
+  look: frames
+  frames: 1
+  tap: first
+  list: true
+  readout: [found]

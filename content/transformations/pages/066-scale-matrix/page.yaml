@@ -1,0 +1,7 @@
+title: "The matrix of an enlargement"
+hesap:
+  scene: linear/matrix
+  shape: F
+  at: [1, 1]
+  named: [scale-2]
+  readout: [matrix, det]

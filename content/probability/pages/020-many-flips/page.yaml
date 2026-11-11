@@ -1,0 +1,5 @@
+title: "Many flips"
+hesap:
+  scene: chance/flips
+  trials: 2000
+  readout: [heads, share-heads, gap]

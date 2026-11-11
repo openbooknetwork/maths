@@ -1,0 +1,7 @@
+title: "Filled and empty make ten"
+hesap:
+  scene: counters/bonds
+  look: frames
+  frames: 1
+  first: { slider: [0, 10], start: 4 }
+  readout: [first, empty]

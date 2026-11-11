@@ -1,0 +1,13 @@
+title: "Shade an equal share"
+hesap:
+  scene: parts/shade
+  fractions:
+    a: { start: 0/12, bottom: [2, 12] }
+  challenge:
+    goal: equal
+    targets:
+      - { shade: 2/3, parts: 12 }
+      - { shade: 3/4, parts: 8 }
+      - { shade: 3/5, parts: 10 }
+      - { shade: 5/6, parts: 12 }
+      - { shade: 2/3, parts: 9 }

@@ -1,0 +1,6 @@
+title: "Comparing fractions"
+hesap:
+  scene: parts/compare
+  fractions:
+    a: { start: 2/3, bottom: [1, 8] }
+    b: { start: 3/4, bottom: [1, 8] }

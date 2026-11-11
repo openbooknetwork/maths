@@ -1,0 +1,8 @@
+title: "The pieces come apart"
+hesap:
+  scene: proof
+  of: square
+  step: 3
+  controls:
+    a: { slider: [1, 5], start: 3 }
+    b: { slider: [1, 5], start: 2 }

@@ -1,0 +1,6 @@
+title: "Fractions, decimals and percents"
+hesap:
+  scene: parts/convert
+  fractions:
+    a: { start: 3/8, bottom: [1, 12] }
+  readout: [decimal-a, percent-a]

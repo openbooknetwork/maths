@@ -1,0 +1,9 @@
+title: "Find the hidden rule"
+hesap:
+  scene: machine/mystery
+  controls:
+    x:     { slider: [0, 9], start: 2 }
+    guess: { choice: [double, add-2, add-3, square, minus-1] }
+  challenge:
+    goal: rule
+    targets: [double, square, add-2, minus-1, add-3]

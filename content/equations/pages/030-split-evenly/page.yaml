@@ -1,0 +1,6 @@
+title: "Split both sides evenly"
+hesap:
+  scene: balance
+  left: { x: 2 }
+  right: { number: 10 }
+  ops: [divide, multiply]

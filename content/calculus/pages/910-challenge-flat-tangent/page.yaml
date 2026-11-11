@@ -1,0 +1,16 @@
+title: "Find a flat tangent"
+hesap:
+  scene: graph/tangent
+  rule: cubic
+  view: { x: [-3, 3], y: [-2.5, 2.5] }
+  controls:
+    x: { slider: [-2.5, 2.5], start: -2.5, step: 0.1 }
+  readout: [slope]
+  challenge:
+    goal: flat
+    tolerance: 0.1
+    targets:
+      - { coefficients: { a: 0.25, b: 0, c: -1.5, d: 0 } }
+      - { coefficients: { a: 0.2, b: -0.3, c: -0.9, d: 0.5 } }
+      - { coefficients: { a: -0.15, b: 0.3, c: 0.6, d: -0.5 } }
+    hint: [slope]

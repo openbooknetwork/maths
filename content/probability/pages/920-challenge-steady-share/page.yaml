@@ -1,0 +1,8 @@
+title: "Keep the share steady"
+hesap:
+  scene: chance/flips
+  trials: 2000
+  runs: 5
+  challenge:
+    goal: share-band
+    band: 0.05

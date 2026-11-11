@@ -1,0 +1,8 @@
+title: "Three triangles slide"
+hesap:
+  scene: proof
+  of: pythagoras
+  step: 4
+  controls:
+    a: { slider: [1, 6], start: 3 }
+    b: { slider: [1, 6], start: 4 }

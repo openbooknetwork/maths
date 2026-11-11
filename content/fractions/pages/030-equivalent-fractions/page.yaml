@@ -1,0 +1,8 @@
+title: "One amount has different names"
+hesap:
+  scene: parts/equivalent
+  fractions:
+    a: { start: 2/3, bottom: [1, 6] }
+  controls:
+    pieces: { slider: [1, 4], start: 2 }
+  readout: [equal]

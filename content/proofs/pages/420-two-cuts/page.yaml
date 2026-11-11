@@ -1,0 +1,8 @@
+title: "Two cuts make four pieces"
+hesap:
+  scene: proof
+  of: square
+  step: 2
+  controls:
+    a: { slider: [1, 5], start: 3 }
+    b: { slider: [1, 5], start: 2 }

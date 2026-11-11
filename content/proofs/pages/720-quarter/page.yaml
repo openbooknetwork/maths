@@ -1,0 +1,7 @@
+title: "The next piece fills half of the gap"
+hesap:
+  scene: proof
+  of: halves
+  step: 2
+  controls:
+    n: { value: 5 }

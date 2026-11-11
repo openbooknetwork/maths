@@ -1,0 +1,7 @@
+name = "maths"
+main = "index.mjs"
+compatibility_date = "2026-10-01"
+routes = [{ pattern = "openmathsbook.org/*", zone_name = "openmathsbook.org" }]
+[[r2_buckets]]
+binding = "SITE"
+bucket_name = "maths-site"

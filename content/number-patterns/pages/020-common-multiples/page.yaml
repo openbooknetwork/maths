@@ -1,0 +1,9 @@
+title: "Common multiples"
+hesap:
+  scene: grid/common
+  numbers: [1, 100]
+  columns: 10
+  controls:
+    a: { slider: [2, 12], start: 4 }
+    b: { slider: [2, 12], start: 6 }
+  readout: [lcm, count-common]

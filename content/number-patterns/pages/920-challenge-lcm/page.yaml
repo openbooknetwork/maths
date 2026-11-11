@@ -1,0 +1,11 @@
+title: "Find a least common multiple"
+hesap:
+  scene: grid/common
+  numbers: [1, 100]
+  columns: 10
+  controls:
+    a: { slider: [2, 12], start: 4 }
+    b: { slider: [2, 12], start: 6 }
+  challenge:
+    goal: lcm
+    targets: [36, 30, 24, 42, 60, 40]

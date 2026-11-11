@@ -1,0 +1,7 @@
+title: "Shear the plane and then turn it"
+hesap:
+  scene: linear/matrix
+  shape: F
+  at: [1, 1]
+  named: [shear, turn-90]
+  readout: [matrix, det]

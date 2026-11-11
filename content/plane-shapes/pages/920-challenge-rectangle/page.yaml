@@ -1,0 +1,12 @@
+title: "Match the area and the perimeter"
+hesap:
+  scene: geo/rectangle
+  view: { x: [-1, 9], y: [-1, 7] }
+  controls:
+    width:  { slider: [1, 8], start: 4, step: 0.5 }
+    height: { slider: [1, 6], start: 2, step: 0.5 }
+  annotate: [sides]
+  challenge:
+    goal: measures
+    targets: [{ area: 12, perimeter: 16 }, { area: 12, perimeter: 14 }, { area: 10, perimeter: 14 }, { area: 9, perimeter: 12 }, { area: 7.5, perimeter: 13 }]
+    hint: { readout: [area] }

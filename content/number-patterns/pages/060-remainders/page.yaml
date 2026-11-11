@@ -1,0 +1,9 @@
+title: "Remainders"
+hesap:
+  scene: grid/remainders
+  numbers: [0, 59]
+  columns: { slider: [2, 12], start: 10 }
+  controls:
+    n: { slider: [2, 8], start: 3 }
+    x: { tap: 17 }
+  readout: [x, remainder]

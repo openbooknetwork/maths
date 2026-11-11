@@ -1,0 +1,14 @@
+title: "Make one whole"
+hesap:
+  scene: parts/add
+  stage: join
+  fractions:
+    a: { start: 1/3, bottom: [1, 6] }
+    b: { start: 1/4, bottom: [1, 6] }
+  challenge:
+    goal: sum
+    targets:
+      - { sum: 1 }
+      - { sum: 3/4 }
+      - { sum: 1/2 }
+      - { sum: 3/2 }

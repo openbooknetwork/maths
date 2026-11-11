@@ -1,0 +1,7 @@
+title: "A machine that makes machines"
+hesap:
+  scene: machine/maker
+  controls:
+    n: { slider: [1, 9], start: 3 }
+    x: { slider: [0, 9], start: 4 }
+  readout: [out]

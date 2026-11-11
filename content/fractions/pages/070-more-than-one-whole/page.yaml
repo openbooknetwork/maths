@@ -1,0 +1,6 @@
+title: "More than one whole"
+hesap:
+  scene: parts/mixed
+  fractions:
+    a: { start: 7/4, bottom: [1, 8], wholes: 3 }
+  readout: [mixed-a]

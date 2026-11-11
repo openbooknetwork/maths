@@ -1,0 +1,9 @@
+title: "A height reaches into space"
+hesap:
+  scene: axes/cylinder
+  view: { x: [-5, 5], y: [-5, 5], z: [-5, 5] }
+  controls:
+    r:     { slider: [0, 4], start: 3, step: 0.5 }
+    angle: { slider: [0, 360], start: 60, step: 5 }
+    z:     { slider: [-4, 4], start: 3, step: 0.5 }
+  readout: [x, y]

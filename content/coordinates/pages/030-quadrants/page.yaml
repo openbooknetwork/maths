@@ -1,0 +1,7 @@
+title: "The four quadrants"
+hesap:
+  scene: axes/quadrants
+  view: { x: [-6, 6], y: [-5, 5] }
+  controls:
+    P: { point: [-3, 2], drag: true, snap: 0.5 }
+  readout: [x, y, quadrant]

@@ -1,0 +1,11 @@
+title: "Any four sides"
+hesap:
+  scene: geo/quadrilateral
+  view: { x: [0, 8], y: [0, 6], grid: true }
+  controls:
+    A: { point: [1, 1], drag: true, snap: 0.5 }
+    B: { point: [7, 1], drag: true, snap: 0.5 }
+    C: { point: [6, 5], drag: true, snap: 0.5 }
+    D: { point: [2, 4], drag: true, snap: 0.5 }
+  annotate: [area, angles, sides]
+  readout: [area, perimeter, angle-sum]

@@ -1,0 +1,9 @@
+title: "A second angle reaches into space"
+hesap:
+  scene: axes/sphere
+  view: { x: [-5, 5], y: [-5, 5], z: [-5, 5] }
+  controls:
+    rho:       { slider: [0, 4], start: 4, step: 0.5 }
+    angle:     { slider: [0, 360], start: 110, step: 5 }
+    angle-phi: { slider: [0, 180], start: 60, step: 5 }
+  readout: [x, y, z]

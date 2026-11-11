@@ -1,0 +1,7 @@
+id: calculus
+title: "Graphs, slope and area"
+draft: true
+level: advanced
+summary: "A graph draws a rule as a curve. Drag a point along it, find how steep the curve is at each place, and fill the area under it. Slope and area are the first two ideas of calculus."
+languages: [en]
+default_language: en

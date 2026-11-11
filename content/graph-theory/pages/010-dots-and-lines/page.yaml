@@ -1,0 +1,7 @@
+title: "Dots and lines"
+hesap:
+  scene: network
+  nodes: { A: [90, 110], B: [250, 70], C: [330, 220], D: [200, 330], E: [80, 280] }
+  edges: [A-B, B-C, C-D, D-E, E-A, A-C]
+  tools: [move, add, join, remove]
+  readout: [nodes, edges]

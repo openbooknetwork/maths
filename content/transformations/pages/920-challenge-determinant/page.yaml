@@ -1,0 +1,10 @@
+title: "Hit a determinant"
+hesap:
+  scene: linear/matrix
+  shape: F
+  at: [-2, 1]
+  show: [square]
+  readout: [matrix]
+  challenge:
+    goal: det
+    targets: [2, 3, -2, 0.5]

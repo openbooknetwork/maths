@@ -1,0 +1,6 @@
+title: "Make 10 in the frame"
+hesap:
+  scene: counters/bonds
+  look: frames
+  frames: 1
+  challenge: { goal: make-whole, whole: 10, part: [1, 9] }

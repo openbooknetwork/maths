@@ -1,0 +1,7 @@
+title: "The matrix of a quarter turn"
+hesap:
+  scene: linear/matrix
+  shape: F
+  at: [1, 1]
+  named: [turn-90]
+  readout: [matrix, det]

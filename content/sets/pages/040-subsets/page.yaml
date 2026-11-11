@@ -1,0 +1,8 @@
+title: "Subsets"
+hesap:
+  scene: venn
+  sets:
+    A: { has: [a, b] }
+    B: { has: [a, b, c, d] }
+  elements: [a, b, c, d, e, f]
+  readout: [A, B, A-in-B, B-in-A]

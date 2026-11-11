@@ -1,0 +1,8 @@
+title: "Now the space is two squares"
+hesap:
+  scene: proof
+  of: pythagoras
+  step: 5
+  controls:
+    a: { slider: [1, 6], start: 3 }
+    b: { slider: [1, 6], start: 4 }

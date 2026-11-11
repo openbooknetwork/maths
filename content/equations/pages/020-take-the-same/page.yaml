@@ -1,0 +1,6 @@
+title: "Take the same from both sides"
+hesap:
+  scene: balance
+  left: { x: 1, number: 3 }
+  right: { number: 7 }
+  ops: [subtract, add]

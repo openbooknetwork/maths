@@ -1,0 +1,8 @@
+title: "The hundred square"
+hesap:
+  scene: grid/multiples
+  numbers: [1, 100]
+  columns: 10
+  controls:
+    n: { tap: 3 }
+  readout: [n, count-multiples]

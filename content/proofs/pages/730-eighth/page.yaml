@@ -1,0 +1,7 @@
+title: "Each piece halves the gap"
+hesap:
+  scene: proof
+  of: halves
+  step: 3
+  controls:
+    n: { value: 5 }

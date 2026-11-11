@@ -1,0 +1,9 @@
+title: "Find the part under the cup"
+hesap:
+  scene: counters/bonds
+  frames: 1
+  whole: 10
+  first: 6
+  cup: true
+  tap: second
+  readout: [first, added]

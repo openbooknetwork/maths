@@ -1,0 +1,7 @@
+id: coordinates
+title: "Coordinates"
+draft: true
+level: intermediate
+summary: "Numbers that say where a point is: one on a line, two on a plane, three in space. Move each point and read its numbers."
+languages: [en]
+default_language: en

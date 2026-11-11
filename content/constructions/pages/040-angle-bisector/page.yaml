@@ -1,0 +1,7 @@
+title: "Half an angle"
+compass:
+  points: { O: [-2.5, -1.5], A: [2, -1.5], B: [-1.5, 0.5] }
+  given: [{ ray: [O, A] }, { ray: [O, B] }]
+  goal: angle-bisector
+  on: [A, O, B]
+  readout: [steps, objects]

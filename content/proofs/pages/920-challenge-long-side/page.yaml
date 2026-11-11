@@ -1,0 +1,8 @@
+title: "Fill a whole long side"
+hesap:
+  scene: proof
+  of: pythagoras
+  controls:
+    a: { slider: [1, 12], start: 2 }
+    b: { slider: [1, 12], start: 2 }
+  challenge: { goal: long-side, targets: [5, 10, 13, 15] }

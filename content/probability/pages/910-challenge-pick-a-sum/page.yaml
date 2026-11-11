@@ -1,0 +1,9 @@
+title: "Pick a sum"
+hesap:
+  scene: chance/dice
+  trials: 1000
+  pick: 7
+  readout: [count-pick, share-pick]
+  challenge:
+    goal: sum-chance
+    targets: [[1, 12], [1, 18], [1, 9], [5, 36], [1, 36]]

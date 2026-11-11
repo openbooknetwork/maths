@@ -1,0 +1,7 @@
+title: "A set and its elements"
+hesap:
+  scene: venn
+  sets:
+    A: { has: [apple, pear, cherry] }
+  elements: [apple, pear, cherry, lemon, grapes, banana]
+  readout: [A, count-A, lemon-in-A]

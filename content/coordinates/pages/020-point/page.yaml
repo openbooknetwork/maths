@@ -1,0 +1,7 @@
+title: "Two numbers on a plane"
+hesap:
+  scene: axes/point
+  view: { x: [-6, 6], y: [-5, 5] }
+  controls:
+    P: { point: [3, 2], drag: true, snap: 0.5 }
+  readout: [x, y]

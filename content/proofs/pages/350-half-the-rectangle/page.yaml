@@ -1,0 +1,7 @@
+title: "One staircase is half the rectangle"
+hesap:
+  scene: proof
+  of: staircase
+  step: 5
+  controls:
+    n: { slider: [2, 8], start: 4 }

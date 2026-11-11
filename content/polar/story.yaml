@@ -1,0 +1,8 @@
+id: polar
+title: "Polar coordinates"
+draft: true
+level: advanced
+follows: coordinates
+summary: "A second way to say where a point is: how far from the origin, and in which direction. Move the point, change between the two ways, and trace curves."
+languages: [en]
+default_language: en

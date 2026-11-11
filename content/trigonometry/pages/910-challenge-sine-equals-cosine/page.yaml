@@ -1,0 +1,7 @@
+title: "Make sine equal cosine"
+hesap:
+  scene: wave/unit
+  angle: 0
+  challenge:
+    goal: equal
+    tolerance: 1

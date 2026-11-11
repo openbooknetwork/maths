@@ -1,0 +1,5 @@
+title: "One coin"
+hesap:
+  scene: chance/coin
+  trials: 100
+  readout: [share-heads, streak]

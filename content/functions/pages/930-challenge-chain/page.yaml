@@ -1,0 +1,10 @@
+title: "Build the chain"
+hesap:
+  scene: machine/chain
+  controls:
+    x: { slider: [3, 3], start: 3 }
+    f: { choice: [add-3, square, minus-1], start: add-3 }
+    g: { choice: [double, add-2], start: add-2 }
+  challenge:
+    goal: output
+    targets: [36, 11, 5]

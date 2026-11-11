@@ -1,0 +1,7 @@
+id: number-patterns
+title: "Number patterns"
+draft: true
+level: intermediate
+summary: "This story puts multiples, factors, primes and remainders on a grid of numbers. Tap a number to light up its pattern, sieve out the primes with a slider, and change the width of the grid to find new patterns."
+languages: [en]
+default_language: en

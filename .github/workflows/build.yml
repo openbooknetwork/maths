@@ -1,0 +1,24 @@
+# Build the stories that differ from the live site strictly on each push to main.
+name: Build
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      # strict: every image a page links to is in the asset store, and every translation is filled. changed: only
+      # the stories that differ from the live site's record build, the others stay online as they are
+      - run: npm run build -- --strict --changed

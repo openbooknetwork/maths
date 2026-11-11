@@ -1,0 +1,7 @@
+id: functions
+title: "Functions"
+draft: true
+level: intermediate
+summary: "A function is a machine. A value goes in and a value comes out. Run one, chain two, feed one a whole list, and build a machine that makes machines."
+languages: [en]
+default_language: en

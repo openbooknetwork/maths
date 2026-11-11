@@ -1,0 +1,9 @@
+title: "Trees"
+hesap:
+  scene: network
+  nodes: { A: [80, 90], B: [200, 60], C: [320, 90], D: [80, 250], E: [200, 210], F: [320, 250], G: [200, 350] }
+  edges: [A-B, B-C, A-D, C-F, A-E, B-E, D-E, E-F, D-G, F-G]
+  tools: [remove, add, join, move]
+  marks: [cycles]
+  readout: [nodes, edges, components, tree]
+  goal: tree

@@ -1,0 +1,8 @@
+title: "Change the width"
+hesap:
+  scene: grid/width
+  numbers: [1, 100]
+  columns: { slider: [2, 12], start: 6 }
+  controls:
+    n: { tap: none }
+  readout: [prime-columns]

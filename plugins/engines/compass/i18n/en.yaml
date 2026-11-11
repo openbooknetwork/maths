@@ -1,0 +1,41 @@
+hint: Pick the ruler or the compass, then tap two points to draw. Build what the goal asks for.
+tab_map: Figure
+map_data: Data
+map_view: View
+chronology: Contents
+layout_center: Figure in the middle
+view_reset: Reset
+compass_ruler: Ruler
+compass_compass: Compass
+compass_point: Point
+compass_undo: Undo
+compass_reset: Start again
+compass_hint: Hint
+compass_another: Another one
+compass_steps: Steps
+compass_objects: Objects
+compass_fewest: Fewest
+compass_goal_line-meets-circle: Draw a line and a circle, then mark a point where they cross.
+compass_goal_equilateral-triangle: Build a triangle on {0}{1} with three equal sides.
+compass_goal_midpoint: Draw the line that cuts {0}{1} in half at a right angle, and mark the middle.
+compass_goal_angle-bisector: Draw the line that cuts the angle at {1} in half.
+compass_goal_perpendicular: Draw the line through {2} at a right angle to {0}{1}.
+compass_goal_hexagon: Draw a regular hexagon inside the circle.
+compass_goal_square: Build a square on {0}{1}.
+compass_goal_right-angle: Draw the line through {1} at a right angle to {0}{1}.
+compass_goal_thirty-degrees: Draw a line through {0} that makes an angle of 30° with {0}{1}.
+compass_goal_circle-through-three: Draw the circle that passes through {0}, {1} and {2}.
+compass_say_ruler: Tap two points to rule a line through them.
+compass_say_ruler_next: Now tap a second point.
+compass_say_compass: Tap the centre, then a point on the circle.
+compass_say_compass_next: Now tap the point the circle passes through.
+compass_say_point: Tap a ring where two objects cross to mark it.
+compass_say_point_next: Tap a ring where two objects cross to mark it.
+compass_say_ghost_ruler: Rule the faint line through its two rings.
+compass_say_ghost_compass: Draw the faint circle about the filled ring.
+compass_say_ghost_point: Mark the ringed place with the point tool.
+compass_say_miss: Tap a point or a ring where objects cross.
+compass_say_same: That one is drawn already.
+compass_say_nothing: Every step of the hint is drawn already.
+compass_say_done: You solved it in {n} steps.
+compass_say_best: You solved it in {n} steps, as few as it takes.

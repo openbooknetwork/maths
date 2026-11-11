@@ -1,0 +1,7 @@
+title: "The rule inside"
+hesap:
+  scene: machine/single
+  controls:
+    x:    { slider: [0, 9], start: 4 }
+    rule: { choice: [double, add-3, square, minus-1], start: square }
+  readout: [out]

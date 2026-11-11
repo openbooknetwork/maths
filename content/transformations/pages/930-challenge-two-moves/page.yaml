@@ -1,0 +1,10 @@
+title: "Get there in two moves"
+hesap:
+  scene: linear/matrix
+  shape: F
+  at: [1, 1]
+  handles: []
+  moves: [turn-90, shear, mirror]
+  challenge:
+    goal: match
+    targets: [[[1, -1], [1, 0]], [[0, 1], [1, 0]], [[0, -1], [1, 1]], [[-1, -1], [0, 1]]]

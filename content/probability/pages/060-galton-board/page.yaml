@@ -1,0 +1,6 @@
+title: "A board of pegs"
+hesap:
+  scene: chance/galton
+  trials: 400
+  rows: 10
+  readout: [count-pick, share-pick]

@@ -1,0 +1,9 @@
+title: "Distance in space"
+hesap:
+  scene: axes/distance-3d
+  view: { x: [-6, 6], y: [-6, 6], z: [-6, 6] }
+  controls:
+    x: { slider: [-6, 6], start: 2, step: 0.5 }
+    y: { slider: [-6, 6], start: 3, step: 0.5 }
+    z: { slider: [-6, 6], start: 6, step: 0.5 }
+  readout: [distance]

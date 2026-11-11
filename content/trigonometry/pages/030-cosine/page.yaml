@@ -1,0 +1,6 @@
+title: "Cosine runs a quarter turn ahead"
+hesap:
+  scene: wave/cosine
+  angle: 30
+  annotate: [quarter]
+  readout: [sin, cos]

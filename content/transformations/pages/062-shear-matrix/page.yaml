@@ -1,0 +1,7 @@
+title: "The matrix of a shear"
+hesap:
+  scene: linear/matrix
+  shape: F
+  at: [1, 1]
+  named: [shear]
+  readout: [matrix, det]

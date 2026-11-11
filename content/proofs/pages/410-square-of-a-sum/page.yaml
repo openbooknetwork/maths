@@ -1,0 +1,8 @@
+title: "A square with side a + b"
+hesap:
+  scene: proof
+  of: square
+  step: 1
+  controls:
+    a: { slider: [1, 5], start: 3 }
+    b: { slider: [1, 5], start: 2 }

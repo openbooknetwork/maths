@@ -1,0 +1,6 @@
+title: "Numerator and denominator"
+hesap:
+  scene: parts/fraction
+  fractions:
+    a: { start: 3/4, bottom: [1, 12] }
+  readout: [top-a, bottom-a]

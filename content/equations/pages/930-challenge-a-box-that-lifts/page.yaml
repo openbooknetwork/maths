@@ -1,0 +1,8 @@
+title: "Weigh a box that lifts"
+hesap:
+  scene: balance
+  left: { x: 3, number: 8 }
+  right: { x: 1, number: 2 }
+  ops: [subtract-x, subtract, add, divide]
+  challenge:
+    goal: solve

@@ -1,0 +1,10 @@
+title: "Walk back to the start"
+hesap:
+  scene: network
+  nodes: { A: [80, 110], B: [200, 60], C: [320, 110], D: [320, 290], E: [200, 340], F: [80, 290] }
+  edges: [A-B, B-C, C-D, D-E, E-F, F-A, A-C, D-F]
+  parallel: true
+  tools: [join, walk]
+  marks: [degree]
+  readout: [edges, used]
+  challenge: { goal: circuit }

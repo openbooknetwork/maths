@@ -1,0 +1,8 @@
+title: "The space in the middle is a square"
+hesap:
+  scene: proof
+  of: pythagoras
+  step: 3
+  controls:
+    a: { slider: [1, 6], start: 3 }
+    b: { slider: [1, 6], start: 4 }

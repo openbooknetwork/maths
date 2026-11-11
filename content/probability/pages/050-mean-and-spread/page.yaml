@@ -1,0 +1,6 @@
+title: "Mean and spread"
+hesap:
+  scene: chance/means
+  trials: 200
+  sizes: [1, 4, 16]
+  readout: [mean, spread]

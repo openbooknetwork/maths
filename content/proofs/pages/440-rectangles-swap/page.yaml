@@ -1,0 +1,8 @@
+title: "The two rectangles swap places"
+hesap:
+  scene: proof
+  of: square
+  step: 4
+  controls:
+    a: { slider: [1, 5], start: 3 }
+    b: { slider: [1, 5], start: 2 }

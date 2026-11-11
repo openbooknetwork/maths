@@ -1,0 +1,13 @@
+title: "Make a right triangle"
+hesap:
+  scene: geo/triangle
+  view: { x: [0, 8], y: [0, 6], grid: true }
+  controls:
+    A: { point: [1, 1], drag: true, snap: 0.5 }
+    B: { point: [7, 1], drag: true, snap: 0.5 }
+    C: { point: [3, 5], drag: true, snap: 0.5 }
+  annotate: [sides]
+  challenge:
+    goal: right-angle
+    targets: [{ area: 6 }, { area: 4 }, { area: 7.5 }, { area: 9 }, { area: 10 }]
+    hint: { annotate: [angles] }

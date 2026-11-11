@@ -1,0 +1,7 @@
+id: sets
+title: "Sets"
+draft: true
+level: advanced
+summary: "A set is a collection of things. Drag elements into sets and out of them, and watch unions, intersections and subsets change."
+languages: [en]
+default_language: en

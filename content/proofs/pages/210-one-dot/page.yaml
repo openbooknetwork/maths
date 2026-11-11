@@ -1,0 +1,7 @@
+title: "One dot is a square"
+hesap:
+  scene: proof
+  of: odd
+  step: 1
+  controls:
+    n: { value: 5 }

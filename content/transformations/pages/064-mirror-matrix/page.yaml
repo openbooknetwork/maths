@@ -1,0 +1,7 @@
+title: "The matrix of a mirror"
+hesap:
+  scene: linear/matrix
+  shape: F
+  at: [1, 1]
+  named: [mirror]
+  readout: [matrix, det]

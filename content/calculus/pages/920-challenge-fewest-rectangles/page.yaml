@@ -1,0 +1,18 @@
+title: "Use as few rectangles as you can"
+hesap:
+  scene: graph/area
+  rule: parabola
+  coefficients: { a: 0.25, c: 1 }
+  view: { x: [-0.5, 4.5], y: [-0.6, 5.6] }
+  from: 0
+  to: 4
+  controls:
+    n: { slider: [1, 40], start: 1, step: 1 }
+  readout: [sum, difference]
+  challenge:
+    goal: fewest
+    targets:
+      - { within: 1 }
+      - { within: 0.5 }
+      - { within: 0.25 }
+    hint: [difference]

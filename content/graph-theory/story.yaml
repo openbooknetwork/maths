@@ -1,0 +1,7 @@
+id: graph-theory
+title: "Graph theory"
+draft: true
+level: advanced
+summary: "A graph is a set of dots joined by lines. Move, add and remove them, walk the bridges of Königsberg, find the shortest route, colour a map and grow a tree."
+languages: [en]
+default_language: en

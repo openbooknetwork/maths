@@ -1,0 +1,8 @@
+title: "Degree"
+hesap:
+  scene: network
+  nodes: { A: [90, 90], B: [220, 60], C: [340, 140], D: [300, 300], E: [150, 330], F: [60, 220] }
+  edges: [A-B, B-C, C-D, D-E, E-F, F-A, B-D, B-F]
+  tools: [join, remove, move, add]
+  marks: [degree, odd]
+  readout: [edges, degree-sum, odd-nodes]

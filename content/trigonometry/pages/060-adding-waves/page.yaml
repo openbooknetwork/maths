@@ -1,0 +1,8 @@
+title: "Adding waves"
+hesap:
+  scene: wave/sum
+  angle: 30
+  controls:
+    amplitude: { slider: [0, 1], start: 0.5, step: 0.1 }
+    frequency: { slider: [1, 5], start: 3, step: 1 }
+  readout: [first, second, y]

@@ -1,0 +1,7 @@
+title: "Sliding"
+hesap:
+  scene: linear/slide
+  shape: house
+  at: [-3, -2]
+  start: { tx: 4, ty: 3 }
+  readout: [vector, image]

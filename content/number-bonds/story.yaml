@@ -1,0 +1,10 @@
+id: number-bonds
+title: "Number bonds"
+cover_dark: number-bonds-cover-dark-ae7ebe
+cover: number-bonds-cover-light-8dca5c
+level: beginner
+summary: "Split a number into two parts and put the parts back together. Move counters between the parts, fill ten frames, find every pair that makes 10 and 20, and find the part a cup hides."
+languages: [en]
+default_language: en
+hesap:
+  cover: { page: a-whole-and-two-parts, caption: "A whole of 7 split into a part of 3 and a part of 4." }

@@ -1,0 +1,14 @@
+title: "Size a cone to match"
+hesap:
+  scene: axes/cone
+  view: { x: [-3.2, 3.2], y: [-3.2, 3.2], z: [-3.2, 3.2] }
+  controls:
+    radius: { slider: [0.5, 3], start: 1.5, step: 0.5 }
+    h: { slider: [1, 6], start: 2, step: 0.5 }
+  challenge:
+    goal: same-volume
+    targets:
+      - { solid: solid-cylinder, size: { radius: 2, h: 2 } }
+      - { solid: ball, size: { radius: 1.5 } }
+      - { solid: solid-cylinder, size: { radius: 3, h: 1 } }
+      - { solid: ball, size: { radius: 1 } }

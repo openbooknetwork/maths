@@ -1,0 +1,8 @@
+title: "A right triangle"
+hesap:
+  scene: proof
+  of: pythagoras
+  step: 1
+  controls:
+    a: { slider: [1, 6], start: 3 }
+    b: { slider: [1, 6], start: 4 }

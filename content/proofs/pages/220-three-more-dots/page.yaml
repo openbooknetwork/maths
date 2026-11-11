@@ -1,0 +1,7 @@
+title: "Three more dots wrap around"
+hesap:
+  scene: proof
+  of: odd
+  step: 2
+  controls:
+    n: { value: 5 }

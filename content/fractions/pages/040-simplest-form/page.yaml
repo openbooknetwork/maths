@@ -1,0 +1,6 @@
+title: "Simplest form"
+hesap:
+  scene: parts/simplest
+  fractions:
+    a: { start: 12/18, bottom: [1, 24] }
+  readout: [trail]

@@ -1,0 +1,7 @@
+title: "Pairs that make twenty"
+hesap:
+  scene: counters/bonds
+  frames: 2
+  whole: 20
+  first: { slider: [0, 20], start: 12 }
+  readout: [first, second]

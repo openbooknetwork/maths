@@ -1,0 +1,7 @@
+title: "A piece fills half of a square"
+hesap:
+  scene: proof
+  of: halves
+  step: 1
+  controls:
+    n: { value: 5 }

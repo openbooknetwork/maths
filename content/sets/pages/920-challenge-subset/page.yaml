@@ -1,0 +1,14 @@
+title: "Make a subset of the right size"
+hesap:
+  scene: venn
+  sets:
+    A: { has: [a, b, c, d] }
+    B: { has: [c, d, e] }
+  elements: [a, b, c, d, e, f, g, h]
+  challenge:
+    goal: match
+    targets:
+      - { A-in-B: true, count-A: 3, count-B-minus-A: 2 }
+      - { B-in-A: true, count-B: 2, count-A-minus-B: 3 }
+      - { A-in-B: true, B-in-A: true, count-A: 5 }
+      - { A-in-B: true, count-A: 0, count-B: 4 }

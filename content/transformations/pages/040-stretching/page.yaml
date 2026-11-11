@@ -1,0 +1,7 @@
+title: "Stretching"
+hesap:
+  scene: linear/stretch
+  shape: house
+  at: [-1, -1]
+  start: { k: 2, cx: -2, cy: -2 }
+  readout: [k, area-scale]

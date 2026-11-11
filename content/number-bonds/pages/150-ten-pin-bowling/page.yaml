@@ -1,0 +1,6 @@
+title: "Ten-pin bowling"
+hesap:
+  scene: counters/bonds
+  look: pins
+  first: 10
+  readout: [first, empty]

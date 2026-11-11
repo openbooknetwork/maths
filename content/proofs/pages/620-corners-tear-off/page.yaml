@@ -1,0 +1,8 @@
+title: "The corners tear off"
+hesap:
+  scene: proof
+  of: angles
+  step: 2
+  controls:
+    alpha: { slider: [20, 100], start: 50, step: 5 }
+    beta: { slider: [20, 70], start: 60, step: 5 }

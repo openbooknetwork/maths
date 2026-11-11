@@ -1,0 +1,24 @@
+title: "Find the cheapest tree"
+hesap:
+  scene: network
+  nodes: { A: [60, 200], B: [140, 70], C: [290, 60], D: [360, 190], E: [300, 330], F: [140, 330], G: [210, 200] }
+  edges:
+    - A-B: 4
+    - B-C: 7
+    - C-D: 3
+    - D-E: 6
+    - E-F: 5
+    - F-A: 4
+    - G-A: 6
+    - G-B: 3
+    - G-C: 5
+    - G-D: 2
+    - G-E: 8
+    - G-F: 7
+  tools: [remove]
+  readout: [total, edges, tree]
+  challenge:
+    goal: cheapest-tree
+    others:
+      - { A-B: 6, B-C: 2, C-D: 5, D-E: 3, E-F: 6, F-A: 2, G-A: 5, G-B: 7, G-C: 4, G-D: 6, G-E: 3, G-F: 8 }
+      - { A-B: 3, B-C: 5, C-D: 6, D-E: 2, E-F: 7, F-A: 5, G-A: 8, G-B: 4, G-C: 3, G-D: 4, G-E: 6, G-F: 2 }

@@ -1,0 +1,6 @@
+title: "Two dice"
+hesap:
+  scene: chance/dice
+  trials: 1000
+  pick: 7
+  readout: [count-pick, share-pick, p-pick]

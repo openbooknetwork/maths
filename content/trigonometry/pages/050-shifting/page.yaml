@@ -1,0 +1,7 @@
+title: "Shifting a wave"
+hesap:
+  scene: wave/shift
+  angle: 30
+  controls:
+    phase: { slider: [-180, 180], start: 90, step: 15 }
+  readout: [turn, y]

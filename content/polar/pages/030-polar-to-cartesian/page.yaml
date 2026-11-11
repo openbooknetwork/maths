@@ -1,0 +1,9 @@
+title: "From polar to x and y"
+hesap:
+  scene: axes/polar-point
+  view: { x: [-6.4, 6.4], y: [-6, 6] }
+  controls:
+    r:     { slider: [0, 5], start: 4, step: 0.5 }
+    angle: { slider: [0, 360], start: 30, step: 5 }
+  annotate: [legs]
+  readout: [x, y]

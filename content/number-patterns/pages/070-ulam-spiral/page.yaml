@@ -1,0 +1,8 @@
+title: "The Ulam spiral"
+hesap:
+  scene: grid/spiral
+  numbers: [1, 441]
+  controls:
+    size: { slider: [3, 21], start: 11, step: 2 }
+    n: { tap: none }
+  readout: [count-primes, diagonal-primes]

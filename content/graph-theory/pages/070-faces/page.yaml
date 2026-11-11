@@ -1,0 +1,9 @@
+title: "Faces and Euler's formula"
+hesap:
+  scene: network
+  nodes: { A: [80, 80], B: [320, 80], C: [320, 320], D: [80, 320] }
+  edges: [A-B, B-C, C-D, D-A, A-C, B-D]
+  tools: [move, add, join, remove]
+  marks: [crossings, faces]
+  readout: [nodes, edges, faces, euler]
+  goal: untangled

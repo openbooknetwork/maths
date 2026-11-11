@@ -1,0 +1,5 @@
+title: "A point on a circle"
+hesap:
+  scene: wave/unit
+  angle: 30
+  readout: [radians, sin, cos]
