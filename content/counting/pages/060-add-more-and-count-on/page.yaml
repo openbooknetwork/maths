@@ -1,0 +1,6 @@
+title: "Add more and count on"
+hesap:
+  scene: counters/count
+  box: { stepper: [3, 20], start: 5 }
+  pile: 10
+  readout: [count]

@@ -1,0 +1,5 @@
+title: "A hundred counters in rows of ten"
+hesap:
+  scene: counters/count
+  rows: true
+  tap: place

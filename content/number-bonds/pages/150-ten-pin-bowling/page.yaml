@@ -3,4 +3,5 @@ hesap:
   scene: counters/bonds
   look: pins
   first: 10
+  roll: true
   readout: [first, empty]

@@ -1,0 +1,5 @@
+title: "After 39 comes 40"
+hesap:
+  scene: counters/count
+  rows: true
+  marker: { stepper: [1, 100], start: 37 }

@@ -1,0 +1,8 @@
+title: "Five stays five when they move"
+hesap:
+  scene: counters/count
+  n: 5
+  tap: tag
+  drag: true
+  clear: true
+  readout: [count, total]

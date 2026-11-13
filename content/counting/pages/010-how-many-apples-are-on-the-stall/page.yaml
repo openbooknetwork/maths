@@ -1,0 +1,7 @@
+title: "How many apples are on the stall?"
+hesap:
+  scene: counters/count
+  look: stall
+  n: 8
+  tap: tag
+  readout: [count, total]

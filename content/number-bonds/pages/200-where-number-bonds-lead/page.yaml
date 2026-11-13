@@ -3,4 +3,5 @@ hesap:
   scene: counters/bonds
   whole: 10
   first: 4
+  still: true
   readout: [first, second, whole]

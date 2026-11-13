@@ -1,0 +1,4 @@
+title: "Count on from the box"
+hesap:
+  scene: counters/count
+  challenge: { goal: count-on, box: [10, 60], more: [3, 9] }

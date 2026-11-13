@@ -1,4 +1,4 @@
-In ten-pin bowling, a player rolls a ball down a lane at ten pins. Tap a pin to knock it down, and tap it again to stand it up.
+In ten-pin bowling, a player rolls a ball down a lane at ten pins. Press Roll the ball, and the ball knocks down some of the pins still standing. Press Set up the pins to start again.
 
 The number of pins standing is [10](@first), and the number knocked down is [0](@empty).
 

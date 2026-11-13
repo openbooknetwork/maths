@@ -1,7 +1,0 @@
-title: "Split another number"
-hesap:
-  scene: counters/bonds
-  whole: { stepper: [2, 10], start: 6 }
-  first: 3
-  list: true
-  readout: [found]

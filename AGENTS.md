@@ -29,15 +29,19 @@ replaces them. Three things follow.
 ## How a story is built
 
 1. The plan in `specs/stories/<id>.md` lists the story page by page.
-2. A contract fixes, for each page, the scene and its fields in `page.yaml`, the ids the text can link, and what
+2. The plan's column "The reader does" names a different action on every page, as "The shape of a story" in
+   `specs/initial-release.md` asks. Pages whose readers do the same thing with other objects or other numbers
+   become one page, and the plan's table changes with them. This step is done when no two rows of that column
+   describe the same action.
+3. A contract fixes, for each page, the scene and its fields in `page.yaml`, the ids the text can link, and what
    each challenge draws. The text and the engine work start from it.
-3. The text and the engine are written side by side. The text needs no engine, and the engine needs no text. A
+4. The text and the engine are written side by side. The text needs no engine, and the engine needs no text. A
    story whose scenes exist has no engine work.
-4. The story is checked as "Checking a story" says.
-5. What the story added to the engine is looked over for parts that belong in hesap's kit or in kitap. A part
+5. The story is checked as "Checking a story" says.
+6. What the story added to the engine is looked over for parts that belong in hesap's kit or in kitap. A part
    moves there when a second family or a second engine would use it, then that library is released and the
    story is checked again on the release.
-6. The user looks at the story on a phone.
+7. The user looks at the story on a phone.
 
 Stories are built a family at a time. The story that asks the most of a family comes first, and the family's other
 stories follow in parallel.

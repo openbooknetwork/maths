@@ -1,7 +1,0 @@
-title: "Find every split of 7"
-hesap:
-  scene: counters/bonds
-  whole: 7
-  first: 7
-  list: true
-  readout: [found]

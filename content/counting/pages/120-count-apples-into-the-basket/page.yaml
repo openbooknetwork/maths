@@ -1,0 +1,4 @@
+title: "Count apples into the basket"
+hesap:
+  scene: counters/count
+  challenge: { goal: fill-basket, target: [6, 30] }

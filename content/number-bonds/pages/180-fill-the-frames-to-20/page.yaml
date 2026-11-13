@@ -1,6 +1,0 @@
-title: "Fill the frames to 20"
-hesap:
-  scene: counters/bonds
-  look: frames
-  frames: 2
-  challenge: { goal: make-whole, whole: 20, part: [1, 19] }

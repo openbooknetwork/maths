@@ -1,0 +1,4 @@
+title: "Count back across a ten"
+hesap:
+  scene: counters/count
+  challenge: { goal: count-back, start: [25, 100], less: [3, 12] }

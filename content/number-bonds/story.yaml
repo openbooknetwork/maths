@@ -1,7 +1,7 @@
 id: number-bonds
 title: "Number bonds"
-cover_dark: number-bonds-cover-dark-ae7ebe
-cover: number-bonds-cover-light-8dca5c
+cover_dark: number-bonds-cover-dark-e191ac
+cover: number-bonds-cover-light-201cd0
 level: beginner
 summary: "Split a number into two parts and put the parts back together. Move counters between the parts, fill ten frames, find every pair that makes 10 and 20, and find the part a cup hides."
 languages: [en]

@@ -1,0 +1,8 @@
+title: "Start from the number you know"
+hesap:
+  scene: counters/count
+  box: 6
+  n: 3
+  tap: tag
+  clear: true
+  readout: [count]

@@ -1,0 +1,8 @@
+title: "A missed apple spoils the count"
+hesap:
+  scene: counters/count
+  look: stall
+  n: 7
+  tap: again
+  clear: true
+  readout: [count]

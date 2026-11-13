@@ -1,0 +1,9 @@
+title: "Count in any order"
+hesap:
+  scene: counters/count
+  look: sand
+  n: 7
+  tap: tag
+  clear: true
+  path: true
+  readout: [count, total]

@@ -17,25 +17,18 @@
 | # | Title | Kind | The figure shows | The reader does | The page says |
 |---|---|---|---|---|---|
 | 1 | Seven beads in two hands | opening | Two open hands holding seven beads between them. | Drags beads from one hand to the other. | Seven beads can sit in two hands in many ways and still be seven. |
-| 2 | A whole and two parts | idea | A part-whole diagram with 7 in the whole and counters in the two parts. | Drags counters from one part to the other. | The two parts together make the whole. |
-| 3 | Find every split of 7 | try | The diagram for 7 with a list beside it that fills as splits are found. | Drags counters until the list holds every split from 0 and 7 to 7 and 0. | 7 splits into two parts in eight ways when 0 counts as a part. |
-| 4 | Split another number | use | The diagram with a stepper for the whole from 2 to 10. | Picks a whole and drags counters to split it in several ways. | Every number up to 10 splits into two parts in several ways. |
-| 5 | Swap the parts and the whole stays | idea | The diagram for 9 split as 3 and 6, with a Swap button. | Taps Swap and watches 3 and 6 trade places. | 3 and 6 make the same whole as 6 and 3. |
-| 6 | A ten frame holds ten | idea | One empty ten frame of two rows of five. | Taps cells to put counters in them. | The empty cells show how many more counters make ten. |
-| 7 | Filled and empty make ten | try | A ten frame with a slider for the number of counters. | Moves the slider and watches the counters and the empty cells. | The counters and the empty cells together make 10 for every position of the slider. |
-| 8 | Pairs that make ten | use | The ten frame with a list of pairs that fills as the reader finds them. | Fills the frame with each number of counters from 0 to 10. | 10 has eleven pairs, and each pair has its swap in the list. |
-| 9 | Two frames hold twenty | idea | Two empty ten frames. | Taps cells to fill both frames. | Two full frames hold 20, which is two tens. |
-| 10 | From a pair for 10 to a pair for 20 | try | Two frames showing 3 red and 7 blue, and a button that fills the second frame with red. | Taps the button and watches 3 and 7 become 13 and 7. | Adding a full ten to one part of a pair for 10 gives a pair for 20. |
-| 11 | Pairs that make twenty | use | Two frames with a slider for the red counters from 0 to 20. | Moves the slider and watches the blue counters fill the rest. | Every number from 0 to 20 has one partner that makes 20. |
-| 12 | Find the part under the cup | idea | The diagram for 10 with one part shown and the other under a cup. | Fills the empty cells of the frame, then lifts the cup to check. | The missing part is the number that fills the frame up to the whole. |
-| 13 | Find the part of 20 under the cup | try | Two frames for 20 with one part under a cup. | Fills the empty cells, then lifts the cup. | The empty cells of two frames show the partner that makes 20. |
-| 14 | A full ten and some more | use | Two frames with a stepper for the whole from 11 to 20. | Picks a whole and splits it as 10 and the rest. | Every number from 11 to 20 is a full ten and some more. |
-| 15 | Ten-pin bowling | world | Ten pins standing at the end of a lane. | Taps pins to knock them down. | The pins knocked down and the pins standing make 10 together. |
-| 16 | A car park of twenty | world | A car park with 20 spaces in two rows of ten. | Drags cars in and out of spaces. | The cars parked and the free spaces make 20, so a sign can show the free spaces. |
-| 17 | Make 10 in the frame | challenge | A ten frame with some red counters. | Taps empty cells to add blue counters. | The reader adds the partner that makes 10. |
-| 18 | Fill the frames to 20 | challenge | Two frames with some red counters. | Taps empty cells to add blue counters. | The reader adds the partner that makes 20. |
-| 19 | Build the part the cup hides | challenge | A whole number, one part as counters, a cup and an empty tray. | Drags counters into the tray. | The reader finds the missing part from the whole and the part in sight. |
-| 20 | Where number bonds lead | end | The part-whole diagram. | Drags counters between the parts. | Number bonds lead on to adding and taking away within 20. |
+| 2 | A whole and two parts | idea | The part-whole diagram with 7 counters, a Whole stepper and a list of the splits found. | Drags counters from one part to the other until the list holds every split, then picks another whole such as 10. | The two parts make the whole, and a whole has one more split than its own number. |
+| 3 | Swap the parts and the whole stays | idea | The diagram for 9 split as 3 and 6, with a Swap button. | Taps Swap and watches 3 and 6 trade places. | 3 and 6 make the same whole as 6 and 3. |
+| 4 | A ten frame holds ten | idea | One ten frame with its counters and its empty cells counted. | Taps cells to put counters in and take them out. | The counters and the empty cells make 10, and one more counter means one fewer empty cell. |
+| 5 | From a pair for 10 to a pair for 20 | try | Two frames showing 3 red and 7 blue, and a button that fills the second frame with red. | Taps the button and watches 3 and 7 become 13 and 7. | Adding a full ten to one part of a pair for 10 gives a pair for 20. |
+| 6 | Pairs that make twenty | use | Two frames with a slider for the red counters from 0 to 20. | Moves the slider and watches the blue counters fill the rest. | Every number from 0 to 20 has one partner that makes 20. |
+| 7 | Find the part under the cup | idea | The diagram for 10 with one part shown and the other under a cup. | Fills the empty cells of the frame, then lifts the cup to check. | The missing part is the number that fills the frame up to the whole. |
+| 8 | A full ten and some more | use | Two frames with a stepper for the whole from 11 to 20. | Picks a whole and splits it as 10 and the rest. | Every number from 11 to 20 is a full ten and some more. |
+| 9 | Ten-pin bowling | world | Ten pins standing at the end of a lane. | Rolls the ball and reads how many pins fell and how many stand. | The pins knocked down and the pins standing make 10 together. |
+| 10 | A car park of twenty | world | A car park with 20 spaces in two rows of ten. | Drags cars in and out of spaces. | The cars parked and the free spaces make 20, so a sign can show the free spaces. |
+| 11 | Make 10 in the frame | challenge | Red counters in a tray and an empty frame. | Sets the blue counters with a slider and presses Check. | The reader finds the partner that makes 10. |
+| 12 | Build the part the cup hides | challenge | A whole number, one part as counters, a cup and an empty tray. | Drags counters into the tray. | The reader finds the missing part from the whole and the part in sight. |
+| 13 | Where number bonds lead | end | The diagram with 10 split as 4 and 6. | Reads the bond once more. | Number bonds lead on to adding and taking away within 20. |
 
 ## Challenges
 
@@ -45,13 +38,6 @@
 - Reached by: tapping empty cells to add a blue counter and tapping a blue counter to take it out.
 - Hidden: the count of blue counters and the count of empty cells.
 - Idea used: pairs that make 10.
-
-### Fill the frames to 20
-- Goal: the two frames hold 20 counters in all.
-- Drawn each time: a number of red counters from 1 to 19 that is not 10, placed across both frames in any order.
-- Reached by: tapping empty cells to add a blue counter and tapping a blue counter to take it out.
-- Hidden: the count of blue counters and the count of empty cells.
-- Idea used: pairs that make 10, pairs that make 20.
 
 ### Build the part the cup hides
 - Goal: the tray holds the part that the cup hides.

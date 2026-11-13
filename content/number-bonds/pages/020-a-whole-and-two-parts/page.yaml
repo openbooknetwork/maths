@@ -1,6 +1,7 @@
 title: "A whole and two parts"
 hesap:
   scene: counters/bonds
-  whole: 7
+  whole: { stepper: [2, 10], start: 7 }
   first: 3
-  readout: [first, second, whole]
+  list: true
+  readout: [first, second, found]

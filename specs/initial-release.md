@@ -66,17 +66,19 @@ gives each subject its level from what school curricula teach.
 
 ## The shape of a story
 
-A story has 15 to 20 pages or more, and every story follows the same arc:
+A story has one page for each distinct step, so a basic subject makes a short story.
+Every story follows the same arc:
 
 1. It opens on a real situation that raises the question the story answers.
-2. It teaches its ideas in sections. A section takes about three pages: one that shows the idea, one where the
-   reader changes something and watches what follows, and one that uses the idea on a new case.
+2. It teaches its ideas in sections. A section shows the idea, lets the reader change something and watch what
+   follows, and uses the idea on a new case, in one to three pages.
 3. It applies the ideas in its world pages.
 4. It sets the reader two or three challenges.
 5. Its end page links to the story that follows it.
 
-One page holds one step and one figure, so a long story stays easy to read on a phone. Each story's "Sections" line
-lists its sections in order.
+One page holds one step and one figure, so a long story stays easy to read on a phone. Each page gives the reader
+something new to do, and two pages that differ only in their objects or their numbers make one page. Each story's
+"Sections" line lists its sections in order.
 
 ## Pages that connect an idea to the world
 

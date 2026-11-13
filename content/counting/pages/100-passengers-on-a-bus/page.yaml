@@ -1,0 +1,7 @@
+title: "Passengers on a bus"
+hesap:
+  scene: counters/count
+  look: bus
+  n: 3
+  waiting: 5
+  readout: [count]

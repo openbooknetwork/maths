@@ -1,0 +1,7 @@
+title: "Count back as the birds fly away"
+hesap:
+  scene: counters/count
+  look: wire
+  n: 9
+  tap: take
+  readout: [count]
