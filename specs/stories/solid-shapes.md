@@ -2,7 +2,7 @@
 
 - Level: beginner, first ideas
 - Needs: `flat-shapes`
-- Leads to: nothing at this level. The intermediate story `solids` follows it.
+- Leads to: nothing at this level. The intermediate story `boxes-and-cubes` follows it.
 - Sections: faces, edges and corners, cube and cuboid, curved surfaces, prisms, pyramids
 - In the world: the poles and walls of a tent, the shapes of packets and tins in a shop
 - Figure: one solid in a 3D view that the reader turns by dragging. A tap on a face, an edge or a corner marks it,
@@ -37,7 +37,7 @@
 | 19 | Mark every edge of this solid | challenge | A prism or a pyramid in the 3D view at a random turn. | Turns the solid and taps every edge. | Every edge of the solid is marked. |
 | 20 | Build a solid with this many edges | challenge | A switch between prism and pyramid, a base slider and a card with a number of edges. | Picks prism or pyramid, sets the base and turns the solid to count. | The solid has the number of edges on the card. |
 | 21 | Build the solid from its faces and corners | challenge | The same switch and slider, and a card with a number of faces and a number of corners. | Picks prism or pyramid and sets the base. | The solid has the faces and corners on the card. |
-| 22 | Where next | end | A cube and a box of unit cubes beside it. | Turns the cube once more. | The intermediate story `solids` unfolds solids into nets and fills them with cubes. |
+| 22 | Where next | end | A cube and a box of unit cubes beside it. | Turns the cube once more. | The intermediate story `boxes-and-cubes` fills a box with unit cubes and unfolds a cube into a net. |
 
 ## Challenges
 

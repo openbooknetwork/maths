@@ -36,7 +36,7 @@
 | 17 | Make an isosceles triangle on this base | challenge | A fixed base and a free third corner. | Drags the free corner. | The triangle has two equal sides. |
 | 18 | Make the right angle at this corner | challenge | A triangle with two fixed corners and one free one, and a card naming a corner. | Drags the free corner. | The triangle has a right angle at the corner on the card. |
 | 19 | Make the triangle for this cell | challenge | A triangle with three free corners, the ruler, the protractor and a card naming a cell of the table. | Drags the corners and measures. | The triangle has both names on the card. |
-| 20 | Where triangles go next | end | A triangle and a circle through its three corners. | Drags one corner and watches the circle follow. | The intermediate story `triangles-and-circles` adds up a triangle's angles and finds its area, and `quadrilaterals-and-polygons` names shapes with four or more sides. |
+| 20 | Where triangles go next | end | A triangle and a circle through its three corners. | Drags one corner and watches the circle follow. | The intermediate story `triangles-and-circles` finds the area of a triangle, and `quadrilaterals-and-polygons` names shapes with four or more sides. |
 
 ## Challenges
 

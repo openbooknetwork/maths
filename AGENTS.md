@@ -12,7 +12,8 @@ The stories in `content/` are prototypes. Each was built to find out what the ma
 replaces them. Three things follow.
 
 - `specs/initial-release.md` is the plan for the release. Read it before planning or writing a story. It
-  defines `level`, `follows`, the shape of a story, world pages, challenges, the release waves and the 45 stories.
+  defines `level`, `follows`, the shape of a story, world pages, challenges, the order of release, the chains and
+  the intermediate and advanced stories.
   `specs/subject-candidates.md` lists the subjects school curricula teach, each with its level and the curriculum
   that decides it. A subject takes the level of the curriculum that teaches it last. `specs/beginner-subjects.md`
   lists the 60 beginner subjects, and `specs/stories/<id>.md` plans each one page by page.

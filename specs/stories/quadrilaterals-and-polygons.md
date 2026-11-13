@@ -2,7 +2,7 @@
 
 - Level: beginner, building on the first ideas
 - Needs: `lines-parallel-perpendicular`, `angles`, `centimetres-and-metres`, `flat-shapes`
-- Leads to: nothing at this level. The intermediate story `triangles-and-circles` follows it.
+- Leads to: nothing at this level. The end page suggests the intermediate story `triangles-and-circles`.
 - Sections: parallel sides, equal sides, right angles, families of shapes, regular polygons
 - In the world: a folding garden trellis, a spanner on a hexagon nut
 - Figure: a four-sided shape whose corners the reader drags. Parallel sides carry arrows, equal sides carry ticks,

@@ -2,7 +2,7 @@
 
 - Level: beginner, building on the first ideas
 - Needs: `angles`, `adding-tens-and-ones`
-- Leads to: nothing at this level. The intermediate story `triangles-and-circles` follows it.
+- Leads to: nothing at this level. The intermediate story `angles-in-polygons` follows it.
 - Sections: angles side by side, angles on a straight line, angles round a point, two lines that cross
 - In the world: the wings of a revolving door, a see-saw tilting on its post
 - Figure: rays from one point with the angle between each pair of neighbours marked in degrees. The reader drags
@@ -36,7 +36,7 @@
 | 16 | Make the hidden angle on the line | challenge | A line with one ray, a card with a size for one of the two angles, and a protractor that fits only the other angle. | Lays the protractor on the angle it fits and turns the ray. | The angle the card names has the size on the card. |
 | 17 | Make the hidden angle round a point | challenge | Three rays round a point, two fixed with the angle between them marked, a card with a size, and a protractor that fits only one angle. | Measures the angle the protractor fits and turns the free ray. | The angle the card names has the size on the card. |
 | 18 | Turn the line to make the named angle | challenge | Two crossing lines, one fixed, a card with a size for one of the four angles, and a protractor that fits a different one. | Lays the protractor and turns the free line. | The angle the card names has the size on the card. |
-| 19 | Where angles go after this | end | A triangle whose three corners are marked with arcs. | Drags one corner of the triangle. | The intermediate story `triangles-and-circles` adds up the angles inside a triangle. |
+| 19 | Where angles go after this | end | A triangle whose three corners are marked with arcs. | Drags one corner of the triangle. | The intermediate story `angles-in-polygons` adds up the angles inside a triangle. |
 
 ## Challenges
 

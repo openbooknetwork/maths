@@ -1,7 +1,8 @@
 # Stories for the initial release
 
-The first release of the Open Maths Book has 45 stories in three levels. This file lists them with the sections each
-one holds, and describes the two story properties the lists rely on, `level` and `follows`.
+The first release of the Open Maths Book has 98 stories in three levels. This file describes the two story properties
+the release relies on, `level` and `follows`, lists the intermediate and advanced stories, and gives the chains and
+the order of release. `specs/beginner-subjects.md` lists the beginner stories.
 
 ## What the book is
 
@@ -31,9 +32,9 @@ The main page groups the stories by level, in that order, and a reader can show 
 A level differs from a tag in two ways. A story has exactly one level and may have many tags. Levels have an order,
 and tags have none.
 
-The same topic can have a story at each level. Coordinates has three: "Finding a point" for beginners, "The
-coordinate plane" at the intermediate level and "Coordinates in space" for advanced readers. Each is a story of its
-own, with its own id, pages and text. Its title and summary say what it covers.
+The same topic can have stories at several levels. Coordinates has two stories at the intermediate level, "Finding a
+point" and "The coordinate plane", and two for advanced readers, "Polar coordinates" and "Coordinates in space". Each
+is a story of its own, with its own id, pages and text. Its title and summary say what it covers.
 
 ## The follows property
 
@@ -42,7 +43,7 @@ story that follows it, as a suggestion for what to read next. One story follows 
 and a reader always has one next story. `follows` is a kitap feature for every book: a history book uses it to lead
 from one war to the next.
 
-Where two stories could both come next, the lists pick an order. "Polar coordinates" follows "The coordinate
+Where two stories could both come next, the chains pick an order. "Polar coordinates" follows "The coordinate
 plane", and "Coordinates in space" follows "Polar coordinates", because its last two sections build on the polar
 grid.
 
@@ -54,13 +55,14 @@ follows: finding-a-point
 
 ## What a level means in this book
 
-A level says how complex a story's content is, by what it assumes the reader knows.
+A level says how complex a story's content is, by what it assumes the reader knows. `specs/subject-candidates.md`
+gives each subject its level from what school curricula teach.
 
 | Level | Assumes |
 |---|---|
-| beginner | whole numbers and the four operations |
-| intermediate | the beginner stories on the same topic |
-| advanced | the intermediate stories on the same topic, and algebra with letters |
+| beginner | the beginner stories its plan lists under Needs |
+| intermediate | the beginner level |
+| advanced | the intermediate level |
 
 ## The shape of a story
 
@@ -118,90 +120,46 @@ The engine draws only a target that the page's controls can reach and that the p
 goal names the function that draws its targets, next to the function that tests them, and `kitap check` fails a
 page whose ranges leave the goal nothing to draw.
 
-## Release waves
+## Order of release
 
-The stories are released one level at a time:
-
-1. The 15 beginner stories.
-2. The 16 intermediate stories.
-3. The 14 advanced stories.
+The stories go public one level at a time: beginner first, then intermediate, then advanced. Within a level, a story
+goes public after the stories it needs and the story it follows. Each beginner plan lists the stories it needs, and
+`specs/beginner-subjects.md` lists the beginner stories in an order that keeps this rule.
 
 ## How to read the lists
 
-Each story has an id, a title, its sections in order, the real situations its world pages use, and the story it follows
-where it has one. The table after the
-lists shows how the stories line up across levels, and the last section shows where each prototype's content goes.
+Each intermediate and advanced story has an id, a title, its sections in order and the real situations its world
+pages use. The chains after the lists give the story each one follows, and the last section shows where each
+prototype's content goes.
 
 ## Beginner
 
-This level has 15 stories. They start from pictures, use whole numbers and simple fractions, and write an unknown as
-a box.
+This level has 60 stories. They start from counting, use whole numbers, fractions and decimals to hundredths, and
+write an unknown as a box. `specs/beginner-subjects.md` lists them in teaching order with what each one covers and
+needs, and `specs/stories/<id>.md` plans each one page by page.
 
-### `numbers-on-a-line` Numbers on a line
-- Sections: counting along a line, steps forward and back, numbers below zero, distance from zero, comparing two numbers
+## Intermediate
+
+This level has 22 stories. They use negative numbers, fractions and decimals throughout, write unknowns as letters,
+and give the first proofs.
+
+### `negative-numbers` Negative numbers
+- Sections: numbers below zero, distance from zero, comparing negative numbers, adding and subtracting across zero,
+  multiplying and dividing with signs
 - In the world: a thermometer that goes below zero, the floors of a building with basement levels
 
-### `parts-of-a-whole` Parts of a whole
-- Sections: equal parts, numerator and denominator, the same amount with different names, comparing fractions, adding
-  parts of the same size
-- In the world: sharing a pizza fairly, the measuring cups of a recipe
+### `primes-and-factors` Primes and factors
+- Sections: factors as rectangles of dots, the sieve of Eratosthenes, prime factors as a tree, greatest common factor,
+  least common multiple, remainders
+- In the world: two gears and when the same teeth meet again, cicadas that come out every 13 or 17 years
 
-### `the-hundred-square` The hundred square
-- Sections: skip counting, multiples, factors as rectangles of dots, odd and even, the first primes
-- In the world: packing eggs into boxes of six, a calendar where the same weekday comes back every seven days
-
-### `flat-shapes` Flat shapes
-- Sections: sides and corners, triangles, rectangles and squares, the circle, perimeter, area by counting squares
-- In the world: the shapes of road signs and what each one tells a driver, tiling a floor with no gaps
-
-### `angles` Angles
-- Sections: an angle as a turn, right angles, sharper and wider, measuring in degrees, the angles of a triangle
-- In the world: the hands of a clock, how steep a wheelchair ramp may be
-
-### `finding-a-point` Finding a point
-- Sections: a number names a place on a line, two numbers on a grid, reading a point, plotting a point, a treasure map
-- In the world: finding a seat in a cinema by row and number, the squares of a city map
-
-### `boxes-and-cubes` Boxes and cubes
-- Sections: faces, edges and corners, a cube, a box, filling a box with unit cubes, unfolding a cube
-- In the world: how many boxes fit in a delivery van, a cardboard box cut and folded from one flat sheet
-
-### `sorting-into-sets` Sorting into sets
-- Sections: a set and its elements, in or out, two sets that overlap, sorting by two rules
-- In the world: sorting rubbish for recycling, filtering songs that are both liked and new
-
-### `number-machines` Number machines
-- Sections: a value goes in and a value comes out, the rule inside, guess the rule, two machines in a row
-- In the world: the price of any number of tickets, changing money from one currency to another
-
-### `slide-turn-flip` Slide, turn, flip
-- Sections: sliding a shape, turning it, flipping it in a mirror line, lines of symmetry, repeating patterns
-- In the world: the repeat in wallpaper and floor tiles, the mirrored word on the front of an ambulance
-
-### `the-missing-number` The missing number
-- Sections: a balance, a box that hides a number, take the same from both sides, share both sides equally
-- In the world: working out the change in a shop, splitting a bill between friends
-
-### `chance` Chance
-- Sections: certain, likely and impossible, one coin, one die, keeping a tally, many tries
-- In the world: what a 70% chance of rain means, why a board game uses dice
-
-### `counting-and-charts` Counting and charts
-- Sections: a tally, a bar chart, the most common value, the middle value, reading a chart
-- In the world: a class survey of favourite fruit, the steps a phone counts each day
+### `powers-and-roots` Powers and roots
+- Sections: squares and cubes as shapes, powers of ten, the square root as a side length, negative and zero powers
+- In the world: kilobytes, megabytes and gigabytes, writing the distance to the Sun
 
 ### `patterns-that-grow` Patterns that grow
 - Sections: add the same each time, double each time, square numbers as dots, triangle numbers, the next term
 - In the world: saving the same amount each week, a message that doubles each time it is passed on
-
-### `measuring` Measuring
-- Sections: length and units, perimeter of a room, area of a floor, time on a clock face, scale on a map
-- In the world: every page starts from a real task, such as a room, a floor, a clock or a map
-
-## Intermediate
-
-This level has 16 stories. They use negative numbers, fractions and decimals throughout, write unknowns as letters,
-and give the first proofs.
 
 ### `fractions-decimals-percent` Fractions, decimals and percent
 - Sections: simplest form, adding with different denominators, multiplying, dividing, one value three ways, percent of
@@ -209,74 +167,76 @@ and give the first proofs.
 - In the world: a 30% discount in a sale, the charge left in a battery
 
 ### `ratio-and-proportion` Ratio and proportion
-- Sections: a ratio as two bars, scaling a recipe, unit rates, proportion on a graph as a straight line, similar shapes
+- Sections: a ratio as two bars, scaling a recipe, unit rates, the scale of a map, proportion on a graph as a straight
+  line, similar shapes
 - In the world: mixing paint to match a colour, speed as distance for each hour
-
-### `primes-and-factors` Primes and factors
-- Sections: the sieve of Eratosthenes, prime factors as a tree, greatest common factor, least common multiple,
-  remainders
-- In the world: two gears and when the same teeth meet again, cicadas that come out every 13 or 17 years
-
-### `powers-and-roots` Powers and roots
-- Sections: squares and cubes as shapes, powers of ten, the square root as a side length, negative and zero powers
-- In the world: kilobytes, megabytes and gigabytes, writing the distance to the Sun
 
 ### `solving-equations` Solving equations
 - Sections: one step, two steps, x on both sides, negative numbers, brackets, an inequality on a number line
 - In the world: two phone plans and the usage where they cost the same, a budget as an inequality
 
-### `the-coordinate-plane` The coordinate plane
-- Sections: four quadrants, the distance between two points, the midpoint, the slope between two points, shapes from
-  their corners
-- In the world: where a character stands on a game screen, the straight distance between two places on a map
-- Follows: `finding-a-point`
-
-### `lines-and-their-graphs` Lines and their graphs
-- Sections: a table of values, y = mx + c, slope and intercept, parallel and perpendicular lines, where two lines meet
-- In the world: a taxi fare with a starting fee, the number of sales where a stall starts to earn
+### `number-machines` Number machines
+- Sections: a value goes in and a value comes out, the rule inside, guess the rule, two machines in a row
+- In the world: the price of any number of tickets, changing money from one currency to another
 
 ### `functions` Functions
 - Sections: function notation, a rule and its graph, composing two functions, the order matters, undoing a function, one
   machine and a whole list
 - In the world: a discount and a tax applied in either order, one formula filled down a spreadsheet column
-- Follows: `number-machines`
+
+### `lines-and-their-graphs` Lines and their graphs
+- Sections: a table of values, y = mx + c, slope and intercept, parallel and perpendicular lines, where two lines meet
+- In the world: a taxi fare with a starting fee, the number of sales where a stall starts to earn
+
+### `finding-a-point` Finding a point
+- Sections: a number names a place on a line, two numbers on a grid, reading a point, plotting a point, a treasure map
+- In the world: finding a seat in a cinema by row and number, the squares of a city map
+
+### `the-coordinate-plane` The coordinate plane
+- Sections: four quadrants, the distance between two points, the midpoint, the slope between two points, shapes from
+  their corners
+- In the world: where a character stands on a game screen, the straight distance between two places on a map
+
+### `angles-in-polygons` Angles in triangles and polygons
+- Sections: a line that crosses two parallel lines, corresponding and alternate angles, the angles of a triangle, the
+  angles of a polygon, the angle outside a triangle
+- In the world: a road that crosses two parallel railway tracks, cutting the corners of a six-sided picture frame
 
 ### `triangles-and-circles` Triangles and circles
 - Sections: area of a triangle, Pythagoras, similar triangles, the circle and π, arcs and sectors, quadrilaterals
 - In the world: how far a ladder reaches up a wall, the distance a bicycle travels for each turn of its wheel
-- Follows: `flat-shapes`
 
-### `compass-and-ruler` Compass and ruler
-- Sections: the tools, an equilateral triangle, the perpendicular bisector, bisecting an angle, a regular hexagon
-- In the world: a builder marking a right angle with a rope, the star patterns of tiled walls
+### `slide-turn-flip` Slide, turn, flip
+- Sections: sliding a shape, turning it, flipping it in a mirror line, lines of symmetry, repeating patterns
+- In the world: the repeat in wallpaper and floor tiles, the mirrored word on the front of an ambulance
 
 ### `moving-shapes-on-a-grid` Moving shapes on a grid
 - Sections: translation by a vector, rotation about a point, reflection in a line, enlargement from a centre, one move
   after another
 - In the world: a character moving and turning in a video game, zooming a photo without changing its shape
-- Follows: `slide-turn-flip`
+
+### `boxes-and-cubes` Boxes and cubes
+- Sections: filling a box with unit cubes, layers of cubes, length times width times height, unfolding a cube, the
+  nets of a box
+- In the world: how many boxes fit in a delivery van, a cardboard box cut and folded from one flat sheet
 
 ### `solids` Solids
 - Sections: prism, cylinder, pyramid, cone, sphere, surface area from a net
 - In the world: why drinks come in cylinders, how much water a tank holds
-- Follows: `boxes-and-cubes`
 
-### `sets` Sets
-- Sections: union and intersection, difference and complement, subsets, counting a union, three sets
-- In the world: search filters that use and, or and not, a survey where some people chose two answers
-- Follows: `sorting-into-sets`
+### `chance` Chance
+- Sections: certain, likely and impossible, one coin, one die, keeping a tally, many tries
+- In the world: what a 70% chance of rain means, why a board game uses dice
 
 ### `probability` Probability
 - Sections: outcomes and events, two dice, a tree of choices, expected against observed, the law of large numbers
 - In the world: the odds of a lottery ticket, why a casino wins over many games
-- Follows: `chance`
 
 ### `statistics` Statistics
 - Sections: mean, median and mode, range and spread, histograms, scatter plots and a line of best fit, a sample and the
   whole
 - In the world: the average wage and the wage of the person in the middle, a poll that asks a thousand people about
   a country
-- Follows: `counting-and-charts`
 
 ### `proofs-without-words` Proofs without words
 - Sections: the sum of odd numbers, 1 + 2 + ... + n, (a + b)², Pythagoras by rearrangement, the area of a circle
@@ -284,7 +244,7 @@ and give the first proofs.
 
 ## Advanced
 
-This level has 14 stories. They use algebra with letters, treat functions as objects, meet limits, and study
+This level has 16 stories. They use algebra with letters, treat functions as objects, meet limits, and study
 structures beyond numbers.
 
 ### `quadratics` Quadratics
@@ -295,44 +255,57 @@ structures beyond numbers.
 - Sections: repeated doubling, growth and decay, the number e, the logarithm as the undoing, a logarithmic scale
 - In the world: savings with compound interest, the scales for earthquakes and loudness, dating old bones
 
-### `the-unit-circle-and-waves` The unit circle and waves
-- Sections: sine and cosine on the circle, unrolling the circle into a wave, amplitude, frequency and phase, adding
-  waves, tangent, radians
-- In the world: a musical note as a wave, the height of a seat on a Ferris wheel, the tides
-
-### `polar-coordinates` Polar coordinates
-- Sections: a distance and an angle, the polar grid, converting both ways, degrees and radians, a spiral and a rose
-- In the world: a radar screen, the reach of a robot arm
-- Follows: `the-coordinate-plane`
-
-### `coordinates-in-space` Coordinates in space
-- Sections: a third axis, distance in space, vectors and their sum, cylindrical coordinates, spherical coordinates
-- In the world: latitude, longitude and height for an aircraft, the path of a 3D printer head
-- Follows: `polar-coordinates`
-
-### `matrices-and-the-plane` Matrices and the plane
-- Sections: two arrows rule the plane, a matrix as its columns, rotation, shear and reflection, the determinant as area,
-  one transformation after another, undoing one
-- In the world: how a game draws a turning object in every frame, straightening a tilted photo
-- Follows: `moving-shapes-on-a-grid`
-
-### `slopes-and-areas` Slopes and areas
-- Sections: the slope between two points, the tangent as a limit, the slope curve, area from rectangles, area and slope
-  undo each other
-- In the world: a speedometer and a trip meter, each worked out from the other
-- Follows: `lines-and-their-graphs`
-
 ### `sequences-and-series` Sequences and series
 - Sections: arithmetic and geometric sequences, a limit, 1/2 + 1/4 + 1/8 + ... = 1, a series that grows without end,
   compound growth
 - In the world: paying back a loan, a medicine building up in the body dose after dose
-- Follows: `patterns-that-grow`
+
+### `clock-arithmetic` Clock arithmetic
+- Sections: remainders as a clock, adding and multiplying on a clock, Euclid's algorithm, when division works, a simple
+  cipher
+- In the world: the check digit of a barcode, the lock on a private message
 
 ### `functions-of-functions` Functions of functions
 - Sections: a function as a value, map over a list, filter and fold, a machine that makes machines, composition as a
   machine
 - In the world: a photo filter applied to every pixel, a chain of steps that cleans a table of data
-- Follows: `functions`
+
+### `slopes-and-areas` Slopes and areas
+- Sections: the slope between two points, the tangent as a limit, the slope curve, area from rectangles, area and slope
+  undo each other
+- In the world: a speedometer and a trip meter, each worked out from the other
+
+### `polar-coordinates` Polar coordinates
+- Sections: a distance and an angle, the polar grid, converting both ways, degrees and radians, a spiral and a rose
+- In the world: a radar screen, the reach of a robot arm
+
+### `coordinates-in-space` Coordinates in space
+- Sections: a third axis, distance in space, vectors and their sum, cylindrical coordinates, spherical coordinates
+- In the world: latitude, longitude and height for an aircraft, the path of a 3D printer head
+
+### `the-unit-circle-and-waves` The unit circle and waves
+- Sections: sine and cosine on the circle, unrolling the circle into a wave, amplitude, frequency and phase, adding
+  waves, tangent, radians
+- In the world: a musical note as a wave, the height of a seat on a Ferris wheel, the tides
+
+### `compass-and-ruler` Compass and ruler
+- Sections: the tools, an equilateral triangle, the perpendicular bisector, bisecting an angle, a regular hexagon
+- In the world: a builder marking a right angle with a rope, the star patterns of tiled walls
+
+### `matrices-and-the-plane` Matrices and the plane
+- Sections: two arrows rule the plane, a matrix as its columns, rotation, shear and reflection, the determinant as area,
+  one transformation after another, undoing one
+- In the world: how a game draws a turning object in every frame, straightening a tilted photo
+
+### `sets` Sets
+- Sections: a set and its elements, sorting by two rules, union and intersection, difference and complement, subsets,
+  counting a union, three sets
+- In the world: search filters that use and, or and not, a survey where some people chose two answers
+
+### `sets-and-logic` Sets and logic
+- Sections: De Morgan's laws, the power set, pairs and the Cartesian product, and, or and not as sets, matching sets to
+  compare their sizes
+- In the world: a database query, the logic gates inside a chip
 
 ### `counting-without-counting` Counting without counting
 - Sections: arrangements, choosing without order, Pascal's triangle, paths on a grid, the binomial expansion
@@ -341,69 +314,65 @@ structures beyond numbers.
 ### `distributions` Distributions
 - Sections: the Galton board, the binomial distribution, the bell curve, mean and standard deviation, sampling
 - In the world: the heights of people, checking the weight of packets in a factory
-- Follows: `probability`
 
 ### `graph-theory` Graph theory
 - Sections: dots and lines, degree and the handshake rule, the bridges of Königsberg, shortest paths, colouring, trees
 - In the world: a route planner, friends of friends in a social network, a timetable with no clashes
 
-### `sets-and-logic` Sets and logic
-- Sections: De Morgan's laws, the power set, pairs and the Cartesian product, and, or and not as sets, matching sets to
-  compare their sizes
-- In the world: a database query, the logic gates inside a chip
-- Follows: `sets`
+## Chains
 
-### `clock-arithmetic` Clock arithmetic
-- Sections: remainders as a clock, adding and multiplying on a clock, Euclid's algorithm, when division works, a simple
-  cipher
-- In the world: the check digit of a barcode, the lock on a private message
-- Follows: `primes-and-factors`
+Each row is one chain, in reading order, and every story in it follows the story before it. A beginner story follows
+one of the stories its plan lists under Needs. The first column names each chain for this file only. A story in no
+chain names its next stories in the text of its end page.
 
-## The stories side by side
-
-The first column groups the stories for this file only. A story carries no such field.
-
-| Topic | Beginner | Intermediate | Advanced |
-|---|---|---|---|
-| Number | `numbers-on-a-line`, `the-hundred-square` | `primes-and-factors`, `powers-and-roots` | `clock-arithmetic` |
-| Fractions and ratio | `parts-of-a-whole` | `fractions-decimals-percent`, `ratio-and-proportion` | |
-| Algebra | `the-missing-number` | `solving-equations` | `quadratics`, `exponentials-and-logarithms` |
-| Functions | `number-machines` | `functions`, `lines-and-their-graphs` | `functions-of-functions`, `slopes-and-areas` |
-| Coordinates | `finding-a-point` | `the-coordinate-plane` | `polar-coordinates`, `coordinates-in-space` |
-| Plane geometry | `flat-shapes`, `angles`, `measuring` | `triangles-and-circles`, `compass-and-ruler` | `the-unit-circle-and-waves` |
-| Transformations | `slide-turn-flip` | `moving-shapes-on-a-grid` | `matrices-and-the-plane` |
-| Solids | `boxes-and-cubes` | `solids` | |
-| Sets and logic | `sorting-into-sets` | `sets` | `sets-and-logic` |
-| Chance and data | `chance`, `counting-and-charts` | `probability`, `statistics` | `distributions`, `counting-without-counting` |
-| Patterns and proof | `patterns-that-grow` | `proofs-without-words` | `sequences-and-series` |
-| Networks | | | `graph-theory` |
+| Topic | Chain |
+|---|---|
+| Counting, length and area | `counting` → `more-and-less` → `comparing-lengths` → `centimetres-and-metres` → `perimeter` → `area-of-rectangles` |
+| Adding and decimals | `number-bonds` → `adding-within-20` → `adding-tens-and-ones` → `money` → `tenths-and-hundredths` → `comparing-decimals` |
+| Equations | `equals-sign` → `missing-number` → `solving-equations` → `quadratics` |
+| Written methods | `fact-families` → `column-methods` → `long-multiplication` → `written-division` |
+| Place value | `tens-and-ones` → `hundreds-and-thousands` → `large-numbers` → `rounding-and-estimating` → `word-problems` |
+| Multiplying and dividing | `skip-counting` → `equal-groups` → `times-tables` → `sharing-and-grouping` → `remainders` → `primes-and-factors` → `clock-arithmetic` |
+| Order of operations | `any-order` → `order-of-operations` |
+| Ratio | `times-as-many` → `ratio-and-proportion` |
+| Fractions | `halves-and-quarters` → `unit-fractions` → `fractions-on-a-line` → `equivalent-fractions` → `comparing-fractions` → `fractions-decimals-percent` |
+| Negative numbers | `number-line` → `negative-numbers` |
+| Powers | `powers-and-roots` → `exponentials-and-logarithms` |
+| Patterns | `number-patterns` → `patterns-that-grow` → `sequences-and-series` |
+| Time | `telling-the-time` → `time-intervals` |
+| Units | `mass` → `converting-units` |
+| Coordinates | `position-words` → `finding-a-point` → `the-coordinate-plane` → `polar-coordinates` → `coordinates-in-space` |
+| Angles | `turns-and-right-angles` → `angles` → `angles-add-up` → `angles-in-polygons` |
+| Triangles and circles | `triangles` → `triangles-and-circles` → `the-unit-circle-and-waves` |
+| Polygons | `lines-parallel-perpendicular` → `quadrilaterals-and-polygons` |
+| Solids | `flat-shapes` → `solid-shapes` → `boxes-and-cubes` → `solids` |
+| Transformations | `slide-turn-flip` → `moving-shapes-on-a-grid` → `matrices-and-the-plane` |
+| Functions | `number-machines` → `functions` → `functions-of-functions` |
+| Graphs | `lines-and-their-graphs` → `slopes-and-areas` |
+| Data | `sorting-and-pictograms` → `bar-charts` → `pie-charts` → `statistics` |
+| Chance | `chance` → `probability` → `distributions` |
+| Sets | `sets` → `sets-and-logic` |
 
 ## Where the prototypes go
 
 The stories in `content/` today are prototypes, built to find out what the engine needs. The release replaces them
-with the stories above. Every prototype's content has a place in the lists:
+with the stories above. Every prototype's content has a place in the release:
 
 | Prototype | Release stories |
 |---|---|
-| `plane-shapes` | `flat-shapes`, `triangles-and-circles` |
-| `coordinates` | `numbers-on-a-line`, `finding-a-point`, `the-coordinate-plane`, `coordinates-in-space` |
+| `plane-shapes` | `flat-shapes`, `triangles`, `quadrilaterals-and-polygons`, `triangles-and-circles` |
+| `coordinates` | `negative-numbers`, `finding-a-point`, `the-coordinate-plane`, `coordinates-in-space` |
 | `polar` | `polar-coordinates`, `coordinates-in-space` |
-| `solids` | `boxes-and-cubes`, `solids` |
+| `solids` | `solid-shapes`, `boxes-and-cubes`, `solids` |
 | `functions` | `number-machines`, `functions`, `functions-of-functions` |
-| `sets` | `sorting-into-sets`, `sets`, `sets-and-logic` |
-| `probability` | `chance`, `counting-and-charts`, `probability`, `statistics`, `distributions` |
+| `sets` | `sets`, `sets-and-logic` |
+| `probability` | `chance`, `probability`, `statistics`, `distributions` |
 | `calculus` | `lines-and-their-graphs`, `quadratics`, `exponentials-and-logarithms`, `slopes-and-areas` |
 | `constructions` | `compass-and-ruler` |
-| `equations` | `the-missing-number`, `solving-equations` |
+| `equations` | `equals-sign`, `missing-number`, `solving-equations` |
 | `transformations` | `slide-turn-flip`, `moving-shapes-on-a-grid`, `matrices-and-the-plane` |
 | `graph-theory` | `graph-theory` |
-| `proofs` | `angles`, `patterns-that-grow`, `proofs-without-words`, `sequences-and-series` |
-| `fractions` | `parts-of-a-whole`, `fractions-decimals-percent`, `ratio-and-proportion` |
-| `number-patterns` | `the-hundred-square`, `primes-and-factors`, `powers-and-roots`, `clock-arithmetic`, `counting-without-counting` |
+| `proofs` | `angles-in-polygons`, `patterns-that-grow`, `proofs-without-words`, `sequences-and-series` |
+| `fractions` | `unit-fractions`, `equivalent-fractions`, `comparing-fractions`, `adding-like-fractions`, `mixed-numbers`, `fractions-decimals-percent`, `ratio-and-proportion` |
+| `number-patterns` | `skip-counting`, `primes-and-factors`, `powers-and-roots`, `clock-arithmetic`, `counting-without-counting` |
 | `trigonometry` | `the-unit-circle-and-waves` |
-
-`measuring` is the one release story with no prototype behind it.
-
-## Open question
-
-Which engine the release stories run on. It is decided once the prototype builds are done.
