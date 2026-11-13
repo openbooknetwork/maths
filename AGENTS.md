@@ -29,10 +29,12 @@ replaces them. Three things follow.
 ## How a story is built
 
 1. The plan in `specs/stories/<id>.md` lists the story page by page.
-2. The plan's column "The reader does" names a different action on every page, as "The shape of a story" in
-   `specs/initial-release.md` asks. Pages whose readers do the same thing with other objects or other numbers
-   become one page, and the plan's table changes with them. This step is done when no two rows of that column
-   describe the same action.
+2. Every page gives the reader its own action, as "The shape of a story" in `specs/initial-release.md` asks. Write
+   each page's action as what the reader does and what the figure does in reply, with the objects and the numbers
+   left out, such as "tap an object, and it takes the next number" or "press + or −, and a marker moves one place".
+   Two pages whose actions read the same become one page, and the plan's table changes with them. The challenges
+   reuse the story's actions, because their new part is a drawn target and a Check. This step is done when every
+   page outside the challenges has an action no other page has. The contract keeps those actions.
 3. A contract fixes, for each page, the scene and its fields in `page.yaml`, the ids the text can link, and what
    each challenge draws. The text and the engine work start from it.
 4. The text and the engine are written side by side. The text needs no engine, and the engine needs no text. A
