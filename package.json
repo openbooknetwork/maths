@@ -14,7 +14,7 @@
     "@openbooknetwork/kitap": "^0.7.7"
   },
   "description": "Open Maths Book: mathematical ideas stepped through on the page, an educational project",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "devDependencies": {
     "wrangler": "^4.152.0"
   }
