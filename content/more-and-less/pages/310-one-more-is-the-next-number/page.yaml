@@ -1,0 +1,9 @@
+title: "One more is the next number"
+hesap:
+  scene: counters/match
+  top: { stepper: [1, 10], start: 7 }
+  bottom: 6
+  pair: auto
+  word: true
+  trail: true
+  readout: [bottom, top]

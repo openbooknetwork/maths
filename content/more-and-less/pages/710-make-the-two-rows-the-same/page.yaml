@@ -1,0 +1,4 @@
+title: "Make the two rows the same"
+hesap:
+  scene: counters/match
+  challenge: { goal: same-rows, top: [1, 10], bottom: [3, 10] }

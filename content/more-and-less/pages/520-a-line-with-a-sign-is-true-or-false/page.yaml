@@ -1,0 +1,8 @@
+title: "A line with a sign is true or false"
+hesap:
+  scene: counters/match
+  top: 9
+  bottom: 6
+  pair: auto
+  sign: "<"
+  readout: [reading, verdict]

@@ -1,0 +1,8 @@
+title: "The row with a counter left over has more"
+hesap:
+  scene: counters/match
+  top: { stepper: [0, 10], start: 6 }
+  bottom: { stepper: [0, 10], start: 4 }
+  pair: auto
+  word: true
+  readout: [unpaired]

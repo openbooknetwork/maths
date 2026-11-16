@@ -1,0 +1,4 @@
+title: "Put three numbers in order"
+hesap:
+  scene: counters/order
+  draw: true

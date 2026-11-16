@@ -1,0 +1,9 @@
+title: "Count the counters left over"
+hesap:
+  scene: counters/match
+  top: { stepper: [0, 10], start: 4 }
+  bottom: { stepper: [0, 10], start: 9 }
+  pair: auto
+  word: true
+  tap: tag
+  readout: [counted]

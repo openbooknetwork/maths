@@ -1,0 +1,7 @@
+title: "Musical chairs"
+hesap:
+  scene: counters/match
+  look: chairs
+  top: 6
+  bottom: 5
+  readout: [top, bottom]

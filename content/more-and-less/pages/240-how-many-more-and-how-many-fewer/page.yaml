@@ -1,0 +1,9 @@
+title: "How many more, and how many fewer?"
+hesap:
+  scene: counters/match
+  top: { stepper: [5, 9], start: 9 }
+  bottom: { stepper: [5, 9], start: 5 }
+  pair: auto
+  word: true
+  trace: true
+  readout: [added, taken]

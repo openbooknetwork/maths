@@ -1,0 +1,5 @@
+Three number cards lie in a tray, with new numbers each time the page opens. Each card shows its number and a small drawing of it in rows of ten. Drag each card to one of the three places under the tray. The left place is labelled "least" and the right place is labelled "greatest". A card dropped on a taken place swaps with the card there.
+
+Once two neighbouring places both hold a card, the words "is less than" or "is greater than" appear between them. Three numbers stand in order when each is less than the one after it. Then both pairs read "is less than", and the places take a frame and a tick.
+
+Comparing two numbers at a time is enough. Find the least, then compare the two that are left. Take 63, 36 and 39. 63 has 6 full rows, and 36 and 39 have 3 each, so the least is 36 or 39. Their last rows hold 6 and 9, so 36 is the least. Of the two that are left, 39 has fewer full rows than 63, so 39 is less than 63. The order is 36, 39, 63. Put the cards in the tray in order the same way, then press New numbers for three other cards.

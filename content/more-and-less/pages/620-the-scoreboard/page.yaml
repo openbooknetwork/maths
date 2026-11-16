@@ -1,0 +1,8 @@
+title: "The scoreboard"
+hesap:
+  scene: counters/match
+  look: scoreboard
+  top: 0
+  bottom: 0
+  sign: follow
+  readout: [reading]

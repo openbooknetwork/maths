@@ -1,0 +1,8 @@
+title: "Every counter has a partner"
+hesap:
+  scene: counters/match
+  top: { stepper: [1, 10], start: 4 }
+  bottom: { stepper: [1, 10], start: 7 }
+  pair: auto
+  word: same
+  readout: [unpaired]

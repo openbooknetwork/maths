@@ -1,0 +1,4 @@
+title: "Put the right sign between the two rows"
+hesap:
+  scene: counters/match
+  challenge: { goal: right-sign, rows: [4, 10], apart: [1, 3] }

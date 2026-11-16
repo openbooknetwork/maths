@@ -1,0 +1,6 @@
+title: "The numbers on either side"
+hesap:
+  scene: counters/count
+  rows: true
+  n: 38
+  sides: true

@@ -1,0 +1,9 @@
+title: "More full rows make the greater number"
+hesap:
+  scene: counters/order
+  show: blocks
+  top: { slider: [0, 100], start: 34 }
+  bottom: { slider: [0, 100], start: 52 }
+  reading: true
+  decide: true
+  readout: [top-rows, top-last, bottom-rows, bottom-last]

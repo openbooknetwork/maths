@@ -1,0 +1,8 @@
+title: "The open side faces the greater number"
+hesap:
+  scene: counters/match
+  top: { stepper: [0, 10], start: 5 }
+  bottom: { stepper: [0, 10], start: 8 }
+  pair: auto
+  sign: follow
+  readout: [reading]

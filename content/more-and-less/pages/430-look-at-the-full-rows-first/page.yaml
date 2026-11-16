@@ -1,0 +1,9 @@
+title: "Look at the full rows first"
+hesap:
+  scene: counters/order
+  show: blocks
+  top: { slider: [10, 99], start: 48 }
+  bottom: { slider: [10, 99], start: 51 }
+  reading: true
+  decide: true
+  cover: true

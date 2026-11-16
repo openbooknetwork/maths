@@ -1,0 +1,9 @@
+title: "A row spread out is still the same"
+hesap:
+  scene: counters/match
+  top: 6
+  bottom: 6
+  pair: auto
+  spread: top
+  word: same
+  readout: [unpaired]
