@@ -16,7 +16,7 @@ Sources holds its quotes, and the brief holds the shared names.
   released in hesap 0.3.0, with kitap 0.7.7.
 - Cover: made from page 110. The whole book builds, and every page was captured at phone and wide size.
 - The book holds the released hesap `^0.3.0` and kitap `^0.7.7`, and the story checks `ok` against them.
-- Left: upload the cover images with `kitap upload --story more-and-less`, and release the book.
+- Released with the book's version 0.2.0.
 
 ## Sources
 
