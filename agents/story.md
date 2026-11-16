@@ -1,6 +1,6 @@
-# Planning and building a story
+# Building and checking a story
 
-For whoever plans a story or builds its pages.
+For whoever builds or checks a story's pages. `agents/overseer.md` has the steps from a brief to a finished story.
 
 ## Where the project stands
 
@@ -14,6 +14,7 @@ replaces them. Three things follow.
   that decides it. A subject takes the level of the curriculum that teaches it last. `specs/beginner-subjects.md`
   lists the 60 beginner subjects, and `specs/stories/<id>.md` plans each one page by page.
   `specs/hesap-for-beginner-stories.md` lists the scenes and features hesap lacks for them.
+  These files are a rough map. A story's own plan, in `content/<story>/.plan/`, is its source once written.
 - Every story runs on hesap, the maths engine. The book installs it from npm (`@openbooknetwork/hesap`), and its
   source is in `../hesap`. A new need goes into the hesap family that is closest, as a new scene, or into a new
   family, and reaches the book with a hesap release. To try a change before a release, link the source with
@@ -21,28 +22,6 @@ replaces them. Three things follow.
 - `content/constructions` is a draft (`draft: true` in its `story.yaml`), so a build leaves it out. Its engine,
   `plugins/engines/compass`, is the one prototype engine that is not in hesap, kept until the story is taken up
   again.
-
-## How a story is built
-
-1. The plan in `specs/stories/<id>.md` lists the story page by page.
-2. Every page gives the reader its own action, as "The shape of a story" in `specs/initial-release.md` asks. Write
-   each page's action as what the reader does and what the figure does in reply, with the objects and the numbers
-   left out, such as "tap an object, and it takes the next number" or "press + or −, and a marker moves one place".
-   Two pages whose actions read the same become one page, and the plan's table changes with them. The challenges
-   reuse the story's actions, because their new part is a drawn target and a Check. This step is done when every
-   page outside the challenges has an action no other page has. The contract keeps those actions.
-3. A contract fixes, for each page, the scene and its fields in `page.yaml`, the ids the text can link, and what
-   each challenge draws. The text and the engine work start from it.
-4. The text and the engine are written side by side. The text needs no engine, and the engine needs no text. A
-   story whose scenes exist has no engine work.
-5. The story is checked as "Checking a story" says.
-6. What the story added to the engine is looked over for parts that belong in hesap's kit or in kitap. A part
-   moves there when a second family or a second engine would use it, then that library is released and the
-   story is checked again on the release.
-7. The user looks at the story on a phone.
-
-Stories are built a family at a time. The story that asks the most of a family comes first, and the family's other
-stories follow in parallel.
 
 ## Stories and families
 

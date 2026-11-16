@@ -12,9 +12,17 @@ The notes are split by job. Read the file of each job you were given.
 
 | Job | Read |
 |---|---|
-| Plan a story or build its pages | `agents/story.md` |
+| Plan and build a story, from its brief to the finished pages | `agents/overseer.md` |
+| Check a story, make its cover, find a family | `agents/story.md` |
 | Write or edit a page's English text | `agents/text.md` |
 | Change the engine, hesap | `../hesap/AGENTS.md` |
 | Translate a story or update its translations | `node_modules/@openbooknetwork/kitap/agents/translating.md` |
 
-The `translator` and `translation-reviewer` of `.claude/agents/` name their own files.
+The agents of `.claude/agents/` name their own files:
+
+| Agent | Work |
+|---|---|
+| `section-coordinator` | plans one section |
+| `section-writer`, `section-reviewer` | a section's pages and texts |
+| `engine-author`, `engine-verifier` | what a section needs from hesap |
+| `translator`, `translation-reviewer` | a story's translations |
