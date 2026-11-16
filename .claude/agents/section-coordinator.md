@@ -1,7 +1,7 @@
 ---
 name: section-coordinator
-description: Plans one section of a maths story in detail, its content, interactivity and challenge, from the story's brief and from teaching material. Use once a story has a brief, one agent per section.
-tools: Read, Write, Edit, Glob, Grep, Bash, WebSearch, WebFetch
+description: Plans one section of a maths story in detail, its content, interactivity and challenge, from the story's brief, research digest and terms. Use once the brief has its Engine part, one agent per section.
+tools: Read, Write, Edit, Glob, Grep, Bash
 model: opus
 effort: high
 ---
@@ -18,16 +18,22 @@ Read these first:
 - `content/<story>/.plan/brief.md` in full: the story's strategy and every section's place, needs, teaches and
   hands on. Your section's lines are your limits. The plan of an earlier section, when the dispatch names one.
 - "The shape of a story", "Pages that connect an idea to the world" and "Challenges" in `specs/initial-release.md`.
-- How schools teach the concept: the curricula `specs/subject-candidates.md` names for it, which
-  `node scripts/fetch-curricula.mjs` downloads to `.cache/curricula/`, and teaching material you find for it.
-- The schema of the family the brief names, in `../hesap/src/families/<family>/index.mjs`: the scenes it draws and
-  the fields a page can set.
+- `content/<story>/.plan/research.md`, your section's part: how schools teach the concept, the examples, the
+  words and the errors. Each line names the file its quote was read in, under `content/<story>/.references/` or
+  `.cache/curricula/`. Open that file where you need more than the quote.
+- `content/<story>/.plan/terms.md`, your section's part and "Rules": the terms the section introduces and uses.
+- "Engine" in the brief: the scenes, fields and link ids designed for the story. The family's schema is in
+  `../hesap/src/families/<family>/index.mjs`.
+
+Where the digest lacks what a decision of yours needs, report what is missing in place of the plan. The
+researcher adds it, and you are resumed.
 
 ## Steps
 
 1. **Approach.** Decide how the section shows its concept: the situation it starts from, the examples and their
-   numbers, and what the reader changes on the figure. Take the approach that the teaching material agrees on for a
-   reader who meets the concept for the first time.
+   numbers, and what the reader changes on the figure. Take the approach that the digest's sources agree on for a
+   reader who meets the concept for the first time. A choice no source backs is the plan's own, and Sources says
+   so.
 2. **Pages.** One page holds one step and one figure. Write each page's action as what the reader does and what the
    figure does in reply, with the objects and the numbers left out, such as "tap an object, and it takes the next
    number". Two pages whose actions read the same become one page. Done when every page has an action of its own.
@@ -35,12 +41,13 @@ Read these first:
    the reader reaches it, which readouts it hides, and the idea it uses. It uses the controls the section's pages
    taught.
 4. **Contract.** For each page fix its id, its title, the `hesap` block of its `page.yaml`, and each id its text can
-   link with the value it starts at. Use the scenes and fields the family has. Where the section needs a scene or a
-   field the family lacks, name it, say what it draws and does, and mark it `new`.
+   link with the value it starts at. Use the scenes, fields and link ids of the brief's "Engine" part, under the
+   names it gives them. Where the section needs a field that part lacks, name it, say what it draws and does, and
+   mark it `new`.
 5. **Plan file.** Write `content/<story>/.plan/<number>-<section id>.md` with the number the brief gives the
    section, in the layout below.
-6. **Report.** The plan's Header, word for word, and each point where the brief's lines for your section did not
-   fit what the teaching material asks.
+6. **Report.** The plan's Header, word for word, each point where the brief's lines for your section did not fit
+   what the sources ask, and each field you marked `new`.
 
 ## The plan's layout
 
@@ -50,7 +57,7 @@ Read these first:
 ## Header
 - Assumes: what the reader knows as the section opens
 - Teaches: the concept, in one sentence
-- Introduces: each term and each control the section uses first
+- Introduces: each term the story's terms give the section, and each control the section uses first
 - Uses: each example and situation, with its numbers
 
 ## Content
@@ -68,7 +75,8 @@ Per page: id, title, the `hesap` block, the link ids with their starting values.
 `new`, with what it draws and does.
 
 ## Sources
-The curricula and the material the approach comes from.
+Each source the approach comes from, with its quote and the file it was read in. Each choice that is the plan's
+own.
 ```
 
 Write only your section's plan file.

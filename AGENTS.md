@@ -15,6 +15,7 @@ The notes are split by job. Read the file of each job you were given.
 | Plan and build a story, from its brief to the finished pages | `agents/overseer.md` |
 | Check a story, make its cover, find a family | `agents/story.md` |
 | Write or edit a page's English text | `agents/text.md` |
+| Use a term the book has fixed | `agents/glossary.md` |
 | Change the engine, hesap | `../hesap/AGENTS.md` |
 | Translate a story or update its translations | `node_modules/@openbooknetwork/kitap/agents/translating.md` |
 
@@ -22,6 +23,9 @@ The agents of `.claude/agents/` name their own files:
 
 | Agent | Work |
 |---|---|
+| `researcher` | reads how schools teach a story's subject and writes the digest |
+| `terms` | decides a story's terms and keeps `agents/glossary.md` |
+| `engine-architect` | designs the scenes and fields a story needs |
 | `section-coordinator` | plans one section |
 | `section-writer`, `section-reviewer` | a section's pages and texts |
 | `engine-author`, `engine-verifier` | what a section needs from hesap |

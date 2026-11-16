@@ -18,4 +18,9 @@ book adds these.
   starting value. Write "Now the scale shows [7](@right)" where "The right pan holds [7](@right), which is odd"
   would turn false.
 - A story shows where its idea is used in the world, and a later story in a `follows` chain uses new situations.
+- A term takes the form and the meaning `agents/glossary.md` gives it. A page that uses a word in a second sense
+  says what the word means there.
+- A text names a part of the figure by its place, its shape or the words written on it, such as "the top row", "the
+  left block" or "the first number". A reader may see two colours as one, so a colour is added to such a name and
+  does not stand in for it.
 - A level says what a story assumes the reader knows. The text speaks to any reader at that level, of any age.

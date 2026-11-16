@@ -6,3 +6,6 @@ dist/
 # Image originals live in the asset store, git holds each folder's yaml
 content/**/images/**/image.*
 !content/**/images/**/image.yaml
+
+# Reading a story is written from, fetched by kitap sources
+content/**/.references/
