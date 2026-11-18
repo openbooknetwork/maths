@@ -10,7 +10,7 @@
     "cover": "node scripts/cover.mjs"
   },
   "dependencies": {
-    "@openbooknetwork/hesap": "^0.3.1",
+    "@openbooknetwork/hesap": "^0.3.2",
     "@openbooknetwork/kitap": "^0.7.8"
   },
   "description": "Open Maths Book: mathematical ideas stepped through on the page, an educational project",
