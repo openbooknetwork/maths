@@ -1,0 +1,7 @@
+title: "What comes after adding and subtracting"
+hesap:
+  scene: counters/add
+  first: { stepper: [0, 10], start: 8 }
+  second: { stepper: [0, 10], start: 5 }
+  written: ten
+  readout: [reading]

@@ -1,7 +1,0 @@
-title: "The later number is greater"
-hesap:
-  scene: counters/order
-  show: count
-  top: { slider: [1, 100], start: 18 }
-  bottom: { slider: [1, 100], start: 25 }
-  reading: true

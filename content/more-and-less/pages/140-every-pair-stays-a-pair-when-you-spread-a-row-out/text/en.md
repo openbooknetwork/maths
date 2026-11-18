@@ -1,0 +1,5 @@
+The pairs decide whether two groups are the same, and the room a row takes up does not. When you spread a row out, its counters move apart, but you add none and take none away. Each counter keeps its partner, so every pair stays a pair. A longer row can look like a bigger group, and the pair lines show whether it really is one.
+
+Take two rows of 6 counters, with each top counter straight above its partner. Spread the top row out until it is twice as long as the bottom row. Now the top row looks as if it has more counters. But the same 6 pair lines still join the same 6 pairs, and no counter is left without a partner. So the rows are still the same. If you pushed the top row back together, every line would be upright again.
+
+The figure has these two rows, with the words "The same" between them. Move the Spacing slider to spread the top row out. Both rows start at the left, so the first line stays upright and the lines after it lean over. Each line stays on its two counters, and the "Without a partner" readout stays at [0](@unpaired).

@@ -1,7 +1,8 @@
-The top row is a group of counters as it is now. The bottom row is the same group as it was one step ago. A line pairs each counter with the one above or below it, and a ring marks the one counter without a partner.
+When you count a group, the last number you say tells you how many objects there are. Put one more object in, and your count goes one number further. So one more than a number is the next number in the count. Take one object away, and your count stops one number earlier, so one less is the number before.
 
-Before, the number of counters was [6](@bottom). Now it is [7](@top). The top row has one counter [more](@top-word), and the bottom row has one counter [fewer](@bottom-word).
+Say a group has 6 counters, and you put one more in. When you count the group, the 6 counters you had get the numbers 1 to 6, and the new one gets the next number, 7. If you pair the group now with the group as it was, you get 6 pairs, and the new counter is left over. So 7 is one more than 6, and 6 is one less than 7.
 
-Press + on the Top row stepper to add a counter, and read the two numbers again. A group that gains one counter has one counter more, and its number is one more, the next number of the count. Then press − to take a counter away. The counter left over is now in the bottom row. A group that loses one counter has one counter fewer, and its number is one less, the number before.
+The top row, labelled "now", shows the group as it is. The bottom row, labelled "before", shows the same group one step earlier. A ring marks the counter without a partner.
 
-Two sentences say the same thing about one pair of numbers. 7 is one more than 6, and 6 is one less than 7.
+- Tap + on the "Top row" stepper. The Now readout shows the number after the one on the Before readout.
+- Tap − to take a counter away. Now the counter without a partner is in the bottom row, because the group had one more counter before.

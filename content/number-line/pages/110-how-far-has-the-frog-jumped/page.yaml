@@ -1,0 +1,8 @@
+title: "How far has the frog jumped?"
+hesap:
+  scene: line
+  look: stones
+  to: 10
+  point: 0
+  jump: true
+  readout: [jumps]

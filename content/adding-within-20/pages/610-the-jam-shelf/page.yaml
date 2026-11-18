@@ -1,0 +1,8 @@
+title: "The jam shelf"
+hesap:
+  scene: counters/add
+  look: shelf
+  first: 3
+  second: 0
+  written: true
+  readout: [written, written-left]

@@ -1,0 +1,8 @@
+title: "Mark the middle first"
+hesap:
+  scene: line
+  from: 0
+  to: 100
+  marks: ends
+  middle: button
+  find: [60, 44, 78]

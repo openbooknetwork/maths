@@ -1,0 +1,8 @@
+title: "Join two groups and write it with +"
+hesap:
+  scene: counters/add
+  first: 5
+  second: 3
+  waiting: 2
+  written: true
+  readout: [reading]

@@ -1,0 +1,10 @@
+id: adding-within-20
+title: "Adding and subtracting within 20"
+cover_dark: adding-within-20-cover-dark-bb07bd
+cover: adding-within-20-cover-light-ae1fd3
+level: beginner
+summary: "Join two groups and write the sum with a + sign. Take counters away and write what is left with a − sign. Count on and back along a number line, write a difference as a subtraction, and add and subtract across ten by making ten."
+languages: [en]
+default_language: en
+hesap:
+  cover: { page: join-two-groups-and-write-it-with-plus, caption: "Five round counters and three square counters in a ten frame, with the number sentence 5 + 3 = 8 under it." }

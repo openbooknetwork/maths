@@ -1,0 +1,5 @@
+title: "A line joins two counters into a pair"
+hesap:
+  scene: counters/match
+  top: 7
+  bottom: 5

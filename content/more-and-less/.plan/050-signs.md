@@ -78,7 +78,7 @@ The reader finds out which row has more, sets the sign and presses Check. It rem
 stands wide and the other close, so the ends of the rows say nothing, and that pair lines show which row has
 counters without a partner.
 
-### 810 Where comparing leads
+### 810 What comes after comparing
 
 The end page of the story. It sums the story up in the order it was taught. Pairing shows whether two groups are
 the same. The counters without a partner say which group has more and how many more. Of two numbers, the one later
@@ -153,7 +153,7 @@ Example: 8 and 8, with the line 8 = 8.
 - Action in general words: compare two groups whose numbers are hidden, set the sign between them, and commit the
   answer.
 
-### 810 Where comparing leads
+### 810 What comes after comparing
 
 - Shows: two rows of 8, paired by the figure with no ring, and the line 8 = 8 under the rows. The steppers "Top
   row" and "Bottom row" stand in the panel under the figure, and the panel reads out "8 is equal to 8".
@@ -255,7 +255,7 @@ hesap:
 
 #### `520-a-line-with-a-sign-is-true-or-false`
 
-- Id: `a-line-with-a-sign-is-true-or-false`
+- Id: `a-number-sentence-is-true-or-false`
 - Title: "A line with a sign is true or false"
 - Links: `top` starts at 9 and `bottom` at 6, and both keep their value. `reading` starts at "9 is less than 6",
   `verdict` at "false".
@@ -273,7 +273,7 @@ hesap:
 
 #### `530-a-true-line-can-turn-false`
 
-- Id: `a-true-line-can-turn-false`
+- Id: `a-true-number-sentence-can-become-false`
 - Title: "A true line can turn false"
 - Links: `top` starts at 23, `bottom` at 31, `reading` at "23 is less than 31", `verdict` at "true".
 
@@ -321,12 +321,12 @@ hesap:
 
 #### `810-where-comparing-leads`
 
-- Id: `where-comparing-leads`
-- Title: "Where comparing leads"
+- Id: `what-comes-after-comparing`
+- Title: "What comes after comparing"
 - Links: `top` and `bottom` start at 8, `reading` at "8 is equal to 8".
 
 ```yaml
-title: "Where comparing leads"
+title: "What comes after comparing"
 hesap:
   scene: counters/match
   top: { stepper: [0, 10], start: 8 }

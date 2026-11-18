@@ -1,0 +1,10 @@
+title: "The ten before and the ten after"
+hesap:
+  scene: line
+  from: 30
+  to: 60
+  labels: 10
+  point: 46
+  jump: true
+  bracket: 10
+  readout: [point, ten-before, ten-after]

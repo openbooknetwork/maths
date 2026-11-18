@@ -1,0 +1,7 @@
+title: "A line can start past zero"
+hesap:
+  scene: line
+  to: 100
+  step: 10
+  open: true
+  point: false

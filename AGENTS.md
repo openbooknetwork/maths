@@ -17,7 +17,7 @@ The notes are split by job. Read the file of each job you were given.
 | Write or edit a page's English text | `agents/text.md` |
 | Use a term the book has fixed | `agents/glossary.md` |
 | Change the engine, hesap | `../hesap/AGENTS.md` |
-| Translate a story or update its translations | `node_modules/@openbooknetwork/kitap/agents/translating.md` |
+| Translate a story or update its translations | `agents/translating.md`, then `node_modules/@openbooknetwork/kitap/agents/translating.md` |
 
 The agents of `.claude/agents/` name their own files:
 
@@ -29,4 +29,6 @@ The agents of `.claude/agents/` name their own files:
 | `section-coordinator` | plans one section |
 | `section-writer`, `section-reviewer` | a section's pages and texts |
 | `engine-author`, `engine-verifier` | what a section needs from hesap |
+| `term-finder` | looks up each glossary term in sources of one language and keeps `i18n/terms/<lang>.yaml` |
+| `story-auditor` | audits a finished story against its research and the maths |
 | `translator`, `translation-reviewer` | a story's translations |

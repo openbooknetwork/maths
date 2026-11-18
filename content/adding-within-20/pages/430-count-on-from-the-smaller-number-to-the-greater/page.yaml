@@ -1,0 +1,11 @@
+title: "Count on from the smaller number to the greater"
+hesap:
+  scene: line/line
+  from: 0
+  to: 20
+  jump: true
+  start: 8
+  second: 13
+  flag: true
+  written: difference
+  readout: [jumps]

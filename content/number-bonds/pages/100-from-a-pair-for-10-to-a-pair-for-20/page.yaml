@@ -1,8 +1,0 @@
-title: "From a pair for 10 to a pair for 20"
-hesap:
-  scene: counters/bonds
-  frames: 2
-  first: 3
-  second: 7
-  fill: true
-  readout: [first, second, whole]

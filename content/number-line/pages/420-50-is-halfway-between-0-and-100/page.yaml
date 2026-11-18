@@ -1,0 +1,10 @@
+title: "50 is halfway between 0 and 100"
+hesap:
+  scene: line
+  from: 0
+  to: 100
+  labels: ends
+  middle: button
+  jump: true
+  find: [48, 53, 96]
+  readout: [jumps]

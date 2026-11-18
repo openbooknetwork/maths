@@ -1,0 +1,8 @@
+title: "Go down to ten first"
+hesap:
+  scene: counters/add
+  take: true
+  first: { stepper: [11, 19], start: 13 }
+  second: 0
+  written: ten
+  readout: [second, left, to-ten, rest]

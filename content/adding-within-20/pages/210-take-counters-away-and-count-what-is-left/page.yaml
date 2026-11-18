@@ -1,0 +1,7 @@
+title: "Take counters away and count what is left"
+hesap:
+  scene: counters/add
+  first: 9
+  second: 0
+  take: true
+  readout: [second, left]

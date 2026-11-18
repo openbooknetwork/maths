@@ -1,0 +1,9 @@
+title: "From a point to its number"
+hesap:
+  scene: line
+  from: 10
+  to: 20
+  marks: ends
+  point: 16
+  middle: button
+  estimate: { stepper: [10, 20], start: 15 }

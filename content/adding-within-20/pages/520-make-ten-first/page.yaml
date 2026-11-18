@@ -1,0 +1,9 @@
+title: "Make ten first"
+hesap:
+  scene: counters/add
+  first: 8
+  second: 0
+  waiting: 5
+  split: true
+  written: ten
+  readout: [second, to-ten, rest]

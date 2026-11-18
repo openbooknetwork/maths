@@ -24,8 +24,16 @@ Read these in full first:
 - **Rules.** The code follows `../hesap/AGENTS.md`: YAML declares and JS computes, every class carries the family's
   prefix, a need two families share sits in the kit, colours are the theme's tokens, and each trap it lists is
   handled where the change meets it.
-- **Tests.** Each new scene and goal has a test that would fail without it.
+- **Tests.** Each new scene and goal has a test that would fail without it. The tests cover each control at its
+  lowest and highest value, each value a text can link at every step of its control's range, and each goal over
+  many draws.
+- **Words.** Each string the change adds follows "The words on a figure" in `../hesap/AGENTS.md`. Read each one
+  aloud with real numbers in its gaps: a hint says what to do next, a note says what is off and which way to go,
+  and no string explains the name of a control.
 - **Soundness.** No dead code, no leftover debugging, no error swallowed, no state kept between pages.
+- **Doable.** A goal that asks for a place or a size by eye is reached by a reader's own judgement: try several
+  draws with a real drag and no computed position, and report how many Checks each took and how wide the target
+  is in pixels at 390px.
 
 ## Steps
 

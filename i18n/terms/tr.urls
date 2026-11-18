@@ -1,0 +1,4 @@
+meb-ortaokul-5-8  https://mufredat.meb.gov.tr/Dosyalar/202681491243620-Matematik%20(5-8)%20D%C3%96P.pdf  # MEB, Ortaokul Matematik Dersi Öğretim Programı, grades 5 to 8, 2026. Its text was made from .cache/curricula/turkey-5-8.pdf
+# The primary programme below teaches the glossary's terms. The session's domain allow-list blocks meb.gov.tr, so the user runs the fetch.
+meb-ilkokul-1-4  https://mufredat.meb.gov.tr/Dosyalar/20268149102521-Matematik%20(1-4)%20D%C3%96P.pdf  # MEB, İlkokul Matematik Dersi Öğretim Programı, grades 1 to 4, 2026
+# The grade 1 schoolbook has two volumes. Their pages are https://tymm.meb.gov.tr/kitap/23/matematik-1sinif-ders-kitabi-1kitap and https://tymm.meb.gov.tr/kitap/24/matematik-1sinif-ders-kitabi-2kitap, and the address of each PDF is still to be read from those pages. No page of a grade 2 schoolbook is found yet.

@@ -1,0 +1,7 @@
+title: "The sum tells you how many altogether"
+hesap:
+  scene: counters/add
+  first: { stepper: [0, 10], start: 4 }
+  second: { stepper: [0, 10], start: 3 }
+  written: true
+  readout: [first, second, sum]

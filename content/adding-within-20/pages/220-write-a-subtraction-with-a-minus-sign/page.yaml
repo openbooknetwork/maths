@@ -1,0 +1,8 @@
+title: "Write a subtraction with a minus sign"
+hesap:
+  scene: counters/add
+  first: 9
+  second: { stepper: [1, 8], start: 4 }
+  take: true
+  written: true
+  readout: [written, reading]

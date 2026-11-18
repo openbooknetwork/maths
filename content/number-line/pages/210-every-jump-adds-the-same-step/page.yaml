@@ -1,0 +1,7 @@
+title: "Every jump adds the same step"
+hesap:
+  scene: line
+  to: 100
+  step: { segment: [1, 2, 5, 10], start: 10 }
+  jump: true
+  readout: [jumps, point]

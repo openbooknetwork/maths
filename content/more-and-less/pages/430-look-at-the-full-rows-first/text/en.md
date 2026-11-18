@@ -1,5 +1,9 @@
-The two numbers are [48](@top) and [51](@bottom), and a cover hides the rows of each. Say which number is greater, then press Show the rows. The covers lift, and the frame and the line of words give the answer. A move of either slider closes the covers again.
+You can compare two numbers without drawing their counters, because a number tells you its full rows. 10 ends the first row, 20 ends the second, and so on. So a number between 40 and 50 has 4 full rows, and its last row has the counters after 40. Look at the full rows first, and look at the last rows only when the full rows are the same.
 
-The page opens on 48 and 51. 48 has the longer last row, 8 counters against 1. 51 has more full rows, 5 against 4, so 51 is greater. A number tells its full rows before they are drawn. 48 ends 8 past the fourth full row, and 51 ends 1 past the fifth.
+Take 48 and 51. 48 comes 8 after 40, so it has 4 full rows and 8 in its last row. 51 comes 1 after 50, so it has 5 full rows and 1 in its last row. The longer last row of 48 can trick you. 51 has one more full row, which is ten counters, and the last row of 48 has only 8. So 51 is greater.
 
-Try other pairs that are close, such as 59 and 61, and 70 and 69. Each time, look at the full rows first.
+A cover hides the rows of each number.
+
+- Press "Show the rows" for 48 and 51. The frame goes round the full rows of both blocks.
+- Set another close pair, such as 59 and 61, or 70 and 69. Moving a slider closes the covers again.
+- Decide which number is greater before you press "Show the rows". The words under the blocks then tell you whether you were right.

@@ -1,0 +1,9 @@
+title: "What comes after the number line"
+hesap:
+  scene: line
+  from: 0
+  to: 100
+  labels: 10
+  point: 64
+  bracket: 10
+  readout: [point, ten-before, ten-after]

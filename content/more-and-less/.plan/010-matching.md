@@ -29,7 +29,7 @@ and 6 saucers every cup finds a saucer and one saucer stays empty, so the answer
 reader found this out with no counting. Its last paragraph says what the story does: it compares two groups, then
 two numbers, and ends on the signs <, > and =.
 
-### 120 A line pairs two counters
+### 120 A line joins two counters into a pair
 
 The cups become counters that stay in their rows, and a line does the work of putting one on the other. The page
 names the pair, the partner and the pair line. A counter takes one line, so each counter has one partner at most.
@@ -45,7 +45,7 @@ and names the result. When every counter of both rows has a partner, the two gro
 reader to add one counter to each row and see that the groups are still the same, and to take one away from one
 row and see a counter lose its partner.
 
-### 140 A row spread out is still the same
+### 140 Spreading a row out does not change it
 
 Two rows of 6 open paired, one straight above the other. The reader spreads the top row out until it is twice as
 long as the bottom row. The rows line up at the left, so the first line stays upright, the lines after it slant,
@@ -200,12 +200,12 @@ hesap:
 
 #### `120-a-line-pairs-two-counters`
 
-- Id: `a-line-pairs-two-counters`
-- Title: "A line pairs two counters"
+- Id: `a-line-joins-two-counters-into-a-pair`
+- Title: "A line joins two counters into a pair"
 - Links: none.
 
 ```yaml
-title: "A line pairs two counters"
+title: "A line joins two counters into a pair"
 hesap:
   scene: counters/match
   top: 7
@@ -231,12 +231,12 @@ hesap:
 
 #### `140-a-row-spread-out-is-still-the-same`
 
-- Id: `a-row-spread-out-is-still-the-same`
-- Title: "A row spread out is still the same"
+- Id: `every-pair-stays-a-pair-when-you-spread-a-row-out`
+- Title: "Spreading a row out does not change it"
 - Links: `unpaired` starts at 0 and stays 0 for every position of the slider. `pairs` starts at 6 and stays 6.
 
 ```yaml
-title: "A row spread out is still the same"
+title: "Spreading a row out does not change it"
 hesap:
   scene: counters/match
   top: 6

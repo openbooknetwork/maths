@@ -1,0 +1,8 @@
+title: "From pairs that make 10 to pairs that make 20"
+hesap:
+  scene: counters/bonds
+  frames: 2
+  first: 3
+  second: 7
+  fill: true
+  readout: [first, second, whole]

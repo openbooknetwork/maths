@@ -72,9 +72,12 @@ each term, and one name for each part of the figure.
     a reviewer builds the whole story for its captures. A point where a plan should change goes back to step 7.
 11. **Challenges.** A section's challenge page is written and reviewed with its section. Its goal is built by the
     `engine-author` dispatched with the word `challenge`, after the section's scenes pass.
-12. **Whole story.** Check the story as "Checking a story" in `agents/story.md` says. Look over what the story added
-    to the engine for parts that belong in hesap's kit or in kitap: a part moves there when a second family or a
-    second engine would use it. Release hesap, put the released version back in the book and check the story again.
+12. **Whole story.** Check the story as "Checking a story" in `agents/story.md` says. Dispatch the `story-auditor`
+    with the story id. For each fault it reports, decide the file that changes, a plan, a page or the engine, and
+    send it back to the step that owns the file. The auditor runs again until it reports `pass`. Look over what
+    the story added to the engine for parts that belong in hesap's kit or in kitap: a part moves there when a
+    second family or a second engine would use it. Release hesap, put the released version back in the book and
+    check the story again.
 13. **The user reads the story on a phone.**
 
 Stories are built a family at a time. The story that asks the most of a family comes first, and the family's other

@@ -1,0 +1,8 @@
+title: "What comes after counting"
+hesap:
+  scene: counters/count
+  look: stall
+  n: 8
+  tap: tag
+  counted: true
+  readout: [count, total]

@@ -1,0 +1,8 @@
+title: "Count on to add, count back to subtract"
+hesap:
+  scene: line
+  to: 20
+  start: 9
+  jump: true
+  written: true
+  readout: [jumps]

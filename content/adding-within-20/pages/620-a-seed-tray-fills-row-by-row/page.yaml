@@ -1,0 +1,10 @@
+title: "A seed tray fills row by row"
+hesap:
+  scene: counters/add
+  look: tray
+  first: 7
+  second: 0
+  waiting: 5
+  split: true
+  written: ten
+  readout: [to-ten, rest]

@@ -1,0 +1,8 @@
+title: "A number line needs equal gaps"
+hesap:
+  scene: line
+  to: 10
+  point: 0
+  jump: true
+  moved: [{ mark: 4, by: 0.4 }, { mark: 7, by: -0.4 }]
+  readout: [point, jumps]

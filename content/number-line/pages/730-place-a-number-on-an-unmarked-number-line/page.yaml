@@ -1,0 +1,5 @@
+title: "Place a number on an unmarked number line"
+hesap:
+  scene: line
+  middle: button
+  challenge: { goal: place-unmarked, from: [0, 30], to: [40, 100] }

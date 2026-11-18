@@ -1,0 +1,7 @@
+title: "Each number has its own mark"
+hesap:
+  scene: line
+  look: stones-on-line
+  to: 10
+  point: 0
+  readout: [point]

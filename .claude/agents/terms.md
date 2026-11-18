@@ -27,8 +27,13 @@ Read these in full first:
    - Where a sense of the glossary fits, the story uses that sense as it is written.
    - Where the word is in the glossary with another meaning, the story needs a new sense. Give it a scope, the
      kind of thing it is said of, as in "greater (numbers)" beside "greater (vectors)".
-   - A new term takes the form the sources give a reader of this level. Where the sources differ, choose one form
-     and give the reason in one clause.
+   - A new term takes the form the sources give a reader of this level, and its entry quotes the source with the
+     file the quote was read in. Where the sources differ, choose one form and give the reason in one clause.
+   - A term no source has is a coined term. Coin one only for a part of the figure that schools have no word for,
+     such as a control, mark it `coined` in its entry, and list it in your report for the user to decide. A thing
+     schools name keeps the schools' name, even where a later story teaches more about it: a written calculation
+     is a "number sentence" or an "equation" in the sources, and a phrase such as "written line" is a coined label
+     that no reader has met.
    - A word that this subject must define before it can use it gets its definition in the entry. "Greater" needs
      one for things that have no order: the entry says what is compared, such as the length.
    - Two words that a reader could mix up get the rule that tells them apart, as in "fewer for objects, less for
@@ -36,7 +41,7 @@ Read these in full first:
 3. **Story file.** Write `content/<story>/.plan/terms.md` in the layout below.
 4. **Glossary.** Add each new term and each new sense to `agents/glossary.md`, in its layout. An existing sense
    stays as it is written: where the story needs it changed, report that.
-5. **Report.** The new terms, each word that gained a sense, each existing sense the story wants changed, and each
+5. **Report.** The new terms, each coined term with the reason no source's word fits, each word that gained a sense, each existing sense the story wants changed, and each
    place where your choice differs from the brief's wording.
 
 ## The story file's layout

@@ -1,0 +1,8 @@
+title: "The delivery van"
+hesap:
+  scene: line
+  look: street
+  from: 1
+  to: 60
+  labels: [1, 20, 50, 60]
+  find: [46, 22, 57]

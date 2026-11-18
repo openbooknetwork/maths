@@ -1,5 +1,9 @@
-Three number cards lie in a tray, with new numbers each time the page opens. Each card shows its number and a small drawing of it in rows of ten. Drag each card to one of the three places under the tray. The left place is labelled "least" and the right place is labelled "greatest". A card dropped on a taken place swaps with the card there.
+Three numbers are in order when each one is less than the number after it. The first is then the least, and the last is the greatest. You only need to compare two numbers at a time. Find the least number and put it first. Then compare the two that are left, and the smaller one goes in the middle.
 
-Once two neighbouring places both hold a card, the words "is less than" or "is greater than" appear between them. Three numbers stand in order when each is less than the one after it. Then both pairs read "is less than", and the places take a frame and a tick.
+Take 63, 36 and 39. 63 has 6 full rows, and 36 and 39 have only 3 each, so the least is 36 or 39. Their full rows are the same, and their last rows hold 6 and 9, so 36 is the least. Of the two left, 39 has 3 full rows and 63 has 6, so 39 is less than 63. The order is 36, 39, 63.
 
-Comparing two numbers at a time is enough. Find the least, then compare the two that are left. Take 63, 36 and 39. 63 has 6 full rows, and 36 and 39 have 3 each, so the least is 36 or 39. Their last rows hold 6 and 9, so 36 is the least. Of the two that are left, 39 has fewer full rows than 63, so 39 is less than 63. The order is 36, 39, 63. Put the cards in the tray in order the same way, then press New numbers for three other cards.
+Three number cards are in a tray. Under the tray are three places, "least" on the left and "greatest" on the right.
+
+- Drag each card to a place. A tap also moves a card to the first empty place, or back to the tray.
+- Once two places next to each other hold cards, the words between them say how the two numbers compare.
+- When both gaps read "is less than", the cards are in order and a tick appears.

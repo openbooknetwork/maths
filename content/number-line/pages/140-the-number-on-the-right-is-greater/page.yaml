@@ -1,0 +1,8 @@
+title: "The number on the right is greater"
+hesap:
+  scene: line
+  to: 20
+  point: 13
+  second: 3
+  flag: true
+  reading: true

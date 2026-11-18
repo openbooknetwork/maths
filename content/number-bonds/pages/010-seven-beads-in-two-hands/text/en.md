@@ -1,5 +1,5 @@
-Seven beads sit in two hands. Drag a bead from one hand to the other, or tap a bead to send it across.
+Hold seven beads, some in your left hand and the rest in your right. When you pass a bead from one hand to the other, one hand has one more and the other has one fewer. No bead is lost and none is added, so you still have seven beads. The number in each hand changes, and the two numbers together still make 7.
 
-The left hand holds [3](@first) of them, and the right hand holds [4](@second). The beads move, but none of them is lost. The two hands hold [7](@whole) beads in all.
+Say your left hand holds 3 beads and your right hand holds 4. Pass one bead from the right hand to the left. The left hand now has 4 and the right hand has 3, because the bead that left one hand went into the other. 4 and 3 make 7, just as 3 and 4 did. Pass one more and you have 5 and 2, which make 7 as well.
 
-Seven beads can sit in two hands in many ways and still be seven. This story counts those ways and finds what they share.
+The two hands on the figure start the same way. Drag a bead from one hand to the other, or tap it to send it across. The "Left hand" readout shows [3](@first) and the "Right hand" readout shows [4](@second). After each move, count the beads in both hands, and you get 7 every time. Try putting all the beads in one hand too. Then the other hand holds none, and there are still 7.

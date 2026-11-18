@@ -61,7 +61,10 @@ researcher adds it, and you are resumed.
 - Uses: each example and situation, with its numbers
 
 ## Content
-Per page: what the page says, and the example it says it with.
+Per page, in the order its text takes: the idea the page teaches, as a schoolbook would say it, then the example
+it studies, worked in numbers. A page has one example, and its text has 210 words at most, so a page that needs two
+ideas or two examples is two pages. Where the example has other objects than the figure draws, say what each thing
+on the figure stands for.
 
 ## Interactivity
 Per page: what the figure shows, what the reader does, what the figure does in reply, and the action in general

@@ -1,5 +1,0 @@
-Two blocks lay two numbers out in rows of ten. The left block is the first number, [34](@top), and the right block is the second number, [52](@bottom). A full row of ten is drawn solid, and the last row is lighter. Drag either slider to fill or empty a block.
-
-The number of full rows in the left block is [3](@top-rows), and its last row holds [4](@top-last). The number of full rows in the right block is [5](@bottom-rows), and its last row holds [2](@bottom-last). The number with more full rows is the greater, however long the last rows are, and a frame surrounds the rows that decide. The page opens on 34 and 52. 52 has 5 full rows and 34 has 3, so 52 is greater. The line under the blocks reads [34 is less than 52](@reading).
-
-Now set the first number to 47 and the second number to 43. Both have 4 full rows, so the frame moves from the full rows to the two last rows. The last rows hold 7 and 3, so 47 is greater. Look at the full rows first, and look at the last row only when the full rows are the same.

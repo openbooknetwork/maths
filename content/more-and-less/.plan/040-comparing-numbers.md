@@ -18,7 +18,7 @@
 
 The section has four pages and no world page or challenge.
 
-### 410 The later number is greater
+### 410 The number that comes later is greater
 
 The page says that counting from 1 reaches one of two numbers first and goes on to the other. The number reached
 later is the greater, and the other is the less. The greater number holds every counter of the less and some more,
@@ -28,7 +28,7 @@ numbers, as more and fewer are the words for objects. Two numbers that stand on 
 Example: 18 and 25. The count passes 18 and goes on 7 counters to 25, so 25 is greater than 18 and 18 is less
 than 25.
 
-### 420 More full rows make the greater number
+### 420 The number with more full rows is greater
 
 The page says that a number laid out in rows of ten has full rows and a last row. The number with more full rows
 is the greater, however long the last rows are. When both numbers have the same full rows, the number with more
@@ -60,7 +60,7 @@ so 39 is less than 63. The order is 36, 39, 63.
 
 ## Interactivity
 
-### 410 The later number is greater
+### 410 The number that comes later is greater
 
 - Shows: a hundred pale counters in rows of ten, as on the page "A hundred counters in rows of ten" of `counting`.
   The first number's marker stands on counter 18 and the second number's marker on counter 25, each with its
@@ -74,7 +74,7 @@ so 39 is less than 63. The order is 36, 39, 63.
 - Action in general words: drag a slider, and a marker moves along one count while the line of words between the
   two numbers follows the marker that stands later.
 
-### 420 More full rows make the greater number
+### 420 The number with more full rows is greater
 
 - Shows: two blocks of counters side by side, the first number as the left block and the second number as the
   right block. Each block lays its number out in rows of ten with the number above it. Full rows are drawn solid
@@ -192,11 +192,11 @@ presses the button. A page with `cards` has no link ids.
 
 ### 410 `410-the-later-number-is-greater`
 
-- Id: `the-later-number-is-greater`
-- Title: "The later number is greater"
+- Id: `the-number-that-comes-later-is-greater`
+- Title: "The number that comes later is greater"
 
 ```yaml
-title: "The later number is greater"
+title: "The number that comes later is greater"
 hesap:
   scene: counters/order
   show: count
@@ -209,11 +209,11 @@ hesap:
 
 ### 420 `420-more-full-rows-make-the-greater-number`
 
-- Id: `more-full-rows-make-the-greater-number`
-- Title: "More full rows make the greater number"
+- Id: `the-number-with-more-full-rows-is-greater`
+- Title: "The number with more full rows is greater"
 
 ```yaml
-title: "More full rows make the greater number"
+title: "The number with more full rows is greater"
 hesap:
   scene: counters/order
   show: blocks

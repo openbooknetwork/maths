@@ -1,5 +1,11 @@
-The top row opens with 4 counters and the bottom row with 9, so the bottom row has more. Tap the counters left over, one by one, in any order. Each tap puts the next number on a counter. The paired counters stay uncounted.
+The counters left over also tell you how many more one row has. The pairs use up as many counters from one row as from the other, so the counters left over are the only extra ones. You count just those, and the last number you say is how many more their row has. It is also how many fewer the other row has, so one count answers both questions.
 
-The last number said is [0](@counted). When every counter left over has its number, the last number says how many more their row has, and both tags show that number.
+Suppose the bottom row has 9 counters and the top row has 4. Every top counter has a partner, so there are 4 pairs, and the rest of the bottom row is left over. You skip the pairs and count only the counters left over: 1, 2, 3, 4, 5. So the bottom row has 5 more than the top row, and the top row has 5 fewer.
 
-With 4 counters above and 9 below, the count ends at 5. The bottom row has 5 more than the top row, and the top row has 5 fewer than the bottom row. One count gives both answers. Step a row to clear the numbers and count again.
+The figure starts with these rows, already paired.
+
+- Tap the ringed counters one at a time, in any order. Each tap puts the next number on a counter.
+- When every ringed counter has a number, the tags at the ends of the rows show the count, such as "5 more".
+- Change a row with its stepper to clear the numbers and count again.
+
+The "Last number said" readout now shows [0](@counted).

@@ -1,0 +1,704 @@
+# The Turkish word for each term of agents/glossary.md, with the sentence it was read in.
+# Two documents are read: MEB's programme for grades 1 to 4 (meb-ilkokul-1-4), which teaches these terms, and MEB's
+# programme for grades 5 to 8 (meb-ortaokul-5-8). An entry is `sourced` where both have the word, and `single` where
+# one has it. No schoolbook is read yet.
+
+"pair (objects)":
+  word: bire bir eşleme
+  forms: [bire bir eşlemeye]
+  status: single
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "Yapılan etkinliklerden sonra bire bir eşlemeye dayalı karşılaştırma yapmaları" }
+  note: >-
+    The programme names the act of pairing two groups, "bire bir eşleme", and has no noun for one pair of objects.
+    "Çift" stands in the programme for an even number ("Sayıları tek-çift olarak sınıflandırabilme"), and a person
+    should decide whether "çift" can name a pair of objects beside it. The engine has "Çiftler".
+
+"partner (objects)":
+  status: unsourced
+  note: >-
+    Searched "eş", "eşi", "eşleş". The grades 1 to 4 programme has "eş" for two objects that look the same, "Eş
+    nesneler birbiri ile aynıdır.", and "eşini bulma" for finding that twin. No sentence says it of the object another
+    object is paired with. The engine has "Eşi olmayan" and "eşi yok".
+
+"pair line (figure)":
+  status: unsourced
+  note: >-
+    A part of this book's figures. Neither programme joins two objects with a line. The plain words nearby are
+    "bire bir eşleme" for the pairing, see "pair (objects)".
+
+"the same (groups)":
+  status: sourced
+  cases:
+    - for: two groups compared, the term grade 1 teaches
+      word: eşit
+      status: single
+      sources:
+        - { file: meb-ilkokul-1-4, quote: "İki niceliğin büyüklüğünü “çok”, “daha çok”, “az”, “daha az” veya “eşit”" }
+        - { file: meb-ilkokul-1-4, quote: "Eşit öğrenci sayısına sahip iki grup öğrenciden gruptaki öğrenci sayısını belirlemeleri" }
+    - for: groups with as many objects each, the plain phrase
+      word: aynı sayıda
+      status: sourced
+      sources:
+        - { file: meb-ilkokul-1-4, quote: "Farklı sayıdaki iki çokluk her grupta aynı sayıda olacak şekilde" }
+        - { file: meb-ortaokul-5-8, quote: "Öğrencilerin somut materyallerden yapılmış aynı sayıda birim kareler kullanarak" }
+  note: >-
+    MEB's term for two groups of as many objects is "eşit", the word it also uses for numbers, and the programme
+    defines it so: "sayıların miktar olarak aynı olması durumuna eşitlik denildiği". The glossary's split between "the
+    same" for groups and "equal" for numbers has no MEB term behind it, and "aynı sayıda" is the plain phrase for the
+    groups. A person should decide.
+
+"more (groups)":
+  word: daha çok
+  status: single
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "İki niceliğin büyüklüğünü “çok”, “daha çok”, “az”, “daha az” veya “eşit”" }
+    - { file: meb-ilkokul-1-4, quote: "Karşılaştırma etkinliklerinde “çok”, “daha çok”, “az”, “daha az” veya “eşit” kavramlarını" }
+  note: >-
+    Grade 1 teaches "daha çok" as a term of comparing two groups (MAT.1.1.4), with baskets of 6 and 10 apples. The
+    grades 1 to 4 programme also has "daha fazla" for data, "Hangisi daha fazladır/daha azdır?", and the grades 5 to 8
+    programme has it in a pupil's words, "kırmızı top daha fazla”.
+
+"fewer (groups)":
+  word: daha az
+  status: sourced
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "İki niceliğin büyüklüğünü “çok”, “daha çok”, “az”, “daha az” veya “eşit”" }
+    - { file: meb-ortaokul-5-8, quote: "Olasılık deneylerinde daha az sayıda tekrar yapılabilir." }
+
+"difference (groups)":
+  word: fark
+  forms: [sayı farkının, sayı farkına]
+  status: single
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "öğrenciden oluştuğu ve iki grup arasındaki sayı farkının kaç olduğu değerlendirilebilir." }
+    - { file: meb-ilkokul-1-4, quote: "Bulunan sayı farkına göre öğrenci veya nesnelere ekleme yapılarak" }
+  note: The programme says "sayı farkı" of two groups, and "fark" of two numbers, see "difference (numbers)".
+
+"one more (numbers)":
+  word: 1 fazlası
+  status: single
+  sources:
+    - { file: meb-ortaokul-5-8, quote: "Adım sayısının 3 katının 1 fazlası o adıma karşılık gelen terimi verir." }
+  note: >-
+    Said of a number in a pattern rule. The grades 1 to 4 programme has no "fazlası" for a number. It names the next
+    number of the count "sonraki sayı", see "the number before, the number after (numbers)", and adds one to objects
+    in "kopardıkları parçaları bir arttırıp bir azaltma şeklinde etkinlikler yapmaları istenebilir". The engine has
+    "bir fazla".
+
+"one less (numbers)":
+  status: unsourced
+  note: >-
+    Searched "eksiği", "bir eksik", "1 eksi", "bir azal" in both programmes. Neither has a phrase for the number one
+    less than another. The grades 1 to 4 programme names the number before "önceki sayı", see "the number before,
+    the number after (numbers)". The engine has "bir eksik".
+
+"one fewer (groups)":
+  word: bir azaltma
+  status: single
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "kopardıkları parçaları bir arttırıp bir azaltma şeklinde etkinlikler yapmaları istenebilir" }
+  note: The sentence names the act of taking one object away from pieces of play dough, and no noun for the group that results.
+
+"the number before, the number after (numbers)":
+  word: önceki sayı, sonraki sayı
+  forms: [önceki ve sonraki sayıyı]
+  status: single
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "Bir sayıdan önceki ve sonraki sayıyı söyleyip söyleyemediklerini kontrol etmek için etkinlikler yapılabilir." }
+  note: >-
+    The programme names the relation "öncelik, sonralık ve arasında olma" ("sayıların öncelik/sonralık ve arasında
+    olma durumları"). The grades 5 to 8 programme has "önceki" only for the term before in a pattern.
+
+"greater (numbers)":
+  word: büyük
+  status: sourced
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "az, çok, eşit, büyük, küçük gibi ifadelerden uygun olanı seçerek ifade etmeleri" }
+    - { file: meb-ortaokul-5-8, quote: "Öğrencilerden sayı doğrusunda 1’den küçük ve 1’den büyük kesirlerin (ondalık gösterimleri" }
+
+"less (numbers)":
+  word: küçük
+  status: sourced
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "Bu süreçte 20’den küçük ve toplamları 20’ye kadar (20 dâhil) olan sayılarla eldesiz alt alta" }
+    - { file: meb-ortaokul-5-8, quote: "Öğrencilerden sayı doğrusunda 1’den küçük ve 1’den büyük kesirlerin (ondalık gösterimleri" }
+
+"least, greatest (numbers)":
+  word: en küçük, en büyük
+  forms: [en küçük ve en büyük, en büyük]
+  status: sourced
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "Değerine göre en büyük paramız nedir?" }
+    - { file: meb-ortaokul-5-8, quote: "okulun bahçesini çevreleyen duvarın uzunluğunun en küçük ve en büyük değeri gibi" }
+  note: The grades 1 to 4 programme has "en büyük" once, of banknotes, and no "en küçük".
+
+"full row, last row (counters)":
+  status: unsourced
+  note: >-
+    A part of this book's figures. Neither programme lays a number out in rows of ten counters. The grades 1 to 4
+    programme names a group of ten objects "onluk" and the objects outside it "birlik": "araya gelerek bir onluk
+    oluşturduğu, onluk gruba dâhil olmayan nesnelerin ise birlikleri". The engine has "tam sıralar" and "son sıra".
+
+"in order (numbers)":
+  word: küçükten büyüğe
+  forms: [küçükten büyüğe ya da büyükten küçüğe]
+  status: single
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "bu paraları değerlerine göre küçükten büyüğe ya da büyükten küçüğe" }
+  note: Said of banknotes ordered by value. The programme names the act "sıralama" and the relation "öncelik/sonralık".
+
+"sign (comparison)":
+  status: sourced
+  cases:
+    - for: "< and >"
+      word: sembol
+      forms: [sembollerini, sembollerle]
+      status: sourced
+      sources:
+        - { file: meb-ilkokul-1-4, quote: "Ardından birim kesirleri matematik temsillerine uygun büyüktür ve küçüktür sembollerini" }
+        - { file: meb-ortaokul-5-8, quote: "kesirlerin farklı gösterimlerini “<”, “>” şeklinde sembollerle ifade etmeleri sağlanır." }
+    - for: "="
+      word: eşit işareti
+      forms: [Eşit işaretinin]
+      status: sourced
+      sources:
+        - { file: meb-ilkokul-1-4, quote: "Eşit işaretinin anlamını toplama ve çıkarma işlemi bağlamında" }
+        - { file: meb-ortaokul-5-8, quote: "Eşit işaretinin anlamına" }
+  note: >-
+    MEB says "sembol" of < and >, and "işaret" of =, + and −. The grade 3 programme lists < and > under "Sembol ve
+    Gösterimler" and asks pupils to use "büyüktür ve küçüktür sembollerini" when ordering. One label for all three
+    signs takes one of the two words, and a person should decide. The engine has "İşaret".
+
+"is less than, is greater than, is equal to (signs)":
+  status: sourced
+  cases:
+    - for: "<"
+      word: küçüktür
+      status: single
+      sources:
+        - { file: meb-ilkokul-1-4, quote: "Ardından birim kesirleri matematik temsillerine uygun büyüktür ve küçüktür sembollerini" }
+    - for: ">"
+      word: büyüktür
+      status: sourced
+      sources:
+        - { file: meb-ilkokul-1-4, quote: "Ardından birim kesirleri matematik temsillerine uygun büyüktür ve küçüktür sembollerini" }
+        - { file: meb-ortaokul-5-8, quote: "“Paydaları eşit iki kesirden payı büyük olan daha büyüktür.” gibi önermelerde bulunarak" }
+    - for: "="
+      word: eşittir
+      status: sourced
+      sources:
+        - { file: meb-ilkokul-1-4, quote: "fark, azalma, eksilme, eksi, eşittir" }
+        - { file: meb-ortaokul-5-8, quote: "Dikdörtgenler prizmasının yüzey alanı, yüzlerinin alanları toplamına eşittir." }
+  note: >-
+    The grades 1 to 4 programme names < and > "büyüktür ve küçüktür sembolleri" and lists "eşittir" as a key concept
+    of grade 1 with the symbol =. Neither programme writes out how 3 < 5 is read aloud, so the word order of a reading
+    such as "3, 5 sayısından küçüktür" is the translator's.
+
+"equal (numbers)":
+  word: eşit
+  status: sourced
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "sayının sıfır ile toplandığında sonucun sayının kendisine eşit olduğu belirtilerek" }
+    - { file: meb-ortaokul-5-8, quote: "eşit olduğunu fark etmeye yönelik uygulama) yapılabilir." }
+  note: The grades 1 to 4 programme defines "eşitlik" as two numbers being the same amount, "sayıların miktar olarak aynı olması durumuna eşitlik".
+
+"true, false (number sentences)":
+  word: doğru, yanlış
+  forms: [doğru veya yanlış, doğruluğunu, doğru yapan]
+  status: sourced
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "Bu eşitliklerin oluşturulma sürecini ve doğruluğunu diğer gruplarla" }
+    - { file: meb-ortaokul-5-8, quote: "leri -doğru veya yanlış sayı cümleleri gibi- incelemeleri istenebilir." }
+    - { file: meb-ortaokul-5-8, quote: "denklemi ya da eşitsizliği doğru yapan değerler" }
+  note: The grades 1 to 4 programme says it of equalities pupils write in grade 2, as their "doğruluk", and has no "yanlış" for one.
+
+"number sentence (calculations, comparisons)":
+  status: single
+  cases:
+    - for: a calculation, as 5 + 3 or 5 + 3 = 8 named as the work done
+      word: işlem
+      forms: [toplama işlemini, işleminin, işlemleri]
+      status: sourced
+      sources:
+        - { file: meb-ilkokul-1-4, quote: "Toplama işlemini matematiksel bir ifade olarak yazdıktan sonra aynı işlemin toplamı eksilen, toplananlardan biri çıkan, diğer toplanan da fark olacak şekilde verilerek sonuca ulaşılır." }
+        - { file: meb-ortaokul-5-8, quote: "işleminin aynı zamanda 18x30, 4x9x15, 4x27x5, 20x27 işlemleri ile ifade edilmesi]." }
+    - for: a line with =, such as 5 + 3 = 8, that is true or false
+      word: eşitlik
+      forms: [eşitlikler, eşitliklerin, eşitliğin]
+      status: sourced
+      sources:
+        - { file: meb-ilkokul-1-4, quote: "Bu eşitliklerin oluşturulma sürecini ve doğruluğunu diğer gruplarla" }
+        - { file: meb-ilkokul-1-4, quote: "şımadığı, eşitliğin iki tarafındaki matematiksel ifadelerin eşitliğini gösterdiği vurgulanır." }
+        - { file: meb-ortaokul-5-8, quote: "Öğrencilerin -hesaplama yapmaksızın- verilen eşitliklerin iki tarafındaki sayı cümlelerini" }
+    - for: a comparison with < or >, such as 3 < 5
+      word: eşitsizlik
+      forms: [eşitsizliği]
+      status: single
+      sources:
+        - { file: meb-ortaokul-5-8, quote: "Nicelikler arasındaki eşitlik ve eşitsizlik ilişkilerini belirler." }
+        - { file: meb-ortaokul-5-8, quote: "denklemi ya da eşitsizliği doğru yapan değerler" }
+  note: >-
+    The grades 1 to 4 programme calls 5 + 3 an "işlem" and, written in signs, a "matematiksel ifade" ("toplama ve
+    çıkarma işleminin matematiksel ifade olduğunu"). A line with = it calls an "eşitlik", whose two sides are
+    "matematiksel ifadeler", and grade 2 pupils write "farklı eşitlikler" and check their "doğruluk". It has no noun
+    for 3 < 5: pupils compare "büyüktür ve küçüktür sembollerini kullanarak". The grades 5 to 8 programme says "sayı
+    cümlesi" for a line with = from grade 5 ("25+48=48+25 ve 25+48=45+28 gibi sayı cümleleri", "doğru veya yanlış sayı
+    cümleleri"), says "ifade" of a calculation with no relation sign ("5+7 ifadesinin 6+6 ifadesi ile gösterimi",
+    "cebirsel ifadeler"), and "eşitsizlik" of a line with < or > from grade 7, in algebra, where it is true or not
+    ("eşitsizliği doğru yapan değerler"). So "ifade" in MEB's usage is an expression on one side of a relation, and
+    not the relation. A person should decide the noun for 3 < 5 between "eşitsizlik" (MEB's, from grade 7), a noun
+    that covers both lines such as "sayı cümlesi" (MEB's, from grade 5, said there only of lines with =), and the
+    user's "ifade". "Matematik cümlesi" has no hit in either programme.
+
+"count on, count back (numbers)":
+  status: single
+  cases:
+    - for: count on and count back from a number in the count
+      word: ileriye doğru saymak, geriye doğru saymak
+      forms: [İleriye ve geriye doğru ritmik sayabilme]
+      status: single
+      sources:
+        - { file: meb-ilkokul-1-4, quote: "İleriye ve geriye doğru ritmik sayabilme" }
+    - for: count on from the first number of an addition
+      word: üzerine saymak
+      forms: [üzerine sayma]
+      status: single
+      sources:
+        - { file: meb-ilkokul-1-4, quote: "üzerine sayma gerektiren örnekler veya durumlar ile toplama" }
+    - for: count back in a subtraction
+      word: geriye saymak
+      forms: [geriye sayma]
+      status: single
+      sources:
+        - { file: meb-ilkokul-1-4, quote: "geriye sayma ve büyük sayıdan küçük sayıyı parçalara ayırarak adım adım çıkarma" }
+  note: >-
+    MEB calls counting one by one, and by twos, fives and tens, "ritmik sayma": "ileriye doğru birer, beşer ve onar".
+    The grades 5 to 8 programme has no sentence about counting from a number.
+
+"ten (numbers)":
+  word: onluk
+  forms: [onluğun, onluğa]
+  status: single
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "Sayıların en yakın olduğu onluğun belirlenmesinin gerekliliğine dair örnekler verilir." }
+    - { file: meb-ilkokul-1-4, quote: "En yakın onluğa ve yüzlüğe yuvarlamanın öğretiminde sayı doğrusundan" }
+  note: >-
+    "Onluk" is also a group of ten objects or a ten block ("onluk taban blokları"). The grades 5 to 8 programme has it
+    only in "onluk sayı sistemi".
+
+"number line (figure)":
+  word: sayı doğrusu
+  forms: [sayı doğrusuna, sayı doğrusunda]
+  status: sourced
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "Sayı doğrusuna temel oluşturulduktan sonra sayı doğrusu modeline sayıları yerleştirmeye" }
+    - { file: meb-ortaokul-5-8, quote: "c) Rasyonel sayıların karşılaştırma ve sıralama ilişkisini sayı doğrusu üzerinde" }
+
+"mark (number line)":
+  word: çizgi
+  forms: [çizgiler]
+  status: single
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "kesir şeritleri yerine çizgiler kullanılarak sayı doğrusundaki parçalar gösterilir" }
+  note: Said in grade 4 of the strokes that split a number line into parts for fractions. No sentence names the stroke at a whole number.
+
+"label (number line)":
+  status: unsourced
+  note: >-
+    Searched "etiket", "yaz". Neither programme names the number written at a mark. Grade 2 has pupils write numbers
+    under a line of objects: "her bir sütundaki nesnelerin sayılarını alt tarafa yazmaları".
+
+"point (number line)":
+  word: nokta
+  forms: [noktaya]
+  status: single
+  sources:
+    - { file: meb-ortaokul-5-8, quote: "Öğrencilerin verilen denk kesirlerin sayı doğrusunda aynı noktaya" }
+  note: >-
+    The grades 5 to 8 programme says it of a place on the line. The grades 1 to 4 programme says "konum" for the place
+    of a number on the line ("Sayı doğrusunda konum belirleme") and has no "nokta" there.
+
+"gap (number line)":
+  word: aralık
+  forms: [aralıklarla]
+  status: sourced
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "boş sayı doğrusu modelleri verilerek farklı aralıklarla kendi durumlarını oluşturma" }
+    - { file: meb-ilkokul-1-4, quote: "doğrusuna doğru şekilde ve eşit aralıklarla yerleştirme" }
+    - { file: meb-ortaokul-5-8, quote: "ilgilerini çekecek bağlamlar -tarım arazilerine eşit aralıklarla fidan dikme gibi- ele alınır." }
+  note: >-
+    Grade 4 has it of the number line too, across a broken word: "Sayı doğrusundaki ara-lıkların öğrencilere
+    hissettirilmesinde eş uzunluktaki kâğıt şeritler kullanılır." The grades 5 to 8 programme also has "aralık" for
+    an interval of real numbers.
+
+"equal (gaps)":
+  word: eşit
+  forms: [eşit aralıklarla]
+  status: sourced
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "doğrusuna doğru şekilde ve eşit aralıklarla yerleştirme" }
+    - { file: meb-ortaokul-5-8, quote: "ilgilerini çekecek bağlamlar -tarım arazilerine eşit aralıklarla fidan dikme gibi- ele alınır." }
+  note: Grade 4 has "eş uzunluktaki kâğıt şeritler" for strips that show the gaps.
+
+"jump (number line)":
+  status: unsourced
+  note: >-
+    Searched "zıpla", "sıçra", "atla", "adım" in both programmes. Neither names a move along a number line. "Zıplayan"
+    stands only in "küçük zıplayan top". The engine has "zıpla".
+
+"to the right, to the left (number line)":
+  word: sağa doğru, sola doğru
+  forms: [sağa doğru, sola doğru]
+  status: single
+  sources:
+    - { file: meb-ortaokul-5-8, quote: "sağa doğru ilerledikçe sayılar büyür” genellemesine ulaşmaları beklenir (KB2.9)." }
+    - { file: meb-ortaokul-5-8, quote: "üç basamağındaki sözlü ve yazılı örüntünün sola doğru her üç basamakta bölük isminin kul-" }
+  note: >-
+    The first sentence is about the number line and starts on the line before, "Sayı doğrusunda soldan". The grades 1
+    to 4 programme teaches "sağında, solunda" as words of place in grade 1 ("sağında, solunda, çukurda, tümsekte"),
+    and "Sağdan sola doğru" for column addition, and has neither on a number line.
+
+"step (number line)":
+  status: unsourced
+  note: >-
+    Searched "adım", "artış", "birim". Both programmes say "adım" for the place of a term in a pattern: "Artan veya
+    azalan sayı örüntülerinde ilk üç adım verilerek" (grades 1 to 4), "adım sayısı" (grades 5 to 8). That is another
+    idea than the number a jump adds, so "adım" for this term would clash with what a pupil learns. The nearest MEB
+    words for the idea are "artış miktarı" ("Sayıların artış ve azalış miktarına bağlı olarak ritmik sayabilmenin")
+    and the count itself, "birer, ikişer, beşer ve onar". A person should decide. The engine has "Adım".
+
+"count in tens, fives, twos (number line)":
+  word: onar, beşer, ikişer saymak
+  forms: [birer, ikişer, beşer ve onar]
+  status: single
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "Sayı doğrusu modeline sayıları birer, ikişer, beşer ve onar, ileriye ve geriye doğru nasıl" }
+  note: MEB calls it "ritmik sayma", as "onar ritmik sayma". The grades 5 to 8 programme has "ikişer" only for groups of two pupils.
+
+"long mark, short mark (number line)":
+  status: unsourced
+  note: A part of this book's figures. Neither programme has marks of two lengths. See "mark (number line)" for "çizgi".
+
+"end (number line)":
+  word: uç
+  forms: [Uç noktaların]
+  status: single
+  sources:
+    - { file: meb-ortaokul-5-8, quote: "Uç noktaların aralığa dâhil olma durumu ise “kapalı aralık” olarak adlandırılır ve" }
+  note: >-
+    Said of the two ends of an interval on the number line, as "uç nokta". The grades 1 to 4 programme calls the first
+    number of a number line its "başlangıç noktası" ("Sayı doğrularında başlangıç noktaları değişkenlik gösterebilecek
+    şekilde"), which is the left end.
+
+"the ten before, the ten after (numbers)":
+  status: unsourced
+  note: >-
+    Neither programme names the two tens on either side of a number. The grades 1 to 4 programme has "en yakın onluk"
+    for the nearer one ("Sayıların en yakın olduğu onluğun"), and "bulundukları onluklar" for the ten a number lies in
+    ("1000’e kadar olan sayıları bulundukları onluklara ve yüzlüklere göre ayırır."), and asks of 12 "10 ve 20
+    sayılarından hangisine daha yakın". The engine has "Önceki onluk" and "Sonraki onluk", made of MEB's "önceki",
+    "sonraki" and "onluk".
+
+"label card (figure)":
+  word: sayı kartı
+  forms: [Sayı kartları]
+  status: single
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "Sayı kartları, sayı şapkaları gibi matematiksel araç" }
+  note: >-
+    Grade 2 also places number cards on a string to show where numbers lie, across a broken word: "uzun bir ip ve sayı
+    kart-ları, cetvel gibi nesneler kullanılarak sayıların konumu gösterilir".
+
+"middle (number line)":
+  word: orta
+  forms: [orta noktalarının, ortasından]
+  status: sourced
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "tam ortasından her iki tarafı üst üste getirip parçalar eşit olacak şekilde" }
+    - { file: meb-ortaokul-5-8, quote: "Dörtgenlerde ardışık kenarların orta noktalarının birleştirilmesiyle oluşturulan dörtgenlerin" }
+  note: >-
+    The first is said of folding a shape in half, the second of the sides of a shape. Neither says it of two numbers.
+    Grade 2 says a number between two tens is at "eşit mesafede" from them: "en yakın onluğa “yakın, uzak ve eşit
+    mesafede” ifadeleri".
+
+"unmarked number line (number line)":
+  word: boş sayı doğrusu
+  forms: [boş sayı doğrusu modelleri, boş sayı doğrusuna]
+  status: single
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "boş sayı doğrusu modelleri verilerek farklı aralıklarla kendi durumlarını oluşturma" }
+    - { file: meb-ilkokul-1-4, quote: "boş sayı doğrusuna sayıları yerleştirme (1000 içinde yüzlük olacak şekilde)" }
+
+"estimate (number line)":
+  word: tahmin
+  forms: [tahmin etmeleri]
+  status: sourced
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "hangisine daha yakın olduğu sorulur ve öğrencilerin kendi yöntemleriyle tahmin etmeleri sağlanarak 10 sayısına yakın şekilde model üzerine yerleştirmeleri beklenir." }
+    - { file: meb-ortaokul-5-8, quote: "laşık değerini tahmin etmeleri istenir (OB4). İrrasyonel sayıların sayı doğrusu üzerinde-" }
+  note: The first sentence asks grade 2 pupils to estimate where 12 lies between 10 and 20 on a model.
+
+"estimate mark (figure)":
+  status: unsourced
+  note: A part of this book's figures. No source has it. The plain word nearby is "tahmin", see "estimate (number line)".
+
+"join (groups)":
+  word: bir araya getirmek
+  forms: [bir araya getirilerek, bir araya getirilmesini]
+  status: single
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "iki nesne grubu bir araya getirilerek konuya giriş yapılır" }
+    - { file: meb-ilkokul-1-4, quote: "Nesnelerin bir araya getirilmesini temsil eden toplama işlemi" }
+  note: >-
+    The programme also says "birleştirmek" of groups ("Çoklukları birleştirmek için") and "birleşme" ("Grupların
+    birleş-mesi"). The engine has "Katılan sayaç" and "katılınca", and "katılmak" has no hit in either programme.
+
+"add (numbers)":
+  word: toplamak
+  forms: [toplandığında, toplanmasının]
+  status: sourced
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "sayının sıfır ile toplandığında sonucun sayının kendisine eşit olduğu belirtilerek" }
+    - { file: meb-ortaokul-5-8, quote: "sayı ile toplama işlemi yapılırken seçilen herhangi iki sayının öncelikle toplanmasının sonucu" }
+
+"sum (numbers)":
+  word: toplam
+  status: sourced
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "toplama, toplanan, toplam, artma, çoğalma, artı, çıkarma, eksilen, çıkan," }
+    - { file: meb-ortaokul-5-8, quote: "Köprü Kurma Öğrenciler ile eşitliğin korunumuna yönelik uygulamalar (örneğin toplamları 30 olan sayı" }
+  note: Each number added is a "toplanan", a key concept of grade 1.
+
+"sign (calculation)":
+  word: işaret
+  forms: [işareti]
+  status: sourced
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "eksilen, çıkan, fark, eksi işareti) işlemler üzerinde ifade edilir." }
+    - { file: meb-ortaokul-5-8, quote: "Çarpma işareti: “.”" }
+  note: >-
+    The grades 1 to 4 programme names "artı işareti" and "eksi işareti". It also calls them "semboller" once: "bu
+    işlemlerde kullanılan semboller".
+
+"plus, minus (signs)":
+  word: artı, eksi
+  forms: [artı işareti, eksi işareti]
+  status: single
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "Toplama ve çıkarma işleminin ögeleri ve ögelerin isimleri (toplanan, toplam, artı işareti," }
+    - { file: meb-ilkokul-1-4, quote: "eksilen, çıkan, fark, eksi işareti) işlemler üzerinde ifade edilir." }
+  note: >-
+    Grade 1 lists "artı", "eksi" and "eşittir" as key concepts beside +, − and =. No sentence reads a whole calculation
+    aloud, so "5 artı 3 eşittir 8" is built from these words.
+
+"addition, subtraction (calculations)":
+  word: toplama işlemi, çıkarma işlemi
+  forms: [toplama işleminde, çıkarma işleminin, toplama ve çıkarma işlemlerini]
+  status: sourced
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "MAT.1.2.1. Günlük yaşamın içerdiği toplama ve çıkarma işlemlerini çözümleyebilme" }
+    - { file: meb-ortaokul-5-8, quote: "verilen bir toplama işleminde toplananlar ile" }
+    - { file: meb-ortaokul-5-8, quote: "örneğin çıkarma işleminin, eksilen ile çıkanın ters işaretlisinin" }
+  note: >-
+    Both programmes name the numbers: "toplanan" for each number added, "toplam" for the sum, "eksilen" for the number
+    subtracted from, "çıkan" for the number subtracted and "fark" for the answer of a subtraction: "aynı işlemin
+    toplamı eksilen, toplananlardan biri çıkan, diğer toplanan da fark olacak şekilde".
+
+"whole, part (numbers)":
+  word: bütün, parça
+  forms: [parçalar, bütün, parçaya]
+  status: sourced
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "Öğrencilerin, toplanan sayılar (parçalar) ile elde edilen toplam (bütün) arasındaki" }
+    - { file: meb-ilkokul-1-4, quote: "Nesnelerin bir araya getirilmesini temsil eden toplama işlemi ile bütünden bir parçanın" }
+    - { file: meb-ortaokul-5-8, quote: "den bir çarpma işleminde iki çarpandan birinin iki veya daha fazla parçaya ayrılabileceği ve" }
+  note: The grades 1 to 4 programme names the relation "parça-bütün ilişkisi".
+
+"ten frame (figure)":
+  status: unsourced
+  note: >-
+    Searched "çerçeve", "beşlik", "onluk kart", "kutu". Neither programme has a ten frame. Grade 1 groups objects into
+    an "onluk" and shows tens with "onluk taban blokları", see "a full ten and some more (numbers)".
+
+"cell (ten frame)":
+  status: unsourced
+  note: Searched "hücre", "kutu", "göz". No hit, as neither programme has a ten frame. The engine has "Hücre".
+
+"take away (groups)":
+  word: ayırmak
+  forms: [ayırma, ayırmanın]
+  status: sourced
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "bir grup nesne içerisinden bir kısmını ayırma etkinliklerinin" }
+    - { file: meb-ortaokul-5-8, quote: "çıkarma için ayırmanın yanı sıra karşılaştırma" }
+  note: >-
+    The grades 1 to 4 programme also says "eksiltmek" of taking a number of objects from a group: "olan bir çokluktan
+    belirtilen sayı kadarının eksiltilmesi istenir.", and "çıkarmak" of a part taken from a whole: "bütünden bir
+    parçanın çıkarılması". The engine has "Alınan", "alın" and "Çıkarılan".
+
+"left (groups)":
+  word: kalan
+  status: single
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "kalan nesne sayısını bulmaları istenir" }
+  note: >-
+    Said in grade 2 of the objects left after some are shared out, the step before division. "Kalan" is MEB's term
+    for the remainder of a division (a key concept of grade 2: "bölme, bölünen, bölen, bölüm, kalan"), and the grades
+    5 to 8 programme has it only so. MEB's term for the answer of a subtraction is "fark", see "addition, subtraction
+    (calculations)".
+
+"subtract (numbers)":
+  word: çıkarmak
+  forms: [çıkarma işleminin]
+  status: sourced
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "bir sayıdan sıfır çıkarmak veya bir sayıdan kendisini" }
+    - { file: meb-ortaokul-5-8, quote: "örneğin çıkarma işleminin, eksilen ile çıkanın ters işaretlisinin" }
+
+"start (number line)":
+  word: başlangıç
+  forms: [başlangıç noktası, başlangıç noktasından]
+  status: sourced
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "Yönergeleri kullanarak başlangıç noktası ve hedef arasında ilişki kurar." }
+    - { file: meb-ortaokul-5-8, quote: "bir ışının başlangıç noktasından itibaren" }
+  note: >-
+    The first is said in grade 1 of where a move along a route starts, the second of where a ray starts. The grades 1
+    to 4 programme also says "başlangıç noktası" of the first number of a number line, see "end (number line)".
+
+"difference (numbers)":
+  word: fark
+  forms: [farkın]
+  status: sourced
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "toplananlar ve toplam, devamında ise eksilen, çıkan ve fark arasındaki ilişki vurgulanır." }
+    - { file: meb-ortaokul-5-8, quote: "değerleri arasındaki farkın en az olduğu ikililerinin belirlenmesi ve tablonun yorumlanma-" }
+
+"the greater number, the smaller number (numbers)":
+  word: büyük sayı, küçük sayı
+  forms: [büyük sayıya küçük sayı, büyük sayıdan küçük sayıyı, büyük sayılarla, küçük sayıların]
+  status: sourced
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "Toplama işlemlerinde büyük sayıya küçük sayı ekleme ve 10’a tamamlama" }
+    - { file: meb-ilkokul-1-4, quote: "geriye sayma ve büyük sayıdan küçük sayıyı parçalara ayırarak adım adım çıkarma" }
+    - { file: meb-ortaokul-5-8, quote: "bilir. Çarpma ve bölme problemlerinde ise benzer şekilde daha küçük sayıların kullanıldığı" }
+
+"full ten (ten frame)":
+  word: onluk
+  status: single
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "araya gelerek bir onluk oluşturduğu, onluk gruba dâhil olmayan nesnelerin ise birlikleri" }
+  note: Said of ten objects grouped together, as neither programme has a ten frame. The engine has "dolu onluk".
+
+"a full ten and some more (numbers)":
+  word: onluk ve birlik
+  status: single
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "öğrencilerin 10-20 arasındaki nesneleri onluk ve birlik şeklinde çözümleyerek ifade etme" }
+  note: Grade 1 lays a number from 10 to 20 out as one "onluk" and some "birlik".
+
+"pair (numbers)":
+  word: ikili
+  forms: [ikililerini]
+  status: single
+  sources:
+    - { file: meb-ortaokul-5-8, quote: "ikililerini tablo üzerinde gösterme ve iki toplanan arasındaki artış ve azalış miktarlarının" }
+  note: >-
+    The phrase is "sayı ikilisi", and the sentence starts on the line before, "toplamları 30 olan sayı". The grades 5 to
+    8 programme has "sayı çiftleri" once. The grades 1 to 4 programme has neither, and says "çift" for an even number.
+
+"number bond (numbers)":
+  status: unsourced
+  note: >-
+    Searched "bağ", "ikili", "parça". Neither programme has the idea of a number bond. The grades 1 to 4 programme
+    teaches the whole and its parts as "parça-bütün ilişkisi" and splitting a number as "sayıları ayırma ve
+    birleştirme" and "çözümleme". A translated text explains the thing with "bütün" and "parça".
+
+"split (numbers)":
+  word: parçalara ayırmak
+  forms: [parçalara ayırarak, parçaya ayrılabileceği]
+  status: sourced
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "geriye sayma ve büyük sayıdan küçük sayıyı parçalara ayırarak adım adım çıkarma" }
+    - { file: meb-ortaokul-5-8, quote: "den bir çarpma işleminde iki çarpandan birinin iki veya daha fazla parçaya ayrılabileceği ve" }
+  note: The grades 1 to 4 programme also says "ayırmak" and "çözümlemek" of splitting a number. The engine has the noun "ayrım", which neither programme has.
+
+"cross ten (calculations)":
+  status: single
+  cases:
+    - for: an addition that crosses ten
+      word: eldeli toplama
+      forms: [Eldeli toplama]
+      status: single
+      sources:
+        - { file: meb-ilkokul-1-4, quote: "Eldeli toplama ve onluk bozarak çıkarma" }
+    - for: a subtraction that crosses ten
+      word: onluk bozarak çıkarma
+      forms: [onluk bozma]
+      status: single
+      sources:
+        - { file: meb-ilkokul-1-4, quote: "Eldeli toplama ve onluk bozarak çıkarma" }
+        - { file: meb-ilkokul-1-4, quote: "onluk bozma gerektirmeyen 20’den (20 dâhil) küçük sayılarla çıkarma işlemi" }
+  note: >-
+    Both name the written column method, with a carry ("elde") and with a ten broken into ones. Grade 1 keeps to
+    additions "eldesiz" and subtractions "onluk bozma gerektirmeyen", and grade 2 crosses ten.
+
+"making ten (calculations)":
+  word: 10’a tamamlama
+  status: single
+  sources:
+    - { file: meb-ilkokul-1-4, quote: "Toplama işlemlerinde büyük sayıya küçük sayı ekleme ve 10’a tamamlama" }
+  note: >-
+    Grade 1 names it as a strategy of addition. For subtraction the same sentence has "büyük sayıdan küçük sayıyı
+    parçalara ayırarak adım adım çıkarma", splitting the smaller number and taking it away step by step.
+
+"make ten, down to ten (making ten)":
+  status: single
+  cases:
+    - for: make ten
+      word: 10’a tamamlamak
+      forms: [10’a tamamlama]
+      status: single
+      sources:
+        - { file: meb-ilkokul-1-4, quote: "Toplama işlemlerinde büyük sayıya küçük sayı ekleme ve 10’a tamamlama" }
+    - for: down to ten
+      status: unsourced
+  note: >-
+    Neither programme names taking a number down to 10. The nearest is "parçalara ayırarak adım adım çıkarma", see
+    "making ten (calculations)".
+
+"Makes ten (figure)":
+  status: unsourced
+  note: >-
+    A word of this book's figures. The programme's word for the act is "10’a tamamlama", see "making ten
+    (calculations)". The engine has "Ona kadar".
+
+"the rest (making ten)":
+  status: unsourced
+  note: >-
+    Searched "kalan", "geri kalan", "diğer parça". Neither programme names the other part of the second number. "Kalan"
+    is MEB's term for the remainder of a division, see "left (groups)". The grades 1 to 4 programme calls the pieces
+    of a split number "parçalar". The engine has "Kalanı".
+
+"the known part, the missing part (number bonds)":
+  status: single
+  cases:
+    - for: the known part
+      word: bilinen
+      forms: [bilinen niceliklerden]
+      status: single
+      sources:
+        - { file: meb-ortaokul-5-8, quote: "bilinen niceliklerden bilinmeyen niceliklere" }
+    - for: the missing part
+      word: bilinmeyen
+      forms: [parçası bilinmeyen, bilinmeyen niceliklere]
+      status: sourced
+      sources:
+        - { file: meb-ilkokul-1-4, quote: "Parça-bütün ilişkisini vermek için bütünü bilinmeyen veya parçası bilinmeyen durumlarda" }
+        - { file: meb-ortaokul-5-8, quote: "bilinen niceliklerden bilinmeyen niceliklere" }
+  note: >-
+    The grades 1 to 4 programme says of grade 3 pupils "bütünü bildiklerinde parçaları, parçaları bildiklerinde ise
+    bütünü nasıl belirlediklerini", with the verb, and calls the missing number of a calculation "verilmeyen terim"
+    ("işlemlerde verilmeyen terimi belirleyebilmesi"), as the grades 5 to 8 programme says "verilmeyen bileşen". The
+    engine has "Görünen parça" and "Gizli parça" for a part shown and a part under a cup.

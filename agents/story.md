@@ -43,7 +43,9 @@ The other 15 stories in `content/` are drafts from the prototype phase. Their fa
 ## Checking a story
 
 1. `./node_modules/.bin/kitap check <story>` reads the pages, texts and images and prints every problem it finds.
-   A story is ready when it prints `ok`.
+   It runs the book's own checks after kitap's, each a file of `plugins/checks/`. `text.mjs` reads the English texts
+   for the rules of `agents/text.md` that a pattern can state, and its lines start `text:`. A story is ready when
+   the command prints `ok`.
 2. `./node_modules/.bin/kitap dev --story <story> --out .cache/<story>-site --port <port>` builds that story alone
    and serves it. `./node_modules/.bin/kitap build --out <dir>` builds the whole book.
 3. `node scripts/screenshot.mjs http://localhost:<port>/<story>/ <out dir> <page ids>` captures pages and prints

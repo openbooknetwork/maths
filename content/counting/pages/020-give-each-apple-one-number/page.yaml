@@ -1,0 +1,8 @@
+title: "Give each apple one number"
+hesap:
+  scene: counters/count
+  look: stall
+  n: 7
+  tap: again
+  clear: true
+  readout: [count]

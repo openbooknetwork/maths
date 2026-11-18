@@ -1,0 +1,5 @@
+title: "Two labels tell you the step"
+hesap:
+  scene: line
+  draw: true
+  readout: [placed]

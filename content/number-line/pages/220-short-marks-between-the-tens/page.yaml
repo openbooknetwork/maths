@@ -1,0 +1,8 @@
+title: "Short marks between the tens"
+hesap:
+  scene: line
+  to: 100
+  labels: 10
+  point: 30
+  jump: true
+  readout: [point, jumps]

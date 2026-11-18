@@ -25,7 +25,7 @@ The reader paired by hand in section `matching`.
 
 ## Content
 
-### 210 The row with a counter left over has more
+### 210 The row with counters left over has more
 
 The page gives the three words. When the rows are paired and one row has counters left over, that row has more
 and the other row has fewer. When every counter has a partner, the rows have the same. The example is a top row of
@@ -130,9 +130,9 @@ Words the scene needs in `i18n/en.yaml`: the tags "more", "fewer", "the same", "
 readout labels "Last number said" for `counted`, "Added" for `added`, "Taken away" for `taken`, "Players" and
 "Chairs", and the three buttons of the `chairs` look.
 
-### 210 `the-row-with-a-counter-left-over-has-more`
+### 210 `the-row-with-counters-left-over-has-more`
 
-Title: "The row with a counter left over has more"
+Title: "The row with counters left over has more"
 
 ```yaml
 hesap:

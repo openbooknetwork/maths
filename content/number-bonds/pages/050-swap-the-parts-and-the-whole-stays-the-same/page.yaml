@@ -1,0 +1,7 @@
+title: "Swap the parts and the whole stays the same"
+hesap:
+  scene: counters/bonds
+  whole: 9
+  first: 3
+  swap: true
+  readout: [first, second, whole]

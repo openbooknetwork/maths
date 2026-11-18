@@ -1,0 +1,9 @@
+title: "Count from the nearer end"
+hesap:
+  scene: line
+  from: 0
+  to: 20
+  labels: ends
+  jump: true
+  find: [3, 19, 14]
+  readout: [jumps]

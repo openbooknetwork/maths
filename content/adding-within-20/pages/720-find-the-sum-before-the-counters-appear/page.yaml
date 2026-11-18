@@ -1,0 +1,5 @@
+title: "Find the sum before the counters appear"
+hesap:
+  scene: counters/add
+  challenge: { goal: find-sum, first: [9, 15], second: [2, 4], sum: [11, 19] }
+  written: true

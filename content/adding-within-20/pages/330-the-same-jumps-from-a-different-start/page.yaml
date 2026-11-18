@@ -1,0 +1,9 @@
+title: "The same jumps from a different start"
+hesap:
+  scene: line
+  to: 20
+  start: 9
+  point: 12
+  jump: true
+  written: true
+  readout: [start, jumps]

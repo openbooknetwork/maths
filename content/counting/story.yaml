@@ -3,8 +3,8 @@ title: "Counting"
 cover_dark: counting-cover-dark-a5f229
 cover: counting-cover-light-f1f16b
 level: beginner
-summary: "Give each object one number, and the last number says how many. Count apples, birds and shells, count on from a closed box, count back as counters leave, and count to 100 in rows of ten."
+summary: "Give each object one number, and the last number you say tells you how many. Count apples, birds and shells, count on from a closed box, count back as counters are taken away, and count to 100 in rows of ten."
 languages: [en]
 default_language: en
 hesap:
-  cover: { page: how-many-apples-are-on-the-stall, caption: "Eight apples lie on a market stall, ready to be counted." }
+  cover: { page: how-many-apples-are-on-the-stall, caption: "There are eight apples on a market stall, ready to be counted." }

@@ -1,0 +1,7 @@
+title: "How far does the piece move?"
+hesap:
+  scene: counters/add
+  dice: true
+  first: 5
+  waiting: 3
+  readout: [sum]

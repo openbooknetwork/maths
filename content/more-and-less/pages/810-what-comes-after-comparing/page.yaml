@@ -1,0 +1,8 @@
+title: "What comes after comparing"
+hesap:
+  scene: counters/match
+  top: { stepper: [0, 10], start: 8 }
+  bottom: { stepper: [0, 10], start: 8 }
+  pair: auto
+  sign: follow
+  readout: [reading]

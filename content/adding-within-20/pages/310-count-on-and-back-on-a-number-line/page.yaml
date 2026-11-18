@@ -1,0 +1,7 @@
+title: "Count on and back on a number line"
+hesap:
+  scene: line
+  to: 20
+  point: 14
+  jump: true
+  readout: [point, jumps]

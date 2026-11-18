@@ -1,0 +1,8 @@
+# The pages plugins/checks/text.mjs lets through with more than its budget of words, each with the reason its concept
+# needs them, as "The length of a text" in agents/text.md says.
+#   long:
+#     <story>/<page id>: <the reason, in one sentence>
+long:
+  more-and-less/how-many-more-and-how-many-fewer: "The page shows two ways to make the rows the same, names the difference, and gives the rule that fewer is for objects and less is for numbers."
+  adding-within-20/write-the-difference-as-a-subtraction: "The page goes over pairing, says why a difference is a subtraction, sets a question of what is left beside a question of how many more, and turns the number sentence round."
+  adding-within-20/go-down-to-ten-first: "The page works a subtraction through ten in two steps and says them aloud, as the source does, and covers taking from the full ten too early."

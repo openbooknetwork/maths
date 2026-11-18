@@ -1,0 +1,7 @@
+title: "The full ten stays full"
+hesap:
+  scene: counters/add
+  first: 12
+  second: { stepper: [0, 8], start: 5 }
+  written: true
+  readout: [second, sum]

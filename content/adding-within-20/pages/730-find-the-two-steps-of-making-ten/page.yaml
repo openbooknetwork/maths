@@ -1,0 +1,5 @@
+title: "Find the two steps of making ten"
+hesap:
+  scene: counters/add
+  written: ten
+  challenge: { goal: steps-to-ten, second: [4, 9] }

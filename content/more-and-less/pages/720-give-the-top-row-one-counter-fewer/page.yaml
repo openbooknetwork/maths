@@ -1,4 +1,0 @@
-title: "Give the top row one counter fewer"
-hesap:
-  scene: counters/match
-  challenge: { goal: one-less, top: [1, 10], bottom: [3, 10] }

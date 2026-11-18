@@ -1,0 +1,7 @@
+title: "Jump from the start"
+hesap:
+  scene: line
+  to: 20
+  jump: true
+  written: true
+  challenge: { goal: jump-to, start: [2, 18], add: [2, 4], subtract: [1, 3] }

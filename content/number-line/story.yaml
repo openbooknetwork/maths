@@ -1,0 +1,10 @@
+id: number-line
+title: "The number line"
+cover_dark: number-line-cover-dark-a115f8
+cover: number-line-cover-light-d8f21d
+level: beginner
+summary: "Put the numbers in order along a line with equal gaps. Jump a point from mark to mark, read lines that count in tens, fives and twos, fill in missing labels, and estimate where a number is on a line with no marks between its ends."
+languages: [en]
+default_language: en
+hesap:
+  cover: { page: how-far-has-the-frog-jumped, caption: "A frog sits on the bank of a pond beside ten numbered stepping stones." }

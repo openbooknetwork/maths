@@ -24,7 +24,12 @@ The book runs the linked source of hesap while you work, set up by whoever dispa
 
 1. **Build.** Write each `new` scene, field and goal in the family, with the fields and the link ids the Contract
    fixes. A part that a second family would use goes into the kit. Add the strings to the family's `i18n/en.yaml`
-   and `i18n/tr.yaml`, and a test for each new scene and goal in `../hesap/test/`.
+   and `i18n/tr.yaml`. A Turkish string that holds a school term takes the word `i18n/terms/tr.yaml` gives the
+   term. Where that file has no entry for it, leave the Turkish string out, list the term in your report, and
+   write no word for it from memory. Add the tests of each new scene and goal in `../hesap/test/`:
+   - the scene with each control at its lowest and at its highest value
+   - each value a text can link, at every step of its control's range
+   - each goal over many draws, with every drawn target reached by the page's controls
 2. **Assemble and test.** In `../hesap` run `node scripts/assemble.mjs`, then `npm test`. Fix each failure and run
    them again. Done when `npm test` passes.
 3. **Check the pages.** From the book's root run `./node_modules/.bin/kitap check <story> <page ids>` with the

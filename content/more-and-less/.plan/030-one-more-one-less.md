@@ -191,7 +191,7 @@ hesap:
 
 #### `720-give-the-top-row-one-counter-fewer`
 
-- Id: `give-the-top-row-one-counter-fewer`
+- Id: `give-the-top-row-one-fewer-counter`
 - Title: "Give the top row one counter fewer"
 - Links: none. A challenge page draws its numbers as it opens.
 

@@ -1,0 +1,9 @@
+title: "Every pair stays a pair when you spread a row out"
+hesap:
+  scene: counters/match
+  top: 6
+  bottom: 6
+  pair: auto
+  spread: top
+  word: same
+  readout: [unpaired]

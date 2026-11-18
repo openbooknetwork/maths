@@ -1,0 +1,9 @@
+title: "Write the difference as a subtraction"
+hesap:
+  scene: counters/match
+  top: { stepper: [1, 12], start: 11 }
+  bottom: { stepper: [1, 12], start: 7 }
+  pair: auto
+  word: true
+  written: difference
+  readout: [pairs, unpaired, reading]
