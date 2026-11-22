@@ -1,0 +1,12 @@
+title: "Jump to the ten after on a number line"
+hesap:
+  scene: line
+  from: 30
+  to: 70
+  labels: 10
+  start: 38
+  jump: { stepper: [1, 10], start: 10 }
+  mixed: true
+  totals: true
+  written: true
+  readout: [point, size]

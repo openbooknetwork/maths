@@ -4,6 +4,5 @@ The first parcel is for house 46. The nearest numbered door is 50, because 46 co
 
 On the figure, the van starts at house 1, and the parcel is for house [46](@find).
 
-- Drag the van along the road. While you drag it, a lens above the van shows the nearby houses close up.
-- Stop at the house you counted to and press Show. A flag appears over the house the parcel is for, and the van shows the number of the house it is at.
+- Drag the van along the road to the house you counted to, and press Show. A flag appears over the house the parcel is for, and the van shows the number of the house it is at.
 - Press "Next number" for the parcels for 22 and then 57. Find the nearest numbered door for each one first.

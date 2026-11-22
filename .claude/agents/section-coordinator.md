@@ -62,8 +62,8 @@ researcher adds it, and you are resumed.
 
 ## Content
 Per page, in the order its text takes: the idea the page teaches, as a schoolbook would say it, then the example
-it studies, worked in numbers. A page has one example, and its text has 210 words at most, so a page that needs two
-ideas or two examples is two pages. Where the example has other objects than the figure draws, say what each thing
+it studies, worked in numbers. A page has one example and one idea, with a text of about 300 words, so a page that
+needs two ideas or two examples is two pages. Where the example has other objects than the figure draws, say what each thing
 on the figure stands for.
 
 ## Interactivity

@@ -1,4 +1,4 @@
-An addition crosses ten when its first number is below 10 and its sum is above 10. Making ten turns it into two easy steps. You split the second number into the part that makes ten with the first number, and the rest.
+An addition crosses ten when its first number is below 10 and its sum is above 10. Making ten turns it into two easy steps. You split the second number into the part that takes the first number up to 10, and the rest.
 
 Take `8 + 5`. 8 needs 2 more to make 10, so you split 5 into 2 and 3. The first step is `8 + 2 = 10`. The 3 is the rest, and a full ten and 3 more is 13, so the second step is `10 + 3 = 13`.
 

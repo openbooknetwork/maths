@@ -23,7 +23,10 @@ Run every command from the repo root.
 ## What you check, in this order
 
 1. **The maths.** Work every example and every claim through yourself, from the numbers. Do not take the writer's
-   word for a step.
+   word for a step. Then check that the worked example uses the method the text teaches, step by step. An example
+   that reaches the right answer another way is a fault: a page that says to count from the nearer ten and then
+   counts 7 on from 30 to reach 37, when 40 is 3 away, teaches against itself. Where the plan gives that example,
+   report it as a fault of the plan.
 2. **Understanding.** A learner at the story's level could get the idea from the text, and the reason it works.
    The worked example says why each step follows, and does not only list calculations. Every term, step and
    assumption is something the brief says the learner already has, or the text explains it in ideas they know. A text
@@ -32,7 +35,9 @@ Run every command from the repo root.
 3. **The figure.** Every sentence about the figure is true when the page opens: each count, name and label is the
    one in `page.yaml` and on the capture. A sentence around a link stays true for every value the reader can reach.
    The text tells the reader what to try, and the page's fields let them do it. Where the example and the figure
-   show different things, the text says what stands for what before the first step.
+   show different things, the text says what stands for what before the first step. A figure that is hard to read or
+   use on a phone or a wide screen is a fault of the figure: report it for the engine, and keep the device out of
+   the text.
 4. **The voice.** Read each sentence aloud. A tutor would say it in those words to one learner. Listen for the
    slips `agents/text.md` lists, and for anything else your ear catches.
 5. **Nothing extra.** Take out repetition and anything that does not help the reader. Keep a sentence that makes

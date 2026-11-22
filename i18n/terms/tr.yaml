@@ -276,7 +276,7 @@
     MEB calls counting one by one, and by twos, fives and tens, "ritmik sayma": "ileriye doğru birer, beşer ve onar".
     The grades 5 to 8 programme has no sentence about counting from a number.
 
-"ten (numbers)":
+"ten, one (numbers)":
   word: onluk
   forms: [onluğun, onluğa]
   status: single
@@ -286,6 +286,7 @@
   note: >-
     "Onluk" is also a group of ten objects or a ten block ("onluk taban blokları"). The grades 5 to 8 programme has it
     only in "onluk sayı sistemi".
+    The word covers "ten" alone. The "one" of this entry has no sourced word yet.
 
 "number line (figure)":
   word: sayı doğrusu

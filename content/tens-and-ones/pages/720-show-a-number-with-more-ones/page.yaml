@@ -1,0 +1,4 @@
+title: "Show a number with more ones"
+hesap:
+  scene: counters/base-ten
+  challenge: { goal: show-with-ones, number: [31, 99], ones: [10, 29] }

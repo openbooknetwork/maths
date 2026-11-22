@@ -1,0 +1,10 @@
+title: "A row of counters becomes a bar"
+hesap:
+  scene: counters/bar
+  whole: 8
+  first: 5
+  drag: [end]
+  end: [6, 12]
+  counters: true
+  written: true
+  readout: [second, whole]

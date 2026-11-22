@@ -1,0 +1,9 @@
+title: "The ones change and the tens stay"
+hesap:
+  scene: counters/base-ten
+  tens: 2
+  ones: 3
+  second: { stepper: [0, 7], start: 5 }
+  number: true
+  written: true
+  readout: [tens-digit, ones-digit]

@@ -1,0 +1,8 @@
+title: "Cover half a domino and subtract"
+hesap:
+  scene: counters/add
+  look: domino
+  first: 4
+  second: 3
+  cover: true
+  written: true

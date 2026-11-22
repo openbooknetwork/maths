@@ -1,0 +1,9 @@
+title: "Count the tens first wherever they lie"
+hesap:
+  scene: counters/base-ten
+  chart: false
+  tens: 4
+  ones: 6
+  tap: tag
+  mix: true
+  readout: [count]

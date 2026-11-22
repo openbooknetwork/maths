@@ -1,0 +1,10 @@
+title: "Paper comes in packs of a hundred"
+hesap:
+  scene: line
+  to: 1000
+  step: 100
+  start: 0
+  jump: 100
+  count: true
+  groups: paper
+  readout: [start, jumps, groups]

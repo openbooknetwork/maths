@@ -42,7 +42,7 @@
     them in the order the section teaches them.
   - `long mark, short mark (number line)`: a long mark carries a label and a short mark has none. The brief's words.
 - Uses: `number line (figure)`, `mark (number line)`, `label (number line)`, `point (number line)`,
-  `gap (number line)`, `jump (number line)`, `to the right, to the left (number line)`, `ten (numbers)`,
+  `gap (number line)`, `jump (number line)`, `to the right, to the left (number line)`, `ten, one (numbers)`,
   `count on, count back (numbers)`
 
 ## 030 part-of-the-line
@@ -56,7 +56,7 @@
   - `label card (figure)`: a card with a number on it that the reader drags onto a mark to label it. The brief's
     words.
 - Uses: `number line (figure)`, `mark (number line)`, `label (number line)`, `gap (number line)`,
-  `step (number line)`, `jump (number line)`, `ten (numbers)`, `the number before, the number after (numbers)`,
+  `step (number line)`, `jump (number line)`, `ten, one (numbers)`, `the number before, the number after (numbers)`,
   `count on, count back (numbers)`
 
 ## 040 placing
@@ -105,7 +105,7 @@
 - Left to later stories:
   - `skip-counting` introduces "skip counting" and jumps of 2, 5 or 10 across several marks, which fit the sense
     of `jump (number line)`.
-  - `tens-and-ones` introduces "ten" as a group of ten ones, a sense apart from `ten (numbers)`.
+  - `tens-and-ones` introduces "ten" as a group of ten ones, a sense apart from `ten, one (numbers)`.
   - `rounding-and-estimating` decides "halfway". Its rough map says "the ten below" and "the ten above", where the
     book's form is `the ten before, the ten after (numbers)`.
   - `adding-within-20` calls a difference "the gap" in its rough map. "Gap" is said of the line, and the number left

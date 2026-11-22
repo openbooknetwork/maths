@@ -6,4 +6,4 @@ There are 7 counters in the frames, and none has been taken away yet. The number
 
 - Tap the counters away one at a time until no counters are left. Watch the number after = go down to 0.
 - Set the "First number" stepper to 15. Every counter comes back, so nothing is taken away and the number sentence is `15 − 0 = 15`.
-- Tap all 15 counters away, and check that the number after = is 0 again.
+- Tap all 15 counters away. The number sentence ends at `15 − 15 = 0`, so the number after = is 0 again.

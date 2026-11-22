@@ -1,0 +1,9 @@
+title: "Points in two halves of a game"
+hesap:
+  scene: counters/base-ten
+  look: scoreboard
+  tens: 2
+  ones: 8
+  waiting: 45
+  bundle: true
+  readout: [new-ten]

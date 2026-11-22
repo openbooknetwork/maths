@@ -1,0 +1,10 @@
+title: "17 and 71 are different numbers"
+hesap:
+  scene: counters/base-ten
+  tens: 1
+  ones: 7
+  swap: true
+  number: true
+  name: true
+  values: true
+  readout: [tens-and-ones]

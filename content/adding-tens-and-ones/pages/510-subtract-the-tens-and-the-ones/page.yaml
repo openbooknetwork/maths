@@ -1,0 +1,8 @@
+title: "Subtract the tens and the ones"
+hesap:
+  scene: counters/base-ten
+  tens: 6
+  ones: 8
+  take: true
+  written: places
+  readout: [second, left]

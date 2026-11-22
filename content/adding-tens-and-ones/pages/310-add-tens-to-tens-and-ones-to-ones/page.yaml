@@ -1,0 +1,10 @@
+title: "Add tens to tens and ones to ones"
+hesap:
+  scene: counters/base-ten
+  tens: 3
+  ones: 1
+  second: 0
+  supply: true
+  number: true
+  written: places
+  readout: [second, sum]

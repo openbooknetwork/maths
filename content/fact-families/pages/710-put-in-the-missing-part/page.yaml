@@ -1,0 +1,5 @@
+title: "Put in the missing part"
+hesap:
+  scene: counters/add
+  challenge: { goal: missing-part, whole: [11, 18], part: [3, 9] }
+  written: family

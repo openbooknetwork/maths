@@ -1,0 +1,9 @@
+title: "56 is 50 and 6"
+hesap:
+  scene: counters/base-ten
+  chart: false
+  tens: 5
+  ones: 6
+  number: true
+  written: true
+  readout: [tens-value, ones-value]

@@ -1,0 +1,9 @@
+title: "A teen number is a ten and some ones"
+hesap:
+  scene: counters/base-ten
+  chart: false
+  tens: 1
+  ones: { stepper: [1, 9], start: 6 }
+  number: true
+  name: true
+  readout: [tens-and-ones]

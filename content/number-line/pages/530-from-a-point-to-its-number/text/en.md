@@ -1,4 +1,4 @@
-The ends and the middle also work the other way round. When you see a point on an unmarked number line, you can estimate its number. First decide whether the point is before or after the middle. Then judge how far it is from the middle and from the nearer end.
+On an unmarked number line you can also go from a point to its number. To estimate the number at a point, first decide whether the point is before or after the middle of the line. Then judge how far it is from the middle and from the nearer end.
 
 Say a line runs from 10 to 20. Its middle is 15, because 15 is five more than 10 and five less than 20. Now picture a point very close to the right end. It is past 15 and just short of 20, so its number is about 19.
 

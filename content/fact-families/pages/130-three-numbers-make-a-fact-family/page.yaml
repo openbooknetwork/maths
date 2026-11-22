@@ -1,0 +1,7 @@
+title: "Three numbers make a fact family"
+hesap:
+  scene: counters/add
+  first: { stepper: [1, 10], start: 9 }
+  second: { stepper: [1, 10], start: 4 }
+  written: family
+  readout: [whole]

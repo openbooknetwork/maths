@@ -1,0 +1,8 @@
+title: "Brown and white eggs in one box"
+hesap:
+  scene: counters/add
+  look: eggs
+  first: 6
+  second: 4
+  written: family
+  facts: [written, written-minus-second, written-minus-first]

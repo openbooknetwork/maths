@@ -4,6 +4,6 @@ Take 46. Counting back, you say 45, 44, 43, 42, 41 and then 40, so 40 is the ten
 
 The line on the figure goes from 30 to 60 in ones, with labels at the tens. A bracket over the line reaches from the ten before the point to the ten after it.
 
-- Put the point on 45. The bracket still starts at 40.
+- Put the point on 45. The bracket still reaches from 40 to 50, so 40 is the ten before 45 and 30 is not.
 - Put the point on 53 and press "Jump left" three times. On 50 the bracket disappears and the "Ten before" and "Ten after" readouts show a dash, because 50 is a ten.
 - Press "Jump left" once more. On 49 the bracket reaches from 40 to 50.

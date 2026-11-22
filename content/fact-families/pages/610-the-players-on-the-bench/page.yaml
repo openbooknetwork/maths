@@ -1,0 +1,8 @@
+title: "The players on the bench"
+hesap:
+  scene: counters/add
+  look: squad
+  whole: 16
+  first: 11
+  written: true
+  readout: [whole, first, second]

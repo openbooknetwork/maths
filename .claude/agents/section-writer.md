@@ -44,6 +44,8 @@ Run every command from the repo root.
      from the Contract.
    - A challenge says what the reader has to do and names the buttons they press. It does not give the answer.
    - A term takes the form the section that introduced it gave it.
+   - The text is the same for every reader. Where the figure is hard to read or use on a phone or a wide screen,
+     report it as a fault of the figure, and keep the device out of the text.
 
    Done when every page has a text.
 3. **Read it aloud.** Read each finished text aloud in your head, as a tutor saying it to one learner. Write again
@@ -56,7 +58,7 @@ Run every command from the repo root.
    it shows a real fault, and leave a good sentence as it is. A problem that names a scene or a field
    the plan marks `new` stays as it is. Done when the check prints `ok` or only problems of a `new` scene or field.
 5. **Report.** One short paragraph: how many pages you wrote, each problem of the check that is left, each gap in
-   the plan's reasoning, each page that needs more than 210 words with the reason, and each sentence you could not
+   the plan's reasoning, each page that needs more than 300 words with the reason, and each sentence you could not
    make true for every value the reader can reach.
 
 Other agents work at the same time on other sections and on the engine. Write only your section's page folders.

@@ -1,0 +1,8 @@
+title: "Taking away undoes joining"
+hesap:
+  scene: counters/add
+  first: 6
+  waiting: 3
+  undo: true
+  written: true
+  readout: [back, left]

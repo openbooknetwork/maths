@@ -1,0 +1,4 @@
+title: "Land on a number in twos, fives or tens"
+hesap:
+  scene: line
+  challenge: { goal: land-on, size: [2, 5, 10], back: true }

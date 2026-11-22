@@ -1,0 +1,6 @@
+title: "Ten more is the cell just below"
+hesap:
+  scene: line/square
+  start: 58
+  jump: 10
+  readout: [ten-more, ten-less]

@@ -1,0 +1,9 @@
+title: "How many socks are on the line?"
+hesap:
+  scene: line
+  to: 20
+  start: 0
+  jump: 2
+  count: true
+  groups: socks
+  readout: [groups]

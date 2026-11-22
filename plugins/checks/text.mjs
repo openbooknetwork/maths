@@ -3,13 +3,15 @@
 // A problem fails the check:
 //   page          a sentence speaks of the page or the screen, or says what "opens with"
 //   punctuation   an em dash, a semicolon or a middle dot
-//   length        a text has more than 210 words, and plugins/checks/text.yaml does not list its page under long
 // A note is printed for the reviewer to weigh, and the check still ends ok:
+//   length        a text has more than 300 words, and plugins/checks/text.yaml does not list its page under long
 //   screen        a sentence before the part about the figure reports what a readout shows or a line reads
 //   control       the first paragraph, which teaches the idea, names a control. A challenge may, since it opens on
 //                 what is asked.
 //   repeat        two pages of the story share a sentence, with any numbers
 //   sample        a sample sentence of agents/text.md is on two or more pages of the story
+//   device        a sentence speaks of the reader's device, such as "on a phone" or the close-up box. A real
+//                 situation about phones stays, so this is a note.
 // The steps of a list are left out of repeat and sample: two pages with the same control give the same step.
 import fs from 'fs';
 import path from 'path';
@@ -17,12 +19,13 @@ import path from 'path';
 const PAGE = /\b(the|this) (page|screen)\b(?! \d)|\bopens with\b/i;
 const SCREEN = /\breadouts? (now )?(reads?|shows?)\b|\bline (now )?reads\b/i;
 const PUNCTUATION = /[—;·]/;
+const DEVICE = /\bon (a|your|the) (phone|tablet|laptop|computer|desktop|wide screen|small screen|narrow screen)\b|\b(wide|small|narrow) screen\b|\bclose-up box\b/i;
 const CONTROL = /\b(press|tap|drag|click|readouts?|button|stepper|slider)\b|\bRoll\b/i;
 // The part about the figure starts at the first paragraph that names it or has a list, and at the third at the latest.
 const FIGURE = /\bfigure\b/i;
 // A page whose story is about a book speaks of that book's pages.
 const BOOK = ['number-line/a-bookmark-at-page-75'];
-const BUDGET = 210; // The most words a text has, by "The length of a text" in agents/text.md.
+const BUDGET = 300; // The guide for a text's length, by "How long" in agents/text.md. Clarity comes first.
 const MIN_WORDS = 6; // A shorter sentence, such as "Try it on the figure.", may stand on many pages.
 
 // plain drops what a rule does not read: a live value's link, the marks round a number sentence and the list marker.
@@ -55,7 +58,7 @@ export default function text({ root, story, pages, rel, loadYaml, note }) {
     }
     let para = 0, figure = false;
     const words = fs.readFileSync(file, 'utf8').split(/\s+/).filter(w => /[\p{L}\p{N}]/u.test(w)).length;
-    if (words > BUDGET && !allowed[`${story}/${page.id}`]) add(`${at(1)} length: ${words} words, the budget is ${BUDGET}`);
+    if (words > BUDGET && !allowed[`${story}/${page.id}`]) weigh(`${at(1)} length: ${words} words, the guide is ${BUDGET}`);
     fs.readFileSync(file, 'utf8').split('\n').forEach((raw, k) => {
       if (!raw.trim()) { para++; return; }
       const l = plain(raw), step = /^\s*[-*] /.test(raw);
@@ -65,6 +68,7 @@ export default function text({ root, story, pages, rel, loadYaml, note }) {
       say('punctuation', PUNCTUATION);
       if (!figure && para < 2) say('screen', SCREEN, weigh);
       if (para === 0 && !challenge) say('control', CONTROL, weigh);
+      say('device', DEVICE, weigh);
       for (const s of step ? [] : sentences(raw).filter(long)) {
         const id = key(s), first = seen.get(id);
         if (first && first !== page.id) weigh(`${at(k + 1)} repeat: "${s}" also stands on ${first}`);

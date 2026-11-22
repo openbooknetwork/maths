@@ -1,0 +1,10 @@
+title: "Add tens in jumps of 10"
+hesap:
+  scene: line
+  from: 46
+  to: 96
+  step: 10
+  start: 56
+  jump: 10
+  written: true
+  readout: [jumps]

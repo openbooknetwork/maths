@@ -1,0 +1,9 @@
+title: "Ten ones make a new ten"
+hesap:
+  scene: counters/base-ten
+  tens: 3
+  ones: 8
+  waiting: 25
+  bundle: true
+  written: places
+  readout: [tens, ones, new-ten]

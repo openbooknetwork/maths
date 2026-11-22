@@ -1,0 +1,8 @@
+title: "Count the rods in tens, then the cubes"
+hesap:
+  scene: counters/base-ten
+  chart: false
+  tens: 5
+  ones: 2
+  tap: tag
+  readout: [count]

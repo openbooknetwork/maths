@@ -1,0 +1,9 @@
+title: "Wheels in a bike rack"
+hesap:
+  scene: line
+  to: 20
+  start: 10
+  jump: 2
+  count: true
+  groups: bikes
+  readout: [groups, point]

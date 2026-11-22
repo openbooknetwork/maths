@@ -1,0 +1,10 @@
+id: skip-counting
+title: "Skip counting"
+cover_dark: skip-counting-cover-dark-c0594c
+cover: skip-counting-cover-light-86b47e
+level: beginner
+summary: "Count in twos, fives, tens and hundreds, from 0 and from any start. Each jump adds the same number, and a bigger jump reaches a number in fewer jumps."
+languages: [en]
+default_language: en
+hesap:
+  cover: { page: wheels-in-a-bike-rack, caption: "Five bikes in a rack over a number line from 0 to 20, two wheels to each bike, with the point on 10." }

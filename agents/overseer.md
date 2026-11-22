@@ -74,7 +74,8 @@ each term, and one name for each part of the figure.
     `engine-author` dispatched with the word `challenge`, after the section's scenes pass.
 12. **Whole story.** Check the story as "Checking a story" in `agents/story.md` says. Dispatch the `story-auditor`
     with the story id. For each fault it reports, decide the file that changes, a plan, a page or the engine, and
-    send it back to the step that owns the file. The auditor runs again until it reports `pass`. Look over what
+    send it back to the step that owns the file. A figure that is hard to read or use on one device changes the
+    engine or the page's fields, and its text stays as it is. The auditor runs again until it reports `pass`. Look over what
     the story added to the engine for parts that belong in hesap's kit or in kitap: a part moves there when a
     second family or a second engine would use it. Release hesap, put the released version back in the book and
     check the story again.

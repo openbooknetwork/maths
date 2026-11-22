@@ -1,0 +1,11 @@
+title: "The bigger the jumps, the fewer you need"
+hesap:
+  scene: line
+  from: 500
+  to: 700
+  step: 10
+  labels: [500, 550, 600, 650, 700]
+  start: 520
+  jump: { segment: [10, 100], start: 10 }
+  count: true
+  readout: [point, jumps]

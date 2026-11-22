@@ -1,0 +1,9 @@
+title: "Each ten added is ten more"
+hesap:
+  scene: counters/base-ten
+  tens: 2
+  ones: 6
+  second: { tens: { stepper: [0, 6], start: 0 }, ones: 0 }
+  number: true
+  written: true
+  readout: [sum, ten-more, ten-less]

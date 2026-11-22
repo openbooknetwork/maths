@@ -1,0 +1,11 @@
+title: "What comes after tens and ones"
+hesap:
+  scene: counters/base-ten
+  tens: 6
+  ones: 4
+  tap: break
+  bundle: true
+  number: true
+  name: true
+  written: true
+  readout: [tens-and-ones]

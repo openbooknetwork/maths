@@ -1,0 +1,4 @@
+title: "Build a number with rods and cubes"
+hesap:
+  scene: counters/base-ten
+  challenge: { goal: build-number, number: [11, 99] }

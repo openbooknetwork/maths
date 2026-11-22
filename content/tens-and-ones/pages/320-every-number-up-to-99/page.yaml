@@ -1,0 +1,7 @@
+title: "Every number up to 99"
+hesap:
+  scene: counters/base-ten
+  tens: { stepper: [0, 9], start: 2 }
+  ones: { stepper: [0, 9], start: 8 }
+  number: true
+  name: true

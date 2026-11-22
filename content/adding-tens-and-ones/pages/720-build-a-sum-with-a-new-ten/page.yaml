@@ -1,0 +1,4 @@
+title: "Build a sum with a new ten"
+hesap:
+  scene: counters/base-ten
+  challenge: { goal: build-sum, first: [15, 69], second: [15, 69] }

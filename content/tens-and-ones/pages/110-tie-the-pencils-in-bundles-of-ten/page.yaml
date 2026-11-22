@@ -1,0 +1,9 @@
+title: "Tie the pencils in bundles of ten"
+hesap:
+  scene: counters/base-ten
+  look: jar
+  chart: false
+  tens: 0
+  ones: 60
+  bundle: true
+  readout: [tens]

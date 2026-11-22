@@ -6,4 +6,4 @@ The bus has three passengers, and five people are waiting at the stop.
 
 - Tap someone at the stop to let them on. They take the next free seat.
 - Tap a passenger to let them off.
-- Before each tap, say the number you think comes next, then check it against the Passengers readout, which shows [3](@count) now.
+- Before each tap, say how many passengers there will be after it. Then see if the Passengers readout agrees. It shows [3](@count) now.

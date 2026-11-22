@@ -1,0 +1,5 @@
+title: "Find a family that holds two numbers"
+hesap:
+  scene: counters/bar
+  written: family
+  challenge: { goal: bar-for-two, numbers: [2, 12] }

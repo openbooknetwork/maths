@@ -1,0 +1,7 @@
+title: "Eighty-six is written 86"
+hesap:
+  scene: counters/base-ten
+  tens: 8
+  ones: 6
+  values: cards
+  name: true

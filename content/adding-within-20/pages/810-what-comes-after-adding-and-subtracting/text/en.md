@@ -6,7 +6,7 @@ This story has shown you how to add and subtract with numbers up to 20.
 - The difference between two numbers is the greater number minus the smaller one, and you can find it by counting on.
 - When an addition or a subtraction crosses ten, you go to 10 first.
 
-The figure starts with `8 + 5`, whose two steps are `8 + 2 = 10` and `10 + 3 = 13`. The number sentence is now [8 + 5 = 13](@written), and you read it as "[8 plus 5 is equal to 13](@reading)". Change the numbers on the two steppers. The steps appear only while the addition crosses ten.
+The figure starts on `8 + 5 = 13`, with its two steps `8 + 2 = 10` and `10 + 3 = 13` under it. Change the numbers on the two steppers and watch the steps. They appear while the addition crosses ten, as `7 + 6` does, and disappear when it does not, as at `4 + 5` or `8 + 2`.
 
 These stories come next:
 

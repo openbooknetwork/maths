@@ -1,0 +1,4 @@
+title: "Get to the target in nine jumps or fewer"
+hesap:
+  scene: line
+  challenge: { goal: few-jumps, start: [11, 99], most: 9, back: true }

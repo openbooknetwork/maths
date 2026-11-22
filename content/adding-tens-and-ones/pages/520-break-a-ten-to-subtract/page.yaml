@@ -1,0 +1,10 @@
+title: "Break a ten to subtract"
+hesap:
+  scene: counters/base-ten
+  tens: 8
+  ones: 2
+  take: true
+  tap: break
+  bundle: true
+  written: places
+  readout: [tens, ones, second, left]

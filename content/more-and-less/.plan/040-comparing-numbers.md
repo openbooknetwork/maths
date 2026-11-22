@@ -10,7 +10,7 @@
 - Introduces: the words greater and less for two numbers, full row and last row, in order, least and greatest. The
   slider that sets a number, two markers on one count, the frame round the rows that decide, the button "Show the
   rows", and a number card dragged to a place.
-- Uses: 18 and 25 as two markers on a count of 100. 34 and 52, then 47 and 43, as two blocks of rows of ten. 48 and
+- Uses: 18 and 25 as two markers on a count of 100. 35 and 71, then 47 and 43, as two blocks of rows of ten. 48 and
   51 as two numbers whose rows are covered. Three drawn cards put in order, with three
   new cards on each press of "New numbers". The text works the example 63, 36 and 39.
 
@@ -35,7 +35,7 @@ is the greater, however long the last rows are. When both numbers have the same 
 counters in its last row is the greater. The reader looks at the full rows first and at the last row only when
 the full rows are the same.
 
-Examples: 34 and 52 as the page opens. 52 has 5 full rows and 34 has 3, so 52 is greater. The text then asks the
+Examples: 35 and 71 as the page opens. 71 has 7 full rows and 35 has 3, so 71 is greater. The text then asks the
 reader to set 47 and 43. Both have 4 full rows, the last rows hold 7 and 3, so 47 is greater.
 
 ### 430 Look at the full rows first
@@ -78,8 +78,8 @@ so 39 is less than 63. The order is 36, 39, 63.
 
 - Shows: two blocks of counters side by side, the first number as the left block and the second number as the
   right block. Each block lays its number out in rows of ten with the number above it. Full rows are drawn solid
-  and the last row lighter. A frame surrounds the full rows of both blocks, since 3 and 5 differ. The line under
-  the blocks reads "34 is less than 52". The panel reads out "First, full rows", "First, last row", "Second, full
+  and the last row lighter. A frame surrounds the full rows of both blocks, since 3 and 7 differ. The line under
+  the blocks reads "35 is less than 71". The panel reads out "First, full rows", "First, last row", "Second, full
   rows" and "Second, last row". The sliders "First number" and "Second number" run from 0 to 100.
 - The reader drags either slider.
 - In reply the block fills or empties counter by counter, a row turns solid as it reaches ten, and the line
@@ -217,15 +217,15 @@ title: "The number with more full rows is greater"
 hesap:
   scene: counters/order
   show: blocks
-  top: { slider: [0, 100], start: 34 }
-  bottom: { slider: [0, 100], start: 52 }
+  top: { slider: [0, 100], start: 35 }
+  bottom: { slider: [0, 100], start: 71 }
   reading: true
   decide: true
   readout: [top-rows, top-last, bottom-rows, bottom-last]
 ```
 
-- Links: `top` starts at 34, `bottom` at 52, `reading` at "34 is less than 52", `top-rows` at 3, `top-last` at 4,
-  `bottom-rows` at 5, `bottom-last` at 2.
+- Links: `top` starts at 35, `bottom` at 71, `reading` at "35 is less than 71", `top-rows` at 3, `top-last` at 5,
+  `bottom-rows` at 7, `bottom-last` at 1.
 
 ### 430 `430-look-at-the-full-rows-first`
 
@@ -280,7 +280,7 @@ Each entry names the file it was read in.
   `content/more-and-less/.references/ncetm.org.uk-media-wvqgcfqm-typical-progression-comparison.txt`. Comparing
   numbers depends on "knowing that the later counting numbers are worth more (because the next number is always
   one more)", which is the idea of page 410. Children compare "numbers that are far apart, near to, and next to
-  each other", which is why the pairs run from 34 and 52 to 48 and 51 and 70 and 69.
+  each other", which is why the pairs run from 35 and 71 to 48 and 51 and 70 and 69.
 - NCETM, "Exploring comparison in Early Years", read in
   `content/more-and-less/.references/ncetm.org.uk-features-exploring-comparison-in-early-years.txt`. "Fewer than"
   is for countable sets of objects and "less than" for numbers, and a number "can be greater than, less than, or

@@ -8,4 +8,4 @@ The players are in a row above the chairs.
 - Press "Next round". That player leaves, and so does one chair.
 - Play on until the winner gets a crown.
 
-The Players readout shows [6](@top), and the Chairs readout shows [5](@bottom).
+The Players and Chairs readouts, now [6](@top) and [5](@bottom), both go down by 1 each round, so there is always one chair fewer than there are players.

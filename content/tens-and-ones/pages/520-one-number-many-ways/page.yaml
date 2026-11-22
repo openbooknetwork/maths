@@ -1,0 +1,10 @@
+title: "One number, many ways"
+hesap:
+  scene: counters/base-ten
+  tens: 2
+  ones: 3
+  tap: break
+  bundle: true
+  number: true
+  list: true
+  readout: [tens, ones, found]

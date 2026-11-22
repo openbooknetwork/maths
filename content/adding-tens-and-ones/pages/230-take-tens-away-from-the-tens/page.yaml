@@ -1,0 +1,9 @@
+title: "Take tens away from the tens"
+hesap:
+  scene: counters/base-ten
+  tens: 7
+  ones: 5
+  take: true
+  number: true
+  written: true
+  readout: [second, left]

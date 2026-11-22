@@ -1,0 +1,6 @@
+title: "Count in tens down the hundred square"
+hesap:
+  scene: line/square
+  start: 0
+  jump: 10
+  count: true

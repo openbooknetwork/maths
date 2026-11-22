@@ -1,0 +1,8 @@
+title: "A question mark marks the missing part"
+hesap:
+  scene: counters/bar
+  whole: 15
+  first: 6
+  ask: second
+  cover: true
+  written: true

@@ -1,0 +1,11 @@
+title: "A shop opens a pack"
+hesap:
+  scene: counters/base-ten
+  look: shop
+  tens: 0
+  ones: 0
+  supply: { tens: 6, ones: 2 }
+  order: 37
+  tap: break
+  number: true
+  readout: [order, number, supply-tens, supply-ones]

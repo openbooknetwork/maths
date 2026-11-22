@@ -1,4 +1,4 @@
-You can tell when the top row has one fewer counter than the bottom row without counting either row. Pair the rows. If the top row has one counter fewer, every counter in it has a partner and just one counter in the bottom row is left without one. Then the top row's number is one less than the bottom row's number, the number just before it in the count.
+Change the top row until it has one fewer counter than the bottom row, then press Check. You can tell when it does without counting either row. Pair the rows. If the top row has one fewer counter, every counter in it has a partner and just one counter in the bottom row is left without one. Then the top row's number is one less than the bottom row's number, the number just before it in the count.
 
 Say the bottom row has 15 counters. A top row of 14 leaves one bottom counter without a partner, and 14 is one less than 15. A top row of 15 gives every counter a partner, and a top row of 13 leaves two bottom counters without one, so neither is right.
 

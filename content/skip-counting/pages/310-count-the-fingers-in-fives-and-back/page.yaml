@@ -1,0 +1,10 @@
+title: "Count the fingers in fives and back"
+hesap:
+  scene: line
+  to: 50
+  labels: 10
+  start: 0
+  jump: 5
+  count: true
+  groups: hands
+  readout: [groups]

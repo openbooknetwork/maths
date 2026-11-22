@@ -1,0 +1,9 @@
+title: "What comes after skip counting"
+hesap:
+  scene: line
+  to: 20
+  start: 0
+  jump: 5
+  count: true
+  groups: counters
+  readout: [point, groups]

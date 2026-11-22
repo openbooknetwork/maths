@@ -1,0 +1,10 @@
+title: "Go down to the ten before first"
+hesap:
+  scene: line/line
+  from: 30
+  to: 50
+  labels: 10
+  start: 43
+  jump: true
+  written: ten
+  readout: [jumps, to-ten, rest]

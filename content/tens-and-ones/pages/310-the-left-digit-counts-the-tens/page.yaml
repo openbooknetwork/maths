@@ -1,0 +1,8 @@
+title: "The left digit counts the tens"
+hesap:
+  scene: counters/base-ten
+  tens: 2
+  ones: 6
+  supply: true
+  number: true
+  readout: [tens-and-ones]

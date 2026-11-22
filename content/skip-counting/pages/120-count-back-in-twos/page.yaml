@@ -1,0 +1,9 @@
+title: "Count back in twos"
+hesap:
+  scene: line
+  to: 20
+  start: 18
+  jump: 2
+  count: true
+  groups: counters
+  readout: [groups]

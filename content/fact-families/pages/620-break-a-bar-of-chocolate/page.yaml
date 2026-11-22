@@ -1,0 +1,9 @@
+title: "Break a bar of chocolate"
+hesap:
+  scene: counters/bar
+  look: chocolate
+  whole: 12
+  first: 3
+  drag: [split]
+  written: family
+  readout: [first, second]

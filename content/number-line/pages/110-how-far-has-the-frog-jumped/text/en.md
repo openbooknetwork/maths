@@ -4,6 +4,5 @@ Say the frog is on stone 7. Its first jump took it to stone 1, and each jump aft
 
 The frog starts on the bank, and the Jumps readout shows [0](@jumps). An arc over the water shows each jump.
 
-- Press "Jump right" four times, and read the number on the frog's stone.
-- Keep jumping until the frog is on stone 7, and compare the stone's number with the Jumps readout.
-- Press "Jump left" until the frog is back on the bank.
+- Press "Jump right" and watch the Jumps readout. After every jump it shows the same number as the frog's stone.
+- Jump on to stone 7, then press "Jump left" until the frog is back on the bank. Each jump back takes one off the readout, so it shows 0 again when the frog is on the bank.

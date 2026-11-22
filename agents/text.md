@@ -110,14 +110,37 @@ Page "Take counters away and count what is left" does it like this: "The figure 
 place of apples. Each red counter stands for one apple, and taking a counter away is eating that apple." How you
 say it is up to you. What matters is that the reader is never left to guess that a counter is an apple.
 
+### An example the reader can only read one way
+
+Pick an example the reader can only read one way. Before you settle on it, check three things:
+
+- Each value plays one part. A 4 by 4 square has area 16 and perimeter 16, so a reader cannot tell which number is
+  which. A 3 by 5 rectangle keeps them apart, 15 and 16. In `73 − 40 = 33` both digits of the answer are 3, so the
+  ones that stayed are hidden. `75 − 30 = 45` keeps them apart.
+- A wrong method gives a wrong answer. Crossing out the 6s in 16/64 gives 1/4, which is right by luck, so it cannot
+  show how to simplify. If adding the digits gives the right sum, the example cannot show place value either.
+- Nothing matches by chance. In `3x = 3` the answer 1 tells the reader nothing about dividing by 3. In `3x = 12` it
+  does.
+
+Where learners often make one mistake, show it once and say why it fails.
+
+### Point the reader at what matters
+
+When you send the reader to the figure, name the one thing to watch and say what it shows: what changes, and what
+stays the same. "Press + and watch the ones digit: it stays 6 while the tens digit goes 5, 6, 7." "Drag C around the
+circle and watch the angle at C: it stays 90° while the other two angles change." A list of buttons with nothing to
+watch for leaves the reader pressing them without learning anything.
+
 ## How long
 
-Aim for the shortest text that still teaches the idea. The budget is 210 words, and `kitap check` counts them.
+Aim for the shortest text that still teaches the idea clearly. About 300 words is the guide, and `kitap check`
+notes a text that runs longer. A clear explanation comes first: when the idea needs more words to be understood,
+use them.
 
 For each sentence, ask whether the reader would find the idea harder to understand without it. If they would, it
 stays, even when the figure shows something similar. A figure shows that a thing happens. Only the text can say why.
 
-When a text is too long, cut in this order:
+When a text runs long, look for cuts in this order:
 
 1. A preview of later pages or later stories.
 2. A second worked example. One case is enough to show the idea.
@@ -125,7 +148,7 @@ When a text is too long, cut in this order:
 4. A sentence that only reads a label or a readout back to the reader.
 5. A step for a control whose label already says what it does, such as Roll.
 
-Keep these, even when space is tight:
+Keep these, however long the text gets:
 
 - The reasoning in the worked example.
 - The answer to a question the text itself asks.
@@ -133,9 +156,13 @@ Keep these, even when space is tight:
 
 Never squeeze a sentence to save words. Drop a whole sentence instead.
 
-If the idea honestly needs more than 210 words, write the text it needs and say so in your report, with the reason
-in one sentence. Whoever runs the story then lists the page under `long` in `plugins/checks/text.yaml`. Do not edit
-that file yourself. An exception is for a hard idea. It is not for a text that repeats itself.
+A text over 300 words is right when every sentence helps the reader understand. It is wrong when it repeats
+itself or says what the figure already makes plain. Name each page over 300 words in your report, with the
+reason in one sentence.
+
+A page that runs long because it teaches two ideas may become two pages. Propose the split in your report, with
+the reason and what the reader does differently on each page: a second page needs its own thing to do on the
+figure. When the second idea has nothing new to do, keep one page and trim it.
 
 ## About the samples in this file
 
@@ -147,7 +174,7 @@ Here is one finished text, "Make ten first", so you can see the whole shape. Rea
 reuse its sentences.
 
 > An addition crosses ten when its first number is below 10 and its sum is above 10. Making ten turns it into two
-> easy steps. You split the second number into the part that makes ten with the first number, and the rest.
+> easy steps. You split the second number into the part that takes the first number up to 10, and the rest.
 >
 > Take `8 + 5`. 8 needs 2 more to make 10, so you split 5 into 2 and 3. The first step is `8 + 2 = 10`. The 3 is the
 > rest, and a full ten and 3 more is 13, so the second step is `10 + 3 = 13`.
@@ -162,8 +189,8 @@ reuse its sentences.
 
 ## The book's conventions
 
-These keep the book consistent. `kitap check` tests a few of them. It fails a text that speaks of the page, has
-an em dash or a semicolon, or goes over the word budget. It also prints notes, on a sentence two pages share or a
+These keep the book consistent. `kitap check` tests a few of them. It fails a text that speaks of the page or has
+an em dash or a semicolon. It also prints notes, on a text over 300 words, a sentence two pages share or a
 control named in the first paragraph. A note is for you to weigh: fix what is a real fault, and leave good prose
 as it is.
 
@@ -173,6 +200,14 @@ as it is.
   for what an addition gives, so write "the sum is 8" and not "the total" or "the answer".
 - Bring in a term when it helps the reader name an idea and use it again. Explain it in everyday words the first
   time, as part of the explanation. Then stick to it.
+- Explain a term in words simpler than the term, and leave the term's own words out of its explanation. "Ten more
+  than a number is the number 10 greater" explains nothing, because "10 greater" is "ten more" said again. Say what
+  happens to the number instead: "ten more than a number is what you get when you add 10 to it".
+- A term keeps the meaning it has on the book's other pages. "Jump" is one move along the line, so it means that on
+  every page.
+- Use a word in one sense within a sentence. "A bigger jump needs fewer jumps" uses "jump" for a size and for a move.
+  Rewrite the sentence so the word comes once, in its own sense: "the bigger your jumps are, the fewer of them you
+  need". A synonym in the second place is the weaker fix, since it gives the reader one more word to learn.
 - If a glossary term reads like a label somebody made up, or its meaning does not fit your page, say so in your
   report and do not force it in.
 
@@ -199,6 +234,9 @@ as it is.
   Some readers cannot tell two colours apart, so a colour can be added to such a name and never replaces it.
 - Name another page of the story by its title, in quotes.
 - Leave the page and the screen out. The text is about the maths and the figure.
+- Write the same text for every reader. Leave out the reader's device and what shows on some devices only, such as
+  "on a phone", "on a wide screen" or the close-up box. When the figure is hard to read or use on one device, the
+  figure changes and the text stays as it is. A real situation about phones, such as a battery's charge, is fine.
 - No em dashes, no semicolons, no middle dots.
 
 **Sentences and lists**

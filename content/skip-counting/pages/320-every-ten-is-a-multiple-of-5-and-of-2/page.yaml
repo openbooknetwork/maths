@@ -1,0 +1,6 @@
+title: "Every ten is a multiple of 5 and of 2"
+hesap:
+  scene: line/square
+  fill: [5, 10, 2]
+  lit: []
+  readout: [shared]

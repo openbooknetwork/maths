@@ -1,0 +1,8 @@
+title: "The same jump back undoes a jump"
+hesap:
+  scene: line
+  to: 20
+  start: 9
+  jump: 8
+  undo: true
+  written: true

@@ -1,0 +1,9 @@
+title: "Odd numbers have one left over"
+hesap:
+  scene: line
+  to: 20
+  start: 1
+  jump: 2
+  count: true
+  groups: counters
+  readout: [groups, left-over]

@@ -1,0 +1,11 @@
+title: "Pencils in boxes of ten"
+hesap:
+  scene: line
+  to: 50
+  labels: 10
+  start: 0
+  jump: { segment: [1, 10], start: 10 }
+  mixed: true
+  count: true
+  groups: pencils
+  readout: [jumps]

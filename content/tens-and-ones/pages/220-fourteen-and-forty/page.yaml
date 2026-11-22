@@ -1,0 +1,9 @@
+title: "Fourteen and forty"
+hesap:
+  scene: counters/base-ten
+  chart: false
+  tens: { stepper: [1, 9], start: 1 }
+  ones: { stepper: [0, 9], start: 4 }
+  number: true
+  name: true
+  readout: [tens-and-ones]

@@ -4,5 +4,5 @@ Take 38. The count goes 37, 38, 39, so the number before 38 is 37 and the number
 
 A ring marks the last counter, and a dashed outline marks where the next counter goes. Under the rows, the middle tile shows how many counters there are, with the number before on its left and the number after on its right.
 
-- Tap the "one more" tile until the middle tile shows 41.
+- Tap the "one more" tile until the middle tile shows 41. Watch the dashed outline: at 40 it moves to the start of a new row.
 - Tap the "one less" tile until you get to 29. At 29 the third row is one counter short, as the fourth row was at 39.

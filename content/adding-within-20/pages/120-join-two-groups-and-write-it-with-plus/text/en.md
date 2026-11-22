@@ -4,5 +4,5 @@ A group of 5 joined with a group of 3 makes a group of 8. You write that as `5 +
 
 The figure has 5 round red counters and 3 square blue counters in the frames, and 2 more blue counters in the tray. Under the frames is the number sentence [5 + 3 = 8](@written). The "In words" readout writes it as [5 plus 3 is equal to 8](@reading).
 
-- Drag or tap a counter in the tray to join it. The second number and the number after = both go up by 1.
+- Drag or tap a counter in the tray to join it. The first number stays 5, and the second number and the number after = both go up by 1.
 - Tap a blue counter in the frames to send it back. Both numbers go down by 1.

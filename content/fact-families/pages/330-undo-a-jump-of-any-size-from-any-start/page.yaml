@@ -1,0 +1,9 @@
+title: "Undo a jump of any size from any start"
+hesap:
+  scene: line
+  to: 20
+  start: 19
+  jump: { stepper: [1, 10], start: 8 }
+  undo: true
+  written: true
+  readout: [start]

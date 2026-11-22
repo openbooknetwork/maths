@@ -1,0 +1,9 @@
+title: "A 0 shows there are no ones"
+hesap:
+  scene: counters/base-ten
+  tens: 5
+  ones: 9
+  supply: true
+  bundle: true
+  number: true
+  readout: [tens-and-ones]

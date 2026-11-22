@@ -1,0 +1,10 @@
+title: "Roses in bunches of ten"
+hesap:
+  scene: counters/base-ten
+  look: florist
+  tens: 2
+  ones: 28
+  bundle: true
+  values: true
+  written: true
+  readout: [tens, ones]

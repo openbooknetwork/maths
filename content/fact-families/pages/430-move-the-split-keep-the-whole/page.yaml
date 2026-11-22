@@ -1,0 +1,8 @@
+title: "Move the split, keep the whole"
+hesap:
+  scene: counters/bar
+  whole: 11
+  first: 7
+  drag: [split]
+  written: family
+  readout: [first, second]

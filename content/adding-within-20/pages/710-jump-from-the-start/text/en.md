@@ -5,6 +5,6 @@ Take `19 − 3`. You start on 19 and count back three numbers, one for each jump
 The goal line names the calculation, and the point starts on its first number, inside the start ring.
 
 - Press "Jump right" or "Jump left" once for each number you count. No readout counts the jumps, so keep count as you go.
-- Press Check when you think the point is on the right number. If it is not, a note tells you whether the point went the wrong way or how many jumps it made.
+- Press Check when you think the point is on the right number. If it is not, a note tells you whether the point went the wrong way, or made too few or too many jumps.
 - When you get it right, the number sentence appears under the number line.
 - Press Hint for help, and "Another one" for a new calculation.

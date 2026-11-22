@@ -1,0 +1,5 @@
+title: "Set the bar model of a fact"
+hesap:
+  scene: counters/bar
+  written: family
+  challenge: { goal: bar-for-fact, whole: [6, 18] }

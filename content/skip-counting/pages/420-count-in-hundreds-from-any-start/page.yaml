@@ -1,0 +1,11 @@
+title: "Count in hundreds from any start"
+hesap:
+  scene: line
+  from: 3
+  to: 993
+  step: 10
+  labels: [3, 103, 203, 303, 403, 503, 603, 703, 803, 903, 993]
+  start: 863
+  jump: 100
+  count: true
+  readout: [start, point]

@@ -1,0 +1,10 @@
+title: "Go to the ten after first"
+hesap:
+  scene: counters/base-ten
+  tens: 3
+  ones: 8
+  waiting: 5
+  bundle: true
+  number: true
+  written: ten
+  readout: [waiting, to-ten, rest]

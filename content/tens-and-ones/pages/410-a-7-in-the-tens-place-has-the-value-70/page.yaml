@@ -1,0 +1,7 @@
+title: "A 7 in the tens place has the value 70"
+hesap:
+  scene: counters/base-ten
+  tens: { stepper: [0, 9], start: 7 }
+  ones: { stepper: [0, 9], start: 0 }
+  number: true
+  values: true

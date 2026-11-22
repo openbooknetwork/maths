@@ -29,7 +29,8 @@ Run every command from the repo root.
 ## What you look for
 
 - **Maths.** Every statement is true, in the text and on the figure, for every state the reader can reach. Each
-  example shows the idea its page states.
+  example shows the idea its page states, and uses the method its page teaches, step by step. An example that
+  reaches the right answer another way is a fault, even when every number in it is right.
 - **Teaching.** Each text teaches its idea before it gives instructions, in the three parts of "The shape of a
   text" in `agents/text.md`. Read the first two parts of each text with the figure out of mind: the idea and its
   example stand there, in the plain words of a schoolbook, with no control named and no report of the screen.

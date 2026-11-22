@@ -1,0 +1,7 @@
+title: "A subtraction asks for the missing part"
+hesap:
+  scene: counters/add
+  whole: { stepper: [5, 13], start: 7 }
+  first: 2
+  written: family
+  readout: [second]

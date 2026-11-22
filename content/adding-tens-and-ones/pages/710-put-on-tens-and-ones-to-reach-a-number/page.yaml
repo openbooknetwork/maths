@@ -1,0 +1,4 @@
+title: "Put on tens and ones to reach a number"
+hesap:
+  scene: counters/base-ten
+  challenge: { goal: add-to-target, start: [11, 59], add: [11, 39] }

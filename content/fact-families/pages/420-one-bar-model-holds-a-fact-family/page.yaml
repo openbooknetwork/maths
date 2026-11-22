@@ -1,0 +1,6 @@
+title: "One bar model holds a fact family"
+hesap:
+  scene: counters/bar
+  whole: 8
+  first: 5
+  written: family

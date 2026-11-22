@@ -4,6 +4,6 @@ Say there are five apples. If you skip one, only four apples get a number, so yo
 
 On this stall, a tap gives an apple the next number every time, even when it already has one. An apple you tap twice shows both of its numbers.
 
-- Count the apples, but tap one of them twice, and watch the "Last number said" readout. It shows [0](@count) now.
-- Press Clear and count again, and this time leave one apple out.
-- Press Clear once more, and give each apple just one number.
+- Count the apples, but tap one of them twice. Watch the "Last number said" readout, which shows [0](@count) now. You end one number too high.
+- Press Clear and count again, and this time leave one apple out. You end one number too low.
+- Press Clear once more, and give each apple just one number. Now the last number you say is how many apples there are.

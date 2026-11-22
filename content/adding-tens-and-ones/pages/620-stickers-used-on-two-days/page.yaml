@@ -1,0 +1,11 @@
+title: "Stickers used on two days"
+hesap:
+  scene: counters/base-ten
+  look: album
+  tens: 9
+  ones: 5
+  take: true
+  tap: break
+  days: [42, 28]
+  written: true
+  readout: [number, second]

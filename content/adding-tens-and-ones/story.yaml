@@ -1,0 +1,10 @@
+id: adding-tens-and-ones
+title: "Adding tens and ones"
+cover_dark: adding-tens-and-ones-cover-dark-3f2908
+cover: adding-tens-and-ones-cover-light-fe574c
+level: beginner
+summary: "Ten more than a number has one more ten and the same ones. Add and subtract two-digit numbers in your head, the tens with the tens and the ones with the ones. Ten ones make a new ten, and breaking a ten gives you ten more ones to take from."
+languages: [en]
+default_language: en
+hesap:
+  cover: { page: a-bakery-fills-a-new-packet, caption: "6 packets of ten biscuits and 8 loose biscuits, with 5 chocolate chip biscuits on a baking tray waiting to join them, and the addition 68 + 5 under them." }

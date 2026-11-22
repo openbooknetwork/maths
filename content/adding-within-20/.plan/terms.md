@@ -101,14 +101,14 @@
     counters to make ten.’" and "To subtract through ten, we subtract down to ten"
     (`content/adding-within-20/.references/ncetm.org.uk-media-x51ltghh-ncetm-mm-sp1-y2-se11-teach-final-ys2.txt`,
     page 19). "Make ten" replaces the brief's "fill the ten", and the page "Make ten first" says it so. "Ten" here is
-    `ten (numbers)`, the number 10, which the full first frame shows.
+    `ten, one (numbers)`, the number 10, which the full first frame shows.
   - `Makes ten (figure)`: the readout and stepper that hold the part of the second number that makes ten with the
     first, as 2 for 8 + 5. A figure word, named after US K.OA.A.4 "find the number that makes 10 when added to the
     given number" (`.cache/curricula/us-common-core-math.pdf`, page 11). It replaces the name "To ten".
   - `the rest (making ten)`: the other part of the second number, which is added to 10 or taken from it, so
     8 + 5 = 8 + 2 + 3 and the rest is 3. The `number-bonds` form "10 and the rest", chosen over the brief's "the part
     left over" because "left over" is the pairing word of `difference (groups)` and "left" is the word of 020.
-- Uses: `ten frame (figure)`, `cell (ten frame)`, `whole, part (numbers)`, `ten (numbers)`, `add (numbers)`, `subtract (numbers)`, `sum (numbers)`,
+- Uses: `ten frame (figure)`, `cell (ten frame)`, `whole, part (numbers)`, `ten, one (numbers)`, `add (numbers)`, `subtract (numbers)`, `sum (numbers)`,
   `take away (groups)`, `left (groups)`, `plus, minus (signs)`, `number sentence (calculations, comparisons)`,
   `addition, subtraction (calculations)`, `count on, count back (numbers)`, `equal (numbers)`
 

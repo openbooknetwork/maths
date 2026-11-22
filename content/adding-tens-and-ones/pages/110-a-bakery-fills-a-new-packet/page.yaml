@@ -1,0 +1,10 @@
+title: "A bakery fills a new packet"
+hesap:
+  scene: counters/base-ten
+  look: bakery
+  tens: 6
+  ones: 8
+  waiting: 5
+  bundle: true
+  written: true
+  readout: [waiting, tens, ones, number]

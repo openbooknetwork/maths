@@ -1,0 +1,10 @@
+id: tens-and-ones
+title: "Tens and ones"
+cover_dark: tens-and-ones-cover-dark-ba4e1e
+cover: tens-and-ones-cover-light-20730c
+level: beginner
+summary: "Ten ones make a ten. Count the tens first, read a number from 11 to 99 as tens and ones, see why the place of a digit sets its value, and break a ten into ten ones."
+languages: [en]
+default_language: en
+hesap:
+  cover: { page: roses-in-bunches-of-ten, caption: "A florist's bucket with 2 bunches of ten roses and a jug of 28 loose roses, 48 roses in all." }

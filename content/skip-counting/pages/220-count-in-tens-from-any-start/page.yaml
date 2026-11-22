@@ -1,0 +1,7 @@
+title: "Count in tens from any start"
+hesap:
+  scene: line/square
+  start: { stepper: [0, 100], start: 3 }
+  jump: 10
+  count: true
+  readout: [jumps]

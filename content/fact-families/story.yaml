@@ -1,0 +1,10 @@
+id: fact-families
+title: "Fact families"
+cover_dark: fact-families-cover-dark-189b52
+cover: fact-families-cover-light-50c5f1
+level: beginner
+summary: "Three numbers such as 9, 4 and 13 make four facts, two additions and two subtractions. A subtraction can ask for a missing part, subtracting undoes adding, and a bar split in two holds the whole family."
+languages: [en]
+default_language: en
+hesap:
+  cover: { page: one-bar-model-holds-a-fact-family, caption: "A bar model of 8 split into parts of 5 and 3, with the four facts of their family under it." }

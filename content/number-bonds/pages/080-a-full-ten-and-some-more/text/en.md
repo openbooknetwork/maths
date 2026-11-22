@@ -1,4 +1,4 @@
-A ten frame with a counter in every cell is called a full ten. Every number from 11 to 20 is a full ten and some more. When you put more than 10 counters into two ten frames, the first frame fills up and the rest go into the second. So the number splits into 10 and the number of counters in the second frame.
+A ten frame with a counter in every cell is called a full ten. When you put 11 to 20 counters into two ten frames, filling the first frame before you start the second, the first frame takes 10 and the rest go into the second. So every number from 11 to 20 is a full ten and some more, and it splits into 10 and the number of counters in the second frame.
 
 Take 16. You count the first 10 counters into the first frame, and then it is full. You put the rest into the second frame and count on from 10 as you go: 11, 12, 13, 14, 15, 16. You said six numbers, so there are 6 counters in the second frame, and 16 is 10 and 6. In the same way, 20 is 10 and 10, and both frames are full.
 

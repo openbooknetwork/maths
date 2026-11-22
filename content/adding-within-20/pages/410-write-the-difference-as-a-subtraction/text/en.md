@@ -9,7 +9,7 @@ The number sentence `11 − 7 = 4` answers two kinds of question.
 
 The second question says "more", but adding 11 and 7 would give 18, which counts all the fruit.
 
-On the figure, change the bottom row.
+On the figure, each of the 7 counters in the bottom row is paired with a counter in the top row, and the 4 top counters without a partner have a ring. Under the rows, the number sentence reads [11 − 7 = 4](@written).
 
 - Press + on the "Bottom row" stepper. Each press makes the difference 1 less, down to `11 − 11 = 0` when both rows have 11.
-- Press + once more, and the bottom row has more. You cannot take 12 counters away from 11, so the number sentence turns round to `12 − 11 = 1`.
+- Press + once more, and the bottom row has more. Now the paired counters are taken from the bottom row, so the number sentence turns round to `12 − 11 = 1`.

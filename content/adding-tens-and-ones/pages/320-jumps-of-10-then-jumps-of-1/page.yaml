@@ -1,0 +1,12 @@
+title: "Jumps of 10, then jumps of 1"
+hesap:
+  scene: line/line
+  from: 30
+  to: 60
+  labels: 10
+  start: 31
+  jump: { segment: [1, 10], start: 10 }
+  mixed: true
+  totals: true
+  written: true
+  readout: [point, jumps]

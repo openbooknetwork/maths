@@ -1,0 +1,4 @@
+title: "Take away to leave a target"
+hesap:
+  scene: counters/base-ten
+  challenge: { goal: take-to-target, start: [41, 95] }

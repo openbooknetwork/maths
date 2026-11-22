@@ -1,0 +1,9 @@
+title: "Each digit of the sum comes from its own place"
+hesap:
+  scene: counters/base-ten
+  tens: { stepper: [1, 5], start: 4 }
+  ones: { stepper: [0, 5], start: 5 }
+  second: { tens: { stepper: [1, 4], start: 3 }, ones: { stepper: [0, 4], start: 1 } }
+  number: true
+  written: places
+  readout: [first, second, sum]

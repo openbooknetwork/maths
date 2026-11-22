@@ -1,0 +1,9 @@
+title: "Break a ten into ten ones"
+hesap:
+  scene: counters/base-ten
+  tens: 3
+  ones: 4
+  tap: break
+  bundle: true
+  number: true
+  readout: [tens, ones, number]

@@ -4,6 +4,6 @@ Say the top row has 4 counters and the bottom row has 7. The 4 top counters pair
 
 Here the figure draws the pair lines for you, and a ring marks each counter without a partner.
 
-- Press + on the "Top row" stepper until no ring is left. The words "The same" appear between the rows.
+- Press + on the "Top row" stepper and watch the rings in the bottom row. Each press gives one of those counters a partner and takes its ring away, until no ring is left and the words "The same" appear between the rows.
 - Press + once on each stepper, and the rows are the same again.
 - While the rows are the same, press − on either stepper, and a counter in the other row loses its partner.

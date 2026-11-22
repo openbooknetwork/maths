@@ -1,0 +1,5 @@
+title: "Fill an order with too few packs"
+hesap:
+  scene: counters/base-ten
+  look: shop
+  challenge: { goal: fill-order, order: [31, 79], short: [1, 2] }

@@ -1,0 +1,10 @@
+title: "Count in hundreds"
+hesap:
+  scene: line
+  to: 1000
+  step: 100
+  start: 0
+  jump: 100
+  count: true
+  groups: counters
+  readout: [point, groups]

@@ -1,0 +1,14 @@
+title: "Count on through the ten after"
+hesap:
+  scene: line/line
+  from: 30
+  to: 80
+  labels: 10
+  start: 46
+  second: 75
+  flag: true
+  jump: { segment: [1, 10], start: 1 }
+  mixed: true
+  totals: true
+  written: difference
+  readout: [point]

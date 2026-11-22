@@ -8,8 +8,8 @@ Counting is where many other ideas start:
 - In "The number line", you put the numbers in order along a line.
 - In "Number bonds", you split a number into two parts.
 - In "Adding and subtracting within 20", you join groups and take them away.
-- With tens and ones, you read 54 as 5 tens and 4 ones.
-- In skip counting, you count in twos, fives or tens.
-- When you cut a group in half, you count each half to check they are the same.
+- In "Tens and ones", you read 54 as 5 tens and 4 ones.
+- In "Skip counting", you count in twos, fives or tens.
+- When you cut a group in half, you count each half to see whether they are the same.
 - On a calendar, you count the days until a birthday.
 - In a chart, you count how many there are of each kind.

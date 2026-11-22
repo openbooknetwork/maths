@@ -4,5 +4,5 @@ If you take a pair that makes 10 and add a full ten to one of its parts, you get
 
 The circles at the top show the whole and its two parts. The upper frame is the first one, with 3 red counters and 7 blue ones, and the second frame is empty.
 
-- Press "Fill the second frame" to put a full ten of red counters in it, and watch the first part and the whole.
+- Press "Fill the second frame" to put a full ten of red counters in it. Watch the circles: the first part goes from 3 to 13 and the whole from 10 to 20, while the second part stays 7.
 - Press "Empty the second frame" to take them out again.

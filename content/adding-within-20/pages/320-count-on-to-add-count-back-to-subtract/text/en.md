@@ -4,5 +4,5 @@ To add 3 to 9, say the start, 9, then count on one number for each jump: 10, 11,
 
 The point starts on 9, inside a ring that marks the start. The number sentence under the number line follows your jumps. Before the first jump it reads `9 + 0 = 9`, because the point has made no jumps yet.
 
-- Press "Jump right" three times. At each jump, the second number and the sum go up by one.
+- Press "Jump right" three times. At each jump, the second number and the sum go up by one, and the first number stays 9.
 - Press "Jump left" three times to take those jumps back, then three more times to subtract 3.
